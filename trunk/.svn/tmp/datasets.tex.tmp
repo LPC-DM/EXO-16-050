@@ -1,0 +1,86 @@
+\section{Data and simulated samples}\label{sec:datasets}
+<<<<<<< .mine
+%This analysis uses pp collision data at $\sqrt{s}=13\TeV$ recorded by the CMS experiment at the LHC during 2016.
+=======
+This analysis uses pp collision data at $\sqrt{s}=13\TeV$ recorded by
+the CMS experiment at the LHC during 2016, corresponding to an integrated luminosity of $35.9\,\text{fb}^{-1}$. 
+>>>>>>> .r432235
+%
+<<<<<<< .mine
+%The data correspond to an integrated luminosity of $35.9\,\text{fb}^{-1}$. 
+=======
+The datasets utilized for the search are defined online by either the
+presence of large missing transverse momentum (\MET) or the presence
+of an energetic electron. The \MET dataset includes muon pass-through
+triggers, which allow for selecting events with high $\MET$ or high
+muon recoil. From these datasets we define signal regions as well as
+control regions, which require the presence of muons or elections, offline.
+%Control regions obtained by requiring the presence of muons or electrons are employed in the search for $\MET+\mathrm{h}(\mathrm{b}\bar{\mathrm{b}})$; therefore, the \MET and SingleElectron datasets are used for offline analysis. 
+>>>>>>> .r432235
+%
+<<<<<<< .mine
+%Control regions obtained by requiring the presence of muons or electrons are employed in the search for $\MET+\mathrm{h}(\mathrm{b}\bar{\mathrm{b}})$; therefore, the \MET and SingleElectron datasets are used for offline analysis. 
+%
+%The \MET dataset includes muon pass-through triggers, which allow for selecting events with high $\MET$ or high muon recoil.
+=======
+%The \MET dataset includes muon pass-through triggers, which allow for selecting events with high $\MET$ or high muon recoil.
+>>>>>>> .r432235
+
+
+<<<<<<< .mine
+Signal samples are generated at leading order (LO) accuracy in quantum chromodynamics perturbation theory (QCD) using the \MADGRAPH{\textsc 5\_aMC@NLO}~\cite{amcatnlo} program.
+%
+=======
+Signal samples are generated with \MADGRAPH{\textsc
+  5\_aMC@NLO}~\cite{amcatnlo} at leading order (LO) accuracy in
+quantum chromodynamics perturbation theory (QCD). In addition to the
+mono-h signal, we model expected backgrounds from V+jets (where V can
+be a $W$ or $Z$ boson), top quark pair and single top production,
+heavy dibosons, and SM Higgs boson production. 
+>>>>>>> .r432235
+
+<<<<<<< .mine
+
+To model the expectation from SM Higgs boson backgrounds as well as the \ttbar and single top quark backgrounds, the {\sc Powheg~v2}~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd} generator is used. All these processes are generated at the next-to-leading order (NLO) in QCD.
+% 
+Events with multiple jets produced through the strong interaction (referred to as QCD multijet events) are generated at LO using \MADGRAPH{\textsc 5\_aMC@NLO} v2.3.3.
+=======
+We model the expectation from SM Higgs boson backgrounds as well as the \ttbar and
+single top quark backgrounds using {\sc
+  Powheg~v2}~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}; these
+processes are all generated at NLO in QCD. Production of Z+jets, W+jets, and $\gamma$+jets as well as
+events with multiple jets produced through strong interactions are modeled at
+LO using \MADGRAPH{\textsc 5\_aMC@NLO} v2.3.3. In all processes, jets
+stemming from the matrix element calculations are matched to parton
+shower jets using the MLM prescription~\cite{mlm}. The background
+models are corrected by weighting the \pt of the respective boson with
+NLO QCD $K$-factors obtained from large samples of events generated
+with \MADGRAPH{\textsc 5\_aMC@NLO} and the FxFx merging
+technique~\cite{fxfx}. The generated events are further corrected by
+applying NLO electroweak $K$-factors obtained from
+calculations~\cite{Kuhn:2005gv,Kallweit:2015fta,Kallweit:2015dum} that
+depend on boson \pt. Predictions for diboson (WW, WZ, ZZ) production are obtained at LO with {\sc Pythia 8.205}~\cite{Sjostrand:2014zea}.
+>>>>>>> .r432235
+%
+<<<<<<< .mine
+Simulated samples of Z+jets and W+jets processes are generated at LO using \MADGRAPH{\textsc 5\_aMC@NLO} v2.3.3. Jets stemming from the matrix element calculations are matched to parton shower jets using the MLM prescription~\cite{mlm}.
+%
+The samples are corrected by weighting the \pt of the respective boson with NLO QCD corrections obtained from large samples of events generated with \MADGRAPH{\textsc 5\_aMC@NLO} and the FxFx merging technique~\cite{fxfx}.
+%
+The samples are further corrected by applying NLO electroweak corrections obtained from calculations~\cite{Kuhn:2005gv,Kallweit:2015fta,Kallweit:2015dum} that depend on boson \pt.
+%
+Predictions for the associated production of SM vector boson (i.e., diboson) production are obtained at LO with the {\sc Pythia 8.205}~\cite{Sjostrand:2014zea} generator.
+%
+=======
+>>>>>>> .r432235
+
+
+For all the processes the LO or NLO the NNPDF30 parton distribution function~\cite{Ball:2014uwa} is used at LO or NLO. 
+%
+Parton showering, fragmentation, and hadronization are simulated with {\sc Pythia 8.2} using the CUETP8M1~\cite{ue1,ue2} tune. 
+%
+A {\sc Geant4}-based simulation of the CMS detector~\cite{geant4} is applied to all the simulated processes. 
+%
+Additional inelastic proton-proton interactions in the same or a neighboring bunch crossing (pileup) is included in the simulation.
+%
+The pileup distribution is corrected to match the corresponding distribution observed in data. 

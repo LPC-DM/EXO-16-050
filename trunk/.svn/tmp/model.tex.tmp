@@ -1,0 +1,59 @@
+The search presented in this Letter is interpreted in terms of two benchmark simplified models: a Type-2 Two Higgs Doublet Model with an additional vector \cPZpr boson (\cPZpr-2HDM)~\cite{Lee:1973iz,Branco:2011iw}, where the \cPZpr\ is produced resonantly and decays into a Higgs boson plus an intermediate heavy pseudoscalar particle \Az, which decays into two DM particles, $\chi\bar{\chi}$; and a baryonic $\cPZpr_{B}$ model (Z'-Baryonic) where a vector mediator $\cPZpr_{B}$ is exchanged in the s-channel, radiates a Higgs boson, and subsequently decays into two DM particles.
+
+The Type-2 2HDM model is used to formulate
+the Higgs sector. The gauge symmetry of the SM is extended by a
+$U(1)_{\cPZpr}$ group with a corresponding new massive \cPZpr\ gauge boson.
+After electroweak symmetry breaking, the Higgs doublets attain vacuum
+expectation values $v_u$ and $v_d$,
+resulting in five physical Higgs bosons:
+a light neutral CP-even scalar \Ph, assumed to be the
+observed 125\GeV Higgs boson; a heavy neutral CP-even scalar \PH;
+a neutral CP-odd scalar \Az; and two charged scalars \Hpm. Only the masses \maz and \mzp affect the kinematic
+properties of the physics objects studied in this search.
+
+Mass hypotheses for the \cPZpr\ resonance and for the \Az particle are
+considered between 600 and 4000\GeV and between 300 and 800\GeV, respectively. The mass of the DM particles $m_{\chi}$
+is assumed to be less than or equal to 100\GeV. The 
+ratio of the vacuum expectation values of the two Higgs fields coupling to the up-type and down-type
+quarks, $\tan\beta$, and the coupling of the \Az particle to DM
+particles, $g_{\chi}$, are both fixed at unity. 
+Hypotheses for the mass of the \Az particle to be less than 300\GeV are excluded by constraints on flavor changing
+neutral currents from measurements of $\cPqb\rightarrow \cPqs\gamma$ \cite{Branco:2011iw},
+and therefore are not considered. 
+The branching fraction ${\cal B}(\Az\rightarrow\chi\overline{\chi})$
+is forced to be $100\%$ for all the considered mass hypotheses and the signal cross sections are calculated for the fixed value of Z' gauge coupling $\gzp = 0.8$.
+For the masses of the other Higgs bosons, we assume $m_{\PH}=m_{\Hpm}=m_{\Az}$.
+
+The baryonic $\cPZpr_{B}$ model is an extension of the SM and 
+assumes that the baryon number $B$ is gauged, with the Z' being the gauge 
+boson of U(1)$_{B}$. The model predicts the existence of a new 
+stable baryonic state that is neutral under SM gauge symmetries. This new 
+particle is an excellent DM candidate. 
+To generate the  \cPZpr\ mass, a ``baryonic Higgs'' scalar is introduced to 
+spontaneously break the U(1)$_B$ symmetry. Analogous to the SM, there remains 
+a physical baryonic Higgs particle, h$_{B}$, with a coupling of h$_{B}$Z'Z' 
+and vacuum expectation value of $v_{B}$. 
+The \cPZpr\ and SM Higgs boson h interact with a coupling strength of 
+$g_{\text{h}\cPZpr\cPZpr} = m_{\cPZpr}^{2} \sin \theta/v_{B}$, where $\theta$ is the h-h$_{B}$ 
+mixing angle. 
+In the search for this model, the chosen value for the \cPZpr\ coupling to quarks, $g_\text{q}$, is 0.25; furthermore, $g_\chi$ and $\sin\theta$ are 1 and 0.3, respectively. The ratio $g_{\text{h}\cPZpr\cPZpr}/M_{\mathrm{Z}'}$ is assumed to be unity. 
+
+
+
+%The quantity \ptvecmiss, calculated as the negative vectorial sum of the transverse momentum (\pt) of all objects identified in an event, 
+%represents the total
+%momentum carried by the DM particles.
+%The magnitude of this vector is referred to as \MET.
+%For a given value of \mzp, the \pt of the \Az decreases as its mass increases.
+%Therefore, the \MET spectrum softens with increasing \Az masses.
+%A comparison of the \MET distributions expected from representative scenarios of the \cPZpr-2HDM model and the \cPZpr-Barzonic model are presented in Fig.~\ref{fig:met_signals}.
+
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.55\textwidth]{figures/puppimet_signals.pdf}
+%\includegraphics[width=0.45\textwidth]{figures/ZpBaryonicModel.pdf}
+%\caption{Reconstructed \MET for representative scenarios of two $\mathrm{h}+\mathrm{DM}$ models investigated. Coupling parameters are chosen as mentioned in the text. The \cPZpr-2HDM model in general has a significant harder \MET~spectrum than the \cPZpr-Barzonic model, which makes the former easier to distinguish from SM background processes.}
+%\label{fig:met_signals}
+%\end{figure}
+

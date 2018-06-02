@@ -1,0 +1,26 @@
+Dark matter (DM) is one of the most compelling pieces of evidence for
+physics beyond the standard model
+(SM)~\cite{dm1,dm2,dm3}. Cosmological observations demonstrate that
+around 85\% of the matter in the Universe is comprised of DM (see e.g. \cite{planck}). These
+observations make it likely that DM is primarily composed of
+weakly interacting massive particles (WIMPs). If non-gravitational
+interactions exist between DM and SM particles, DM could be produced
+by colliding SM particles at high energy. In many models, the pair
+production of DM particles in hadron collisions proceeds through a
+spin-0 or spin-1 bosonic mediator, with the DM particles leaving the
+detector without a measurable signature. However, if they are produced
+in association with a detectable SM particle, which could be emitted
+as initial state radiation (ISR) off the interacting constituents of the colliding protons, or as part of
+new effective vertex couplings between DM and SM particles, a large missing
+transverse momentum (\pt) imbalance could be observed in the event. 
+
+Unlike in the case of W bosons, Z bosons, hadronic jets, or photons, the ISR of the SM Higgs boson~\cite{HiggsObs_ATLAS, HiggsObs_CMS, HiggsObs_CMS_Long} is highly suppressed due to the Yukawa-like nature of its coupling strength.
+However, the associated production of a Higgs boson and DM particles,
+referred to as `` mono-H'' final state, can occur in a scheme where the
+Higgs boson is part of the interaction producing the DM particles,
+thereby directly probing the structure of the effective DM-SM coupling.
+
+In this paper, we  present a search for DM production in association
+with a SM-like Higgs boson that decays into a pair of bottom quark. As the H$\rightarrow \mathrm{b
+  \bar{b}}$ decay channel has the largest branching ratio of all decay modes allowed in the SM, this channel provides the largest potential signal yield. Results are presented for the full dataset collected by the CMS experiment~\cite{CMSdetector} at the CERN LHC at a center of mass energy of 13\TeV~in 2016, corresponding to an integrated luminosity of approximately 35.9\fbinv. 
+

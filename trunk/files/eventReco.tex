@@ -1,0 +1,68 @@
+%A global event reconstruction is performed using the particle-flow (PF) \cite{CMS-PAS-PFT-09-001, ParticleFlow} algorithm.
+%, which optimally combines the information from all subdetectors and 
+%produces a list of stable particles (muons, electrons, photons, 
+%charged and neutral hadrons). 
+
+%The reconstructed interaction vertex with the largest value of $\sum_{i} p_\mathrm{T}^{i2}$, where $p_\mathrm{T}^{i}$ is the transverse momentum of the $i^\mathrm{th}$ track 
+%associated with the vertex, is selected as the primary event vertex. 
+%This vertex is used as the reference vertex for all objects reconstructed using the PF algorithm. The offline selection requires all events to have at least one 
+%primary vertex reconstructed within a 24\,cm window along the z-axis around the nominal interaction point, and a transverse distance from the nominal interaction region less than 2\,cm.
+
+The Higgs boson decaying to a pair of bottom quarks recoils against DM particles and is therefore expected to be boosted. Therefore, reconstructing the two daughter b quarks separately as two narrow jets becomes
+difficult. In this search large-cone-radius jets clustered from
+particle-flow (PF) \cite{CMS-PAS-PFT-09-001, ParticleFlow} candidates are utilized to identify the Higgs boson. Large-cone
+jets are clustered using the Cambridge-Aachen algorithm~\cite{cajets}
+with a distance parameter of $1.5$, hereafter referred to as CA15 jets. 
+To reduce the impact of particles arising from pileup interactions, weights calculated with the PileUp Per Particle Identification (PUPPI) algorithm~\cite{puppi} are applied to the PF candidates.
+Calibrations derived from data are applied to correct the absolute scale of the jet energy~\cite{jec}. 
+The ``soft drop''~\cite{msd} jet-grooming algorithm is used to define the CA15 jet mass. This method removes soft and wide-angle radiation produced inside the jet by pileup interactions, underlying events, and parton shower activity and it optimizes the resolution of the jet mass.% by choosing the grooming parameters to be $z_\mathrm{cut}=0.15$, $\beta=1$.
+
+The ability to identify two b-quarks inside the same CA15 jet is crucial for this search. A likelihood for the CA15 jet to contain two b quarks is derived combining the information on primary and secondary vertices, tracks, and impact parameters in a multivariate algorithm optimized to discriminate the Higgs to \bb decays from multijet QCD events~\cite{doubleb}. 
+%The chosen working point of double b-tagger ($>$ 0.75) corresponds to the same background effiency of the medium 
+%working point of minimum of the CSV score of subjets. 
+The working point chosen for this algorithm (referred to as ``double-b'' tagger in the following) corresponds to a $\mathrm{b}\text{\mathrm{b}}$ identification efficiency of 50-65\%, depending on the \pt of the boosted $\mathrm{b}\text{\mathrm{b}}$ system, and a mistag rate of about 10-13\%. 
+
+Energy correlation functions (ECFs) are used to identfy the two-prong structure as the one expected for a CA15 jet arising from a Higgs boson decay to two b quarks. ECFs are sensitive to correlations among the jet's constituents, as described in detail in Ref.~\cite{ecf}. They are defined as $N$-point correlation functions ($e_N$) of the constituents' momenta, weighted by the angular separation of the constituents. Discriminating variables are constructed by using ratios of these functions.
+%\begin{linenomath}
+%\begin{equation}
+%  \frac{_ae_N^\alpha}{(_be_M^\beta)^x}, \text{ where $M\leq N$ and $x= \frac{a\alpha}{b\beta}$}.
+%  \label{eq:ecf}
+%\end{equation}
+%\end{linenomath}
+%                                                                                                                                                                                                
+%In Eq.~(\ref{eq:ecf}), the six free parameters are
+%$N,a,\alpha,M,b,~\mathrm{and}~\beta$ and the value of $x$ is chosen to
+%make the ratio dimensionless. An $N$-pronged jet is expected to have
+%$e_N \gg e_M$ for $M>N$. 
+As motivated in Ref.~\cite{ecf}, the ratio $N_2$ defined as $\frac{e_3}{(e_2)^2}$ is proposed as a two-prong tagger for the identification of a Higgs-boson jet.
+
+%\begin{equation}
+%  N_2(\beta) = \frac{e(2,3,\beta)}{e(1,2,\beta)^2}
+%\end{equation}
+
+%When computing the $N_2$ variable, only the first one hundred highest $p_T$ constituents that survive soft-drop grooming are used.
+
+It is noted that requiring a jet to be two-pronged by using a variable like $N_2$ will modify the distribution of jet mass from the one predicted for the background processes. In order to preserve a smoothly falling jet mass distribution for QCD-like jets (i.e. jets that do not originate from a heavy resonance decay) as a function of \pt, it is natural to test the stability of $N_2$ as a function of the scaling variable $\rho=log(m_{\text{SD}}^2/\pt^2)$, as explained in Ref.~\cite{ddt}. Since the jet mass distribution for QCD multijet events is expected to scale with \pt, decorrelating the $N_2$ variable as a function of $\rho$ and \pt is a well-bounded procedure. The decorrelation strategy described in Ref.~\cite{ddt} is applied, choosing a background efficiency of 20\%, which corresponds to a signal efficiency of roughly 50\%.
+%This choice of background (or, equivalently, signal) efficiency has been optimized in order to maximize the $S/B$ ratio while retaining high enough event yield for the data-driven estimation of the background processes.
+
+In addition to large-cone jets, this search employs narrow jets clustered using the anti-$\kt$ algorithm~\cite{Cacciari:2008gp}, with a distance parameter of $0.4$, having \pt larger than $30\GeV$ and satisfying $|\eta|<4.5$. The narrow jets originating from the decay of b quarks are identified using the combined secondary vertex (CSV) algorithm \cite{BTV-15-001, BTV-paper-2012-001}. The loose working point used in this search has a 83\% b jet selection efficiency, a charm jet selection efficiency of 28\% and $\approx$ 10\% of mis-identifying light-flavor jets~\cite{BTV-15-001}. Jets that are b-tagged are required to be central ($|\eta|<2.5$) to be in a region where the tracker is fully efficient.
+%%An event with any additional narrow jet passing the loose b tagging requirement is vetoed to reduce the number of events containing top quarks. 
+
+Electron reconstruction requires the matching of a supercluster in the ECAL with a track in the silicon tracker.
+Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape, matching between the track and the ECAL cluster, and consistency with the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$. Muons are reconstructed by combining two complementary algorithms \cite{CMSMuonJINST}:
+ one in which tracks in the silicon tracker are matched to a muon track segment, and another in which a global track fit is performed, seeded by the muon track segment.  
+Further identification criteria are imposed on muon candidates to reduce the number of misidentified hadrons and poorly measured mesons tagged as muons. 
+These additional criteria include requirements on the number of measurements in the tracker and in the muon systems, the fit quality of the global muon track, and its consistency with the primary vertex.
+Muon candidates with $|\eta|< 2.4$ are considered in this analysis. 
+Hadronically decaying $\tau$ leptons ($\tau_\mathrm{h}$) are reconstructed using the hadron-plus-strips
+ (HPS) algorithm~\cite{CMSTauJINST}, which uses the charged-hadron and neutral-electromagnetic objects 
+to reconstruct intermediate resonances into which the $\tau$ lepton decays. The $\tau_\mathrm{h}$ 
+candidates with $|\eta|< 2.3$ are considered in this search. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
+
+The missing transverse momentum \MET is defined as the magnitude of the negative vectorial sum of the \pt of all the reconstructed particles. Corrections to jet momenta are further propagated to the \MET calculation~\cite{CMS-PAS-JME-16-004}. Event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by the instrumental noise in the calorimeters or beam halo muons. The filter efficiency on signal events is close to 99.99\%.
+
+%For the control regions involving lepton(s) in the final state, the hadronic recoil against the boson is computed by removing the \pt of the lepton(s) from the \MET computation. The recoil is given by: 
+%\begin{equation} 
+%\vec{U}  = \MET + p_{\mathrm{T}}^{\ell,\ell\ell} 
+%\end{equation} 
+%where the \pt$^{l}$ is \pt of lepton(s) in the W (Z) control regions. 

@@ -1,0 +1,130 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+% This allows for switching between one column and two column (cms@external) layouts
+% The widths should  be modified for your particular figures. You'll need additional copies if you have more than one standard figure size.
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+
+
+\renewcommand{\HGG}{\ensuremath{\Ph\rightarrow\gamma\gamma}\xspace}
+\newcommand{\Hbb}{\ensuremath{\Ph\rightarrow\PQb\PAQb}\xspace}
+\newcommand{\tt}{\ensuremath{\mathrm{t\bar{t}}}\xspace}
+\newcommand{\bb}{\ensuremath{\PQb\PAQb}\xspace}
+\newcommand{\mdm}{\ensuremath{m_{\chi}}\xspace}
+\newcommand{\Nt}{\ensuremath{\mathrm{N}_{2}}\xspace}
+\newcommand{\Ntd}{\ensuremath{\mathrm{N}_{2}^{DDT}}\xspace}
+\newcommand{\msd}{\ensuremath{m_{SD}}\xspace}
+\newcommand{\qq}{\ensuremath{\PQq\PAQq}\xspace}
+\newcommand{\mzp}{\ensuremath{m_{\PZpr}}\xspace}
+\renewcommand{\Az}{\ensuremath{\cmsSymbolFace{A}}\xspace}
+\newcommand{\ptm}{\ensuremath{p_{\mathrm{T}}^{\text{miss}}}\xspace}
+\renewcommand{\MET}{\ptm}
+\renewcommand{\ETm}{\ptm}
+\newcommand{\maz}{\ensuremath{m_{\Az}}\xspace}
+\newcommand{\gzp}{\ensuremath{g_{\PZpr}}\xspace}
+\newcommand{\MADGRAPHAMC} {\MADGRAPH{}5\_a\MCATNLO}
+\newcommand{\x}{\ensuremath{\phantom{0}}}
+
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{EXO-16-050} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Search for associated production of dark matter with a Higgs boson that decays to a pair of bottom quarks}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+
+%\address[ncu]{National Central University}
+%\address[fnal]{Fermilab}
+%\address[cern]{CERN}
+%\address[cern]{CERN}
+
+\author[cern]{The CMS Collaboration}
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+\date{\today}
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
+\abstract{A search for dark matter produced in association with a Higgs boson that decays into a pair of bottom quarks is performed in
+ proton-proton collisions at a center-of-mass energy of 13\TeV
+ collected with the CMS detector at the LHC. The analyzed data sample corresponds to an integrated luminosity of $35.9\fbinv$. 
+%Results are interpreted in the context of a $\mathrm{Z'}$-two-Higgs-doublet model, where a vector boson $\mathrm{Z'}$ is produced and decays into a Higgs boson and into two dark matter particles via  an intermediate heavy pseudoscalar particle, and in terms of the s-channel exchange of a vector mediator $\cPZpr_{B}$ that radiates a Higgs boson and decays into a dark matter particle pair.
+The signal is characterized by a large missing transverse momentum recoiling against a $\text{b}\bar{\text{b}}$ system that has a large Lorentz boost. The number of events observed in the data is consistent with the standard model background prediction.  Results are interpreted in terms of limits on parameters in the Baryonic Z' and 2HDM+a simplified models. For these models, the presented results constitute either the most stringent constraints or the first constraints obtained so far.
+%, and 95\% CL$_{S}$ upper limits on the cross sections of both models are set. }
+}
+%In this model, the couplings of the $\cPZpr_{B}$ to 
+%leptons are omitted. 
+% and the Higgs sector is extended with four additional Higgs bosons.
+%In this model, a high-mass resonance $\mathrm{Z'}$ decays into a pseudoscalar boson A and a light
+%SM-like scalar Higgs boson, and the A decays to a pair of dark matter particles.
+%No significant excesses are observed over the background prediction. Combining results from the two
+%decay channels yields exclusion limits in the signal cross section in the $m_{\mathrm{Z'}}$- $m_{\textrm{A}}$ phase space.
+%For example, the observed data exclude, for $\mathrm{Z'}$ coupling strength
+%$g_{\mathrm{Z'}} = 0.8$,
+
+% \abstract{A search for the dark matter is performed using events with large missing transverse momentum and a Higgs boson decaying into a pair of bottom quarks in a data sample of  proton-proton interactions at the centre-of-mass energy of 13 TeV collected with the CMS detector at the LHC in 2016. The data correspond to an integrated luminosity of 36 fb$^{-1}$. Results are interpreted in the framework of the Type-2 two-Higgs-doublet model and  baryonic-$\textrm{Z}^{'}$ model. Both of these models predict production of dark matter particle in association with the standard model Higgs boson. ... }
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text:
+% (1) no TeX! -- for \sqrt{s} use sqrt(s) -- this will show with extra quote marks in the draft version but is okay).
+% (2) no %.
+% (3) No curly braces {}.
+\hypersetup{%
+pdfauthor={Raman Khurana, Benedikt Maier, Shin-Shan Eiko Yu, Matteo Cremonesi, Bo Jayatilaka},%
+pdftitle={Search for dark matter in H(bb)+MET final state (full 2016 dataset)},%
+pdfsubject={CMS},%
+pdfkeywords={Dark matter, LHC, CMS, boosted Higgs boson tagging, physics, software, computing}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+% >> Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix.
+%% You can take the text between here and the bibiliography as an example which you should replace with the actual text of your document.
+%% If you include other TeX files, be sure to use "\input{filename}" rather than "\input filename".
+%% The latter works for you, but our parser looks for the braces and will break when uploading the document.
+%%%%%%%%%%%%%%%
+
+\input{introduction.tex}
+\input {model.tex}
+%\input{detector.tex}
+\input{datasets.tex}
+\input{eventReco.tex}
+\input{eventselectionAndanalysisStrategy.tex}
+\input{systematics.tex}
+\input{results.tex}
+%\input{summary.tex}
+
+%\input{dataAndSimulation.tex}
+%\input{eventReco.tex}
+%\input{eventselectionAndanalysisStrategy.tex}
+%\input{systematics.tex}
+%\input{results.tex}
+
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}   % will be created by the tdr script.
+
+%% examples of appendices. **DO NOT PUT \end{document} at the end
+%\clearpage
+\appendix

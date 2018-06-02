@@ -1,0 +1,36 @@
+%===============================================================================
+\section{The CMS detector, particle reconstruction, and event simulation}
+\label{sec:cms}
+
+The CMS detector, described in detail in Ref.~\cite{CMSdetector}, is a multipurpose apparatus designed to study high-transverse momentum ($\pt$) processes in proton-proton and heavy ion collisions.  
+%
+A superconducting solenoid occupies its central region, providing a magnetic field of 3.8\unit{T} parallel to the beam direction. 
+%
+Charged-particle trajectories are measured using the silicon pixel and strip trackers, which cover a pseudorapidity region of $\abs{\eta} < 2.5$. 
+%
+A lead tungstate (PbWO$_4$) crystal electromagnetic calorimeter (ECAL) and a brass/scintillator hadron calorimeter (HCAL) surround the tracking volume and cover $\abs{\eta} < 3$. 
+%
+The steel and quartz-fiber forward Cherenkov hadron calorimeter extends the coverage to $\abs{\eta} < 5$.  
+%
+The muon system consists of gas-ionization detectors embedded in the steel flux-return yoke outside the solenoid and covers $\abs{\eta} < 2.4$. 
+%
+The return yoke carries a 2\unit{T} return field from the solenoid.
+%
+The first level of the CMS trigger system is designed to select events in less than 4\mus, using information from the calorimeters and muon detectors. 
+%
+The high-level trigger-processor farm then reduces the event rate to several hundred Hz.
+%
+
+
+The particle-flow (PF) event algorithm~\cite{Sirunyan:2017ulk} aims at reconstructing and identifying each individual particle through an optimized combination of information from the different elements of the CMS detector. 
+%
+The energy of a photon is obtained directly from the ECAL measurement, corrected for effects from neglecting signals close to the detector noise level, termed zero-suppression in the following. 
+%
+The energy of an electron is determined from a combination of the electron momentum at the primary interaction vertex as determined by the tracker, the energy of the corresponding ECAL cluster, and the energy sum of all photons spatially compatible with originating from the electron track.
+% 
+The energy of a muon is obtained from the curvature of the corresponding track. 
+%
+The energy of a charged hadron is determined from a combination of its momentum measured in the tracker and the matching ECAL and HCAL energy deposits, corrected for zero-suppression effects and for the response function of the calorimeters to hadronic showers. 
+%
+Finally, the energy of a neutral hadron is obtained from the corresponding corrected ECAL and HCAL energy.
+%

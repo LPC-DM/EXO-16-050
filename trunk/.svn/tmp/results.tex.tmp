@@ -1,0 +1,47 @@
+
+\begin{table}\footnotesize
+\begin{center}
+  \caption{Per-bin post-fit event yield expectations for the signal region after a fit including the signal region. Uncertainties quoted on the predictions include systematic and statistical uncertainties.}
+\begin{tabular}{l r r r r}
+  \hline\hline
+Bin         & 200-270\,GeV          & 270-350\,GeV          & 350-475\,GeV          & $>475$\,GeV         \\
+\hline
+Z+jets          &$ 248.9\pm22.2 $       & $97.2\pm8.5$         & $32.6\pm3.6$          & $11.1\pm1.9$       \\
+\ttbar          &$ 199.2\pm13.5 $       & $52.1\pm5.2$          & $11.1\pm2.0$          & $0.7\pm0.4$        \\
+W+jets          &$ 121.6\pm21.6 $       & $45.0\pm8.7$          & $8.4\pm1.9$           & $2.9\pm0.9$            \\
+t               &$21.0\pm4.2 $          & $6.1\pm1.2$           & $0.9\pm0.2$           & $0.2\pm0.1$         \\
+Diboson         &$ 16.0\pm3.1  $        & $7.6\pm1.5$           & $2.4\pm0.5$           & $1.0\pm0.2$ \\
+SM h             &$ 12.6\pm1.4 $      & $ 6.6\pm0.7$           & $ 3.3 \pm 0.3$        & $ 1.3\pm 0.1$      \\
+\hline
+$\Sigma~(\text{SM})$ & $619.3\pm20.1$ & $214.6 \pm 8.1$       & $58.7\pm3.7$          & $17.2 \pm 2.0$ \\
+\hline
+Data            & $619 \pm 24.9$       & $ 214 \pm 14.6$        & $59 \pm 7.7$          & $ 21 \pm 4.6$ \\
+\hline\hline
+  \end{tabular}
+\label{tab:eventYieldTable}
+\end{center}
+\end{table}
+
+
+
+The expected yields for each background in the SR as determined in the fit under the background-only assumption are presented in Table~\ref{tab:eventYieldTable}, together with the sum of statistical and systematic uncertainties and the observed data yields.
+
+Figure \ref{Fig_sr} shows the post-fit \MET distribution in the SR for all SM backgrounds, as well as the observed data distribution. We present the distributions for two scenarios: in the first case, the fit has been performed simultaneously in all analysis regions; in the second case, the SR has been masked from the likelihood and the background model is obtained from a fit in the CRs only. For both cases, the data agrees with the background predictions at the 1$\sigma$ level.
+
+Since no significant excess over the SM background expectation of events is observed, the results of this search are interpreted in terms of an upper limit on the production cross 
+section of DM candidates in association with a Higgs boson. 
+The upper limits are calculated at 95\% confidence level (CL) using a modified frequentist method (CL$_s$) \cite{yellowReport, bib:CLS1, bib:CLS2} computed with an asymptotic approximation \cite{bib:CLS3}. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.475\textwidth]{figures/limits/limits_2hdm2d.png}
+  \includegraphics[width=0.475\textwidth]{figures/limits/limits_barzp2d.png}
+  \caption{Upper limits on the signal strength modified for the  Z'-2HDM model (left) and Z'-Baryonic model (right).}
+  \label{fig:limits}
+\end{figure}
+
+Figure~\ref{fig:limits} shows the expected and observed exclusion range as a function of $m_{Z'}$ and $m_{\text{A}}$ for the Z'-2HDM model, and as a function of $m_{Z'}$ and $m_{\chi}$ for the Z'-Barzonic model.  For the Z'-2HDM model, we exclude a Z' mass of 2.30\TeV with an expected exclusion of 2.55\TeV for a mass $m_{A^0}=300\GeV$. The lower exclusion boundary is given by $m_{Z'}=600\GeV$. The largest $A^0$ mass which can be excluded is 700\GeV for a corresponding Z' mass of 1.75\TeV, with an expected exclusion of $M_{A^0}=800\GeV$. For the Z'-Baryonic model and a DM mass of 1\GeV, masses $m_{Z'}<1.45\TeV$ are excluded. The expected exclusion boundary is 1.75\TeV. This is the first time that limits on this model have been set in the mono-H($\text{b}\bar{\text{b}}$) channel.
+
+
+Results on the associated production of DM particles with Higgs boson decaying in a b-quark pair have been presented. Limits on the production cross section predicted by the \cPZpr-2HDM and the baryonic $\cPZpr_{B}$ model are set and they constitute the most stringent limits placed by CMS on the parameters in these models so far (compare~\cite{Sirunyan:2017hnk}). For the \cPZpr-2HDM model, results are in agreement with what is reported in~\cite{atlashbb} for $m_\text{A}=300\GeV$. It should be noted that, while we are assuming $m_{\PH}=m_{\Hpm}=m_{\Az}$, Ref.~\cite{atlashbb} uses a fixed mass of 300\GeV for the Higgs bosons \PH and \Hpm, thus exclusions for $m_\text{A}>300\GeV$ are not directly comparable.
+ 

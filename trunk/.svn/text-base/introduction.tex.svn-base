@@ -1,0 +1,30 @@
+\section{Introduction}
+
+Astrophysical evidence for Dark matter (DM) is one of the most compelling motivations for
+physics beyond the standard model
+(SM)~\cite{dm1,dm2,dm3}. Cosmological observations demonstrate that
+around 85\% of the matter in the universe is comprised of DM
+\cite{planck} and are consistent with the hypothesis that DM is primarily composed of
+weakly interacting massive particles (WIMPs). If non-gravitational
+interactions exist between DM and SM particles, DM could be produced
+by colliding SM particles at high energy. Assuming the pair
+production of DM particles in hadron collisions happens through a
+spin-0 or spin-1 bosonic mediator coupling to the initial state particles, the DM particles leave the
+detector without a measurable signature. If DM particles are produced in association with a detectable SM particle, which could be emitted
+as initial state radiation (ISR) from the interacting constituents of the colliding protons, or through
+new effective vertex couplings between DM and SM particles, their
+existence could be inferred via a large transverse momentum imbalance in the collision event. 
+
+
+%Unlike in the case of W bosons, Z bosons, hadronic jets, or photons, 
+While ISR of the SM Higgs boson~\cite{HiggsObs_ATLAS, HiggsObs_CMS, HiggsObs_CMS_Long} is highly suppressed due to the Yukawa-like nature of its coupling strength, 
+the associated production of a Higgs boson and DM particles
+%,referred to as ``mono-h'' final state, 
+can occur if the
+Higgs boson is part of the interaction producing the DM particles~\cite{monoHiggs3,2HDM,PhysRevD.89.075017}.
+Such a production mechanism allows one to directly probe the structure of the effective DM-SM coupling.
+
+In this Letter, we  present a search for DM production in association
+with a SM Higgs boson that decays into a pair of bottom quarks. As the 
+$\Ph\rightarrow \bb$ decay mode has the largest branching ratio of all decay modes allowed in the SM, it provides the largest signal yield. The search is performed using the full data set collected by the CMS experiment~\cite{CMSdetector} at the CERN LHC at a center-of-mass energy of 13\TeV~in 2016, corresponding to an integrated luminosity of approximately 35.9\fbinv. 
+
