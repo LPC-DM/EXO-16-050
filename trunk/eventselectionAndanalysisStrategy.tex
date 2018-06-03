@@ -6,7 +6,7 @@ below, the dominant background contributions arise from Z+jets,
 W+jets, and \ttbar production. To predict the \ptmiss~spectra of these
 processes in the SR, data from different control regions (CRs) are used. Single-lepton CRs are designed to predict the \ttbar and W+jets backgrounds, while dilepton CRs predict the Z+jets background contribution. The hadronic recoil, $U$, defined by removing the \pt of the lepton(s) from the \MET computation in CRs, is used as a proxy for the \MET distribution of the main background processes in the SR. Predictions for other backgrounds are obtained from simulation.
 
-A common set of preselection criteria is used for all regions. The presence of exactly one CA15 jet with $\pt>200\GeV$ and $|\eta|<2.4$ is required. It is also required that $100<m_{\text{SD}}<150\GeV$ and $N_2^{\text{DDT}}<0$. This minimizes extrapolation uncertainties when deriving a prediction for the SM backgrounds in the SR by means of the CRs, as the CA15 jet is ensured to have the same flavor content for a given process across all regions.
+A common set of preselection criteria is used for all regions. The presence of exactly one CA15 jet with $\pt>200\GeV$ and $|\eta|<2.4$ is required. It is also required that $100<m_{\text{SD}}<150\GeV$ and $N_2^{\text{DDT}}<0$. 
  In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum distance in the azimuthal angle $\phi$ between any AK4 jet and the direction of \ptmiss ($U$) must be larger than 0.4 to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied, and the number of AK4 jets that do not overlap with the CA15 jet must be smaller than two. This significantly reduces the contribution from \ttbar events.
 
 \begin{table}\footnotesize
@@ -15,7 +15,7 @@ A common set of preselection criteria is used for all regions. The presence of e
 as described in the text. } \label{tab:event_selection}
     \begin{tabular}{  l | c | c | c | c }
       \hline \hline
-        Region   & Main processes & Additional AK4 b tag   & Leptons & Double-b tag \\ \hline
+        Region   & Main background process & Additional AK4 b tag   & Leptons & Double-b tag \\ \hline
         Signal   & Z+jets, \ttbar, W+jets & 0                & 0       & pass \\ \hline
         Single-lepton, b-tagged   &  \ttbar, W+jets & 1                & 1       & pass/fail\\ \hline
         Single-lepton, anti-b-tagged        & W+jets, \ttbar & 0                & 1       & pass/fail\\ \hline
@@ -64,7 +64,7 @@ not they satisfy the double-b tag requirement imposed to define the SR. This all
 
 As mentioned in Section~\ref{intro}, signal and background contributions to the data are extracted with a simultaneous binned likelihood fit (using the ROOStat package~\cite{roostats}) to the \MET and $U$ distributions in the SR and the CRs.
 %
-The dominant SM process in each CR is used to predict the respective background in the SR via transfer factors $T$. They are determined in simulation and are given by the ratio of the prediction for \ptmiss in the SR and the $U$ prediction in the CR for the given process. This ratio is determined independently for each bin of the corresponding distribution.
+The dominant SM process in each CR is used to predict the respective background in the SR via transfer factors $T$. They are determined in simulation and are given by the ratio of the prediction for a given bin in \ptmiss in the SR and the corresponding bin in $U$ in the CR, for the given process. This ratio is determined independently for each bin of the corresponding distribution.
   
 For example, if $b\ell$ denotes the \ttbar~process in the b-tagged single-lepton control sample that is used to estimate the \ttbar contribution in the SR, the expected number of \ttbar events, $N_{i}$, in the $i^\text{th}$ bin of the SR is then given by $N_{i}= \mu^{\ttbar}_{i}/T^{b\ell}_{i}$, where  $\mu^{\ttbar}_i$ is a freely floating parameter included in the likelihood to scale the \ttbar contribution in bin $i$ of $U$ in the CR.
 
