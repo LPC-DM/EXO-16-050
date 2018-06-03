@@ -16,7 +16,7 @@ To reduce the impact of particles arising from pileup interactions,  the four-ve
 The absolute jet energy scale is corrected using calibrations derived from data~\cite{jec}.
 The ``soft drop'' jet-grooming algorithm~\cite{msd} is applied to the jets to remove the wide-angle initial state radiation and soft radiation emerging from the underlying event. We refer to the mass of the groomed CA15 jet as $m_\text{SD}$ in the following. 
 
-The ability to identify two b quarks inside the same CA15 jet is crucial for this search. A likelihood for the CA15 jet to contain two b quarks is derived combining the information from primary and secondary vertices and tracks in a multivariate discriminant optimized to distinguish the Higgs to \bb decays from CA15 jets originating from energetic quarks or gluons~\cite{doubleb}.
+The ability to identify two b quarks inside a single CA15 jet is crucial for this search. A likelihood for the CA15 jet to contain two b quarks is derived combining the information from primary and secondary vertices and tracks in a multivariate discriminant optimized to distinguish the Higgs to \bb decays from CA15 jets originating from energetic quarks or gluons~\cite{doubleb}.
 %The chosen working point of double b-tagger ($>$ 0.75) corresponds to the same background efficiency of the medium 
 %working point of minimum of the CSV score of subjets. 
 The working point chosen for this algorithm (the ``double-b tagger'') corresponds to a \bb identification efficiency of 50-65\%, growing with the \pt of the \bb system, and a probability of about 10-13\% for misidentifying CA15 jets originating from other combinations of quarks or gluons.
@@ -69,20 +69,20 @@ variable, which we denote as $N_2^\text{DDT}$.
 
 This search also utilizes narrow jets clustered
 with the anti-$\kt$ algorithm~\cite{Cacciari:2008gp}, with a distance
-parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are identified using the combined secondary vertex (CSV) algorithm \cite{Sirunyan:2017ezt, BTV-paper-2012-001}. The working point used in this search has a b jet identification efficiency of 81\%, a charm jet selection efficiency of 37\%, and a 9\% probability of misidentifying light-flavor jets~\cite{Sirunyan:2017ezt}. Jets that are b-tagged are required to be central ($|\eta|<2.5$).
+parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are identified using the combined secondary vertex (CSV) algorithm \cite{Sirunyan:2017ezt, BTV-paper-2012-001}. The working point used in this search has a b jet identification efficiency of 81\%, a charm jet selection efficiency of 37\%, and a 9\% probability of misidentifying light-flavor jets~\cite{Sirunyan:2017ezt}. Jets that are b-tagged are required to be central ($|\eta|<2.4$).
 %%An event with any additional narrow jet passing the loose b tagging requirement is vetoed to reduce the number of events containing top quarks. 
 
 Electron reconstruction requires the matching of a supercluster in the ECAL with a track in the silicon tracker.
-Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape, the matching between the track and the ECAL cluster, and the consistency with originating from the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the region $1.4442<|\eta|<1.5660$ without detector instrumentation. Muons are reconstructed by combining two complementary algorithms \cite{CMSMuonJINST}:
+Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape, the matching between the track and the ECAL cluster, and the consistency with originating from the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the uninstrumented region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons are reconstructed by combining two complementary algorithms \cite{CMSMuonJINST}:
  one in which tracks in the silicon tracker are matched to a track segment in the muon detector, and another in which a track fit is performed, seeded by the muon track segment.  
 Further identification criteria are imposed on muon candidates to reduce the number of misidentified hadrons and poorly measured mesons tagged as muons. 
 These additional criteria include requirements on the number of hits in the tracker and in the muon systems, the fit quality of the global muon track, and its consistency with the primary vertex.
 Muon candidates with $|\eta|< 2.4$ are considered in this analysis. 
-For both muon and electron candidates, the minimum \pt is required to be 10\GeV.
+For both muon and electron candidates, the minimum \pt is required to be 10\GeV. Isolation is required for both the objects.
 Hadronically decaying $\tau$ leptons, $\tau_\mathrm{h}$, are reconstructed using the hadron-plus-strips
   algorithm~\cite{CMSTauJINST}, which uses the charged hadron and neutral electromagnetic objects 
 to reconstruct intermediate resonances into which the $\tau$ lepton decays. The $\tau_\mathrm{h}$
-candidates with $\pt>18\GeV$ and $|\eta|< 2.3$ are considered~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}. Photon candidates, identified by means of requirements on the ECAL energy distribution and its distance to the closest track,  must have $\pt>15\GeV$. %We veto both $\tau_\mathrm{h}$ candidates and photon candidates in the search presented. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
+candidates with $\pt>18\GeV$ and $|\eta|< 2.3$ are considered~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}. Photon candidates, identified by means of requirements on the ECAL energy distribution and its distance to the closest track, must have $\pt>15\GeV$ and $|\eta|< 2.5$. %We veto both $\tau_\mathrm{h}$ candidates and photon candidates in the search presented. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
 
 The missing transverse momentum $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ is defined as the negative vectorial sum of the \pt of all the reconstructed particles. Its magnitude is denoted \MET. Corrections to jet momenta are propagated to the \MET calculation~\cite{CMS-PAS-JME-16-004}. Event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by instrumental noise in the calorimeters or beam halo muons. The filter removes about 1\% of signal events.
 
