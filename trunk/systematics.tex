@@ -1,4 +1,4 @@
-\section{Systematic uncertainties}
+.\section{Systematic uncertainties}
 
  Nuisance parameters are introduced into the likelihood fit to represent the systematic uncertainties of the search. They can either affect the rate or  the shape of \ptmiss ($U$) for a given process in the SR (CRs) and can be constrained in the fit. Shape uncertainties are incorporated by means of a prior Gaussian distribution, while rate uncertainties are given a prior log-normal distribution. A summary of systematic uncertainties is presented in Table~\ref{tab:systs}.
 
@@ -34,20 +34,26 @@ multijet normalization & 100\% & multijet \\
 
 
 
-The $p_\text{T,trig}^\text{miss}$ trigger efficiency is parametrized as a function of the
-\MET. The uncertainty in its measurement is a flat 1\% and is included in the fit as a rate uncertainty.
+The \ptmiss trigger efficiency is parametrized as a function of $p_\text{T,trig}^\text{miss}$. The uncertainty in its measurement is a flat 1\% and is included in the fit as a rate uncertainty.
 The efficiencies of the single-electron triggers are parametrized as a
 function of the electron \pt and an associated flat 1\% systematic uncertainty is added into the fit.
 
 Uncertainties in the selection efficiencies per selected muon or electron amount to $1\%$, while the uncertainty in the $\tau$ lepton veto is $3\%$; these rate uncertainties are correlated across all $U$ bins.
 
 An uncertainty of $21\%$ in the heavy flavor fraction of
-W+jets is reported in CMS measurements~\cite{Khachatryan:2014uva,Chatrchyan:2013uza} production. Similarly, the uncertainty on the Z+heavy flavor fraction is measured to be $22\%$~\cite{Khachatryan:2014zya,Chatrchyan:2014dha}. Depending on the b tagging requirement, the uncertainty on the heavy flavor fraction on such processes determines an uncertainty on the overall rate (the sum of heavy and light flavor components) for both W and Z+jets. To account for this effect, a flat $4\%$ is assigned to the W+jets process, while a flat $5\%$ is assigned to the Z+jets process. They are included as rate uncertainties, correlated across all regions defined by the same b tagging requirement and anti-correleted across all regions defined by inverting it.
+W+jets is reported in previous CMS measurements~\cite{Khachatryan:2014uva,Chatrchyan:2013uza}. Similarly, the uncertainty on the Z+heavy flavor fraction is measured to be $22\%$~\cite{Khachatryan:2014zya,Chatrchyan:2014dha}. Depending on the b tagging requirement, the uncertainty on the heavy flavor fraction on such processes determines an uncertainty on the overall rate (the sum of heavy and light flavor components) for both W and Z+jets. To account for this effect, a flat $4\%$ is assigned to the W+jets process, while a flat $5\%$ is assigned to the Z+jets process. They are included as rate uncertainties, correlated across all regions defined by the same b tagging requirement and anti-correleted across all regions defined by inverting it.
 %
 %These W+heavy flavor fraction uncertainties are correlated between all regions in the fit. 
 %
 
-The transfer factors are affected by uncertainties in the efficiencies of lepton identification.  For example, differences on the order of 2\% in \MET trigger efficiencies are observed between single-muon and dimuon events at lower $U$ values and represent an additional systematic uncertainty in the transfer factors of the single-muon and dimuon CRs. Being these uncertainties on lepton identification dependent on the momentum of the identified lepton, they can change the shape of the $U$ distribution and therefore they are treated as shape uncertainties.
+The transfer factors are affected by uncertainties in the efficiencies
+of lepton identification.  For example, differences on the order of
+2\% in \MET trigger efficiencies are observed between single-muon and
+dimuon events at lower $U$ values and represent an additional
+systematic uncertainty in the transfer factors of the single-muon and
+dimuon CRs. As these uncertainties depend on the momentum of the
+identified lepton they can change the shape of the $U$ distribution
+and are thus treated as shape uncertainties.
 
 Due to the similarity of selection requirements between the SR and CRs, uncertainties in the higher order NLO or EW corrections, or in the PDF, cancel out when building the ratio of yields predicted in the SR and the corresponding CR.
 
