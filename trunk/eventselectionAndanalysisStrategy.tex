@@ -1,17 +1,11 @@
 \section{Event selection}
 
 
-The signal is characterized by a high value of \MET, no isolated leptons or photons, and a CA15 jet identified as a Higgs boson candidate. In the signal region (SR) described
-below, the dominant background contributions arise from Z+jets, W+jets, and \ttbar production. To derive estimates for their \ptmiss~spectra, data from different CRs are used: single-lepton CRs are designed to constrain the \ttbar and W+jets backgrounds, while dilepton CRs constrain the Z+jets background contribution. The hadronic recoil $U$, defined by removing the \pt of the lepton(s) from the \MET computation in CRs, is used as a proxy for the \MET distribution of the main background processes in the SR. Predictions for other backgrounds are obtained from simulation.
+Signal events are characterized by a high value of \MET, no isolated leptons or photons, and a CA15 jet identified as a Higgs boson candidate. In the signal region (SR) described
+below, the dominant background contributions arise from Z+jets, W+jets, and \ttbar production. To predict their \ptmiss~spectra, data from different CRs are used. Single-lepton CRs are designed to predict the \ttbar and W+jets backgrounds, while dilepton CRs predict the Z+jets background contribution. The hadronic recoil, $U$, defined by removing the \pt of the lepton(s) from the \MET computation in CRs, is used as a proxy for the \MET distribution of the main background processes in the SR. Predictions for other backgrounds are obtained from simulation.
 
 A common set of preselection criteria is used for all regions. The presence of exactly one CA15 jet with $\pt>200\GeV$ and $|\eta|<2.4$ is required. It is also required that $100<m_{\text{SD}}<150\GeV$ and $N_2^{\text{DDT}}<0$. This minimizes extrapolation uncertainties when deriving a prediction for the SM backgrounds in the SR by means of the CRs, as the CA15 jet is ensured to have the same flavor content for a given process across all regions.
  In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum distance in the azimuthal angle $\phi$ between any AK4 jet and the direction of \ptmiss ($U$) must be larger than 0.4 to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied, and the number of AK4 jets that do not overlap with the CA15 jet must be smaller than two. This significantly reduces the contribution from \ttbar events.
-
-
-
-The events that meet the preselection criteria described above are split into the SR and the different CRs based on their lepton multiplicity and the presence of a b-tagged AK4 jet not overlapping with the CA15 jet.
-
-% Table~\ref{tab:event_selection} summarizes the different requirements that define the SR and the CRs. 
 
 \begin{table}\footnotesize
   \begin{center}
@@ -30,8 +24,8 @@ as described in the text. } \label{tab:event_selection}
 \end{table}
 
 
-For the SR, events are selected if they have no isolated muons (electrons) with $\pt >10\GeV$ and $|\eta|< 2.4$ (2.5). The previously described double-b tag requirement on the Higgs boson candidate CA15 jet is imposed.
-Events are selected online by requiring large values of $p_\text{T,trig}^\text{miss}$ or $H_{\text{T}}^{\text{miss}}$ (between 90 and 120\GeV, depending on the data-taking period), where $p_\text{T,trig}^\text{miss}$  ($H_{\text{T}}^{\text{miss}}$) is the magnitude of the vectorial sum of $\vec{p}_\text{T}$ of all the particles (jets with $\pt>20\GeV$) at the trigger level. Muon candidates are excluded from the online \MET calculation.
+Events that meet the preselection criteria described above are split into the SR and the different CRs based on their lepton multiplicity and the presence of a b-tagged AK4 jet not overlapping with the CA15 jet, as summarized in Table~\ref{tab:event_selection}. For the SR, events are selected if they have no isolated muons (electrons) with $\pt >10\GeV$ and $|\eta|< 2.4$ (2.5). The previously described double-b tag requirement on the Higgs boson candidate CA15 jet is imposed.
+Events are selected online by requiring large values of $p_\text{T,trig}^\text{miss}$ or $H_{\text{T}}^{\text{miss}}$ (between 90 and 120\GeV, depending on the data-taking period), where $p_\text{T,trig}^\text{miss}$  ($H_{\text{T}}^{\text{miss}}$) is the magnitude of the vectorial sum of $\vec{p}_\text{T}$ of all the particles (jets with $\pt>20\GeV$) at the trigger level. Muon candidates are excluded from the online $p_\text{T,trig}^\text{miss}$ calculation.
 
 %The single- or dielectron CRs are populated with events selected by requiring high-\pt electrons.
 
@@ -41,44 +35,42 @@ Events are selected online by requiring large values of $p_\text{T,trig}^\text{m
 
 %The different CRs defined in Table~\ref{tab:event_selection} are used to control the three main background processes.  Since the hadronic recoil $U$ is computed removing the muon(s) or the electron(s) from the \MET calculation, its distribution can be used as a proxy to model the \MET distribution in the SR. 
 %Both the normalization and the shape of the \ttbar, Z+jets, and W+jets background processes are constrained by transfer factors from the CRs to the SR estimated in bins of $U$. These transfer factors correlate the same bins across all regions and are allowed to vary within uncertainties.% as described in Section~\ref{sec:systematics}.
-To estimate the number of Z+jets events in the signal region, dimuon and dielectron CRs are used.
+To predict the \MET spectrum of the Z+jets process in the signal region, dimuon and dielectron CRs are used.
 Dimuon events are selected online employing the same \MET triggers that are used in the SR.
 These events are required to have two oppositely charged muons (having
-\pt greater than $20\GeV$ and $10\GeV$ for the leading and trailing
+\pt $>$ $20\GeV$ and \pt $>$ $10\GeV$ for the leading and trailing
 muon, respectively), with an invariant mass between 60\GeV and 120\GeV.
-The leading muon has to satisfy tight identification and isolation requirements that result in an average efficiency of 95\%.
+The leading muon has to satisfy tight identification and isolation requirements that result in an efficiency of 95\%.
 Dielectron events are selected online using single-electron triggers. %, which have a \pt threshold of $27\GeV$.
 Two oppositely charged electrons with \pt greater than $10\GeV$ are required offline, and they must form an invariant mass between 60\GeV and 120\GeV.
-To be on the plateau of the trigger efficiency, at least one of the two electrons must have $\pt>40\GeV$, and it has to satisfy tight identification and isolation requirements that correspond to an average efficiency of 70\%.
+To be on the plateau of the trigger efficiency, at least one of the two electrons must have $\pt>40\GeV$, and it has to satisfy tight identification and isolation requirements that correspond to an efficiency of 70\%.
 
-Events that enter the signal selection due to the loss of a single lepton primarily arise from W+jets and semileptonic \ttbar events.
-To estimate these backgrounds, four single-lepton samples are used: single-muon and single-electron, with or without a b-tagged AK4 jet outside the CA15 jet.
+Events that satisfy the SR selection due to the loss of a single lepton primarily originate from W+jets and semileptonic \ttbar events.
+To predict these backgrounds, four single-lepton samples are used: single-muon and single-electron, with or without a b-tagged AK4 jet outside the CA15 jet.
 The single-lepton CRs with a b-tagged AK4 jet target \ttbar events, while the anti-b-tagged single-lepton CRs target W+jets events.
-Single-muon events are selected using the \MET trigger.
-The electron (muon) candidate in these events is required to have \pt greater than 40\GeV (20\GeV) and has to satisfy tight identification and isolation requirements.
+Single muon events are selected using the \MET trigger.
+The electron (muon) candidate in these events is required to have \pt $>$ 40\GeV (20\GeV) and has to satisfy tight identification and isolation requirements.
 In addition, samples with a single electron need to have $\ptmiss>50\GeV$ to avoid a large contamination with multijet events.
 
 %With the exception of b tagging, all other selection requirements used for signal events are imposed, using $U$ instead of \ptmiss.
 %In the anti-b-tagged single muon CR, the b tagging requirement is reversed.
 
 Each CR is split into two subsamples depending on whether or
-not they satisfy the double-b tag requirement imposed to define the SR. This allows for an in situ calibration of the scale factor that corrects the misidentification probability of the double-b tagger for the three main backgrounds to the one observed in data. 
-
-The selection criteria are summarized in Table~\ref{tab:event_selection}.
+not they satisfy the double-b tag requirement imposed to define the SR. This allows for an in situ calibration of the scale factor that corrects the misidentification probability of the double-b tagger for the three main backgrounds obtained from simulation to the one observed in data. 
 
 \section{Signal extraction}
 
-Signal and background contributions to the data are extracted with a simultaneous binned likelihood fit (using the ROOStat package~\cite{roostats}) to the \MET and $U$ spectra in the SR and the CRs.
+Signal and background contributions to the data are extracted with a simultaneous binned likelihood fit (using the ROOStat package~\cite{roostats}) to the \MET and $U$ distributions in the SR and the CRs.
 %
-The dominant SM process in each CR is used to estimate the respective background in the SR via transfer factors $T$. They are determined in simulation and are given by the ratio of the prediction for \ptmiss in the SR and the $U$ prediction in the CR for the given process.
+The dominant SM process in each CR is used to predict the respective background in the SR via transfer factors $T$. They are determined in simulation and are given by the ratio of the prediction for \ptmiss in the SR and the $U$ prediction in the CR for the given process. This ratio is determined independently for each bin of the corresponding distribution.
   
-If $b\ell$ denotes the \ttbar~process in the b-tagged single-lepton control sample that is used to estimate the \ttbar contribution in the SR, the expected number of \ttbar events, $N_{i}$, in the $i^\text{th}$ bin of the SR is then given by $N_{i}= \mu^{\ttbar}_{i}/T^{b\ell}_{i}$, where  $\mu^{\ttbar}_i$ is a freely floating parameter included in the likelihood to scale the \ttbar contribution in bin $i$ of $U$ in the CR.
+For example, if $b\ell$ denotes the \ttbar~process in the b-tagged single-lepton control sample that is used to estimate the \ttbar contribution in the SR, the expected number of \ttbar events, $N_{i}$, in the $i^\text{th}$ bin of the SR is then given by $N_{i}= \mu^{\ttbar}_{i}/T^{b\ell}_{i}$, where  $\mu^{\ttbar}_i$ is a freely floating parameter included in the likelihood to scale the \ttbar contribution in bin $i$ of $U$ in the CR.
 
-The transfer factors $T^{\ell}$ and $T^{b\ell}$, used to constrain the W+jets and the \ttbar background, respectively, take into account the impact of lepton acceptances and efficiencies, the b tagging efficiency, and, for the single-electron control samples, the additional requirement on \MET.
+The transfer factors used to predict the W+jets and the \ttbar background take into account the impact of lepton acceptances and efficiencies, the b tagging efficiency, and, for the single-electron control samples, the additional requirement on \MET.
 %This transfer factor explicitly includes hadronic tau leptons that fail the hadronic tau lepton identification criteria, which account for roughly 20-80\% of the total W+jets background in the high recoil region.  differences in \ptmiss trigger efficiencies observed between single-muon and dimuon events,
 Since the anti-b-tagged CR with a double-b tag also has a significant contribution from the \ttbar process,  transfer factors to constrain \ttbar are also imposed between the b-tagged and anti-b-tagged single-lepton CRs.
 %This allows for an estimation of the \ttbar contribution in the signal region to be made from W+jets CRs to be made from the b-tagged CR. 
 A similar constraint is imposed to estimate the contamination from W+jets production in the \ttbar CR with events that fail the double-b tag requirement. 
-Likewise, the Z+jets background prediction in the signal region is connected to the dimuon and dielectron CRs through transfer factors, $T^{\ell\ell}$.
+Likewise, the Z+jets background prediction in the signal region is connected to the dimuon and dielectron CRs through transfer factors.
 They account for the difference in the branching fractions of $\mathrm{Z}\rightarrow \nu\nu$~and $\mathrm{Z}\rightarrow \ell\ell$ decays and the impacts of lepton acceptances and selection efficiencies.
 
