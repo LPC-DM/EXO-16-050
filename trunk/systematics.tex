@@ -1,84 +1,81 @@
-.\section{Systematic uncertainties}
+\section{Systematic uncertainties}
 
- Nuisance parameters are introduced into the likelihood fit to represent the systematic uncertainties of the search. They can either affect the rate or  the shape of \ptmiss ($U$) for a given process in the SR (CRs) and can be constrained in the fit. Shape uncertainties are incorporated by means of a prior Gaussian distribution, while rate uncertainties are given a prior log-normal distribution. A summary of systematic uncertainties is presented in Table~\ref{tab:systs}.
-
+Nuisance parameters are introduced into the likelihood fit to represent the systematic uncertainties of the search. They can either affect the rate or  the shape of \ptmiss ($U$) for a given process in the SR (CRs) and can be constrained in the fit. Shape uncertainties are incorporated by means of a prior Gaussian distribution, while rate uncertainties are given a prior log-normal distribution. The list of the systematic uncertainties considered in this search is presented in Table~\ref{tab:systs}. To better estimate their impact on the results, uncertainties from a similar source (i.e. uncertainties in the trigger efficiencies) have been grouped. The groups of uncertainties have been ordered in decreasing improvement in the expected limit obtained when removing the group from the list of nuisances included in the likelihood fit. The description of each single uncertainity in the text follows the same order.
 
 \begin{table}\footnotesize
-\begin{center}
-  \caption{Systematic uncertainties, along with the type (rate/shape) of uncertainty and the affected processes. For the rate uncertainties, the percentage effect on the rate is quoted.}
-\begin{tabular}{l r r}
-  \hline\hline
-Systematic uncertainty & Type & Processes \\
-\hline
-double-b tagging & rate/shape & Z+jets, W+jets, \ttbar, SM h, signal\\
-heavy flavor fraction & 4, 5\% & W+jets, Z+jets, respectively\\
-\ptmiss~trigger efficiency & 1\% & all \\
-single-electron trigger & 1\% & all \\
-lepton efficiency & 1\% per lepton & all \\
-$\tau$ lepton veto & 3\% & all \\
-%AK4 b tagging & shape & all \\
-\ptmiss~trigger muon multiplicity & shape & \ttbar, Z+jets, W+jets \\
-theoretical cross section & 20\% & t, diboson\\
-multijet normalization & 100\% & multijet \\
-\ptmiss magnitude & 5\% & all \\
-CA15 jet energy & 4\% & t, diboson, multijet, SM h, signal \\
-$N_2^\text{DDT}$ efficiency & 7\% & diboson, SM h, signal \\
-luminosity & 2.5\% & t, diboson, multijet, SM h, signal \\
-bin-by-bin statistics & shape & \ttbar, Z+jets, W+jets \\
-\hline\hline
-  \end{tabular}
-\label{tab:systs}
-\end{center}
+  \begin{center}
+    \caption{Systematic uncertainties, along with the type (rate/shape)
+      of uncertainty and the affected processes. For the rate uncertainties,
+      the percentage value of the prior is quoted. The last column denotes the improvement in the expected limit  when
+      removing the uncertainty group from the list of nuisances included
+      in the likelihood fit. The 2HDM+a model with $m_\text{A}=1.1\TeV$ and $m_\text{a}=150\GeV$ (with
+      $\sin\theta=0.35$ and $\tan\beta=1$) has been used in the derivation of
+      these numbers.}
+    \begin{tabular}{l r r r}
+      \hline\hline
+      Systematic uncertainty & Type & Processes & Impact on sensitivity\\
+%      \hline
+      double-b mistagging & shape & Z+jets, W+jets, \ttbar & 4.8\%\\
+%      \hline
+      double-b tagging & shape & SM h, signal & \multirow{ 2}{*}{1.9\%}\\
+      $N_2^\text{DDT}$ efficiency & 7\% & diboson, SM h, signal \\
+%      \hline
+      statistical uncertainty & shape & Z+jets, W+jets, \ttbar & 1.2\% \\
+%      \hline
+      CA15 jet energy & 4\% & t, diboson, multijet, SM h, signal  & 0.8\%\\
+%      \hline
+      \ptmiss magnitude & 5\% & all & 0.7\%\\
+%      \hline
+      luminosity & 2.5\% & t, diboson, multijet, SM h, signal &$<0.5\%$\\
+%      \hline
+      \ptmiss~trigger muon multiplicity & shape & Z+jets, W+jets&\multirow{3}{*}{$<0.5\%$}\\
+      \ptmiss~trigger efficiency & 1\% & all \\
+      single-electron trigger & 1\% & all \\
+%      \hline
+      AK4 b tagging & shape & all & $<0.5\%$\\
+%      \hline
+      $\tau$ lepton veto & 3\% & all &\multirow{2}{*}{$<0.5\%$}\\
+      lepton efficiency & 1\% per leg & all \\
+%      \hline
+      heavy flavor fraction & 4-5\% & Z+jets, W+jets & $<0.5\%$\\
+%      \hline
+      QCD scales & shape & SM h &\multirow{4}{*}{$<0.5\%$}\\
+      PDF & shape & SM h \\
+      multijet normalization & 100\% & multijet \\
+      theoretical cross section & 20\% & t, diboson\\
+      \hline\hline
+    \end{tabular}
+    \label{tab:systs}
+  \end{center}
 \end{table}
 
-Scale factors are used to correct for differences in the double-b tagger misidentification efficiencies between data and prediction from simulation for W/Z+jets production and for \ttbar production. These scale factors affect only the overall rates of the respective processes, and they are measured directly in the fit by simultaneously fitting events that pass or fail the double-b tag requirement. The uncertainties on the scale factor measurements are the one with the largest impact on the measurement. To take into account the variation of the double-b tagging efficiency
-introduced by the uncertainty in the heavy flavor fraction of W/Z+jets
-events, the efficiencies are reevaluated after varying the heavy
-flavor component in the simulation. The difference in the efficiency with respect to the nominal efficiency value is taken as a systematic uncertainty.
-The correlation between the double-b tagger and the \ptmiss (or $U$) introduces a shape uncertainty in the transfer factors from the CRs with events that satisfy the inverted double-b tag criterion. This shape uncertainty is anchored at the first bin where the magnitude of the uncertainty is 0\%, and increases to 8\% in the last hadronic recoil bin. These numbers are extrapolated reflecting the level of correlation between the tagger and the \ptmiss/$U$, estimated by fitting the profile of the two-dimensional distribution double-b-vs-\ptmiss/$U$.
-For the signal and the SM h processes, an uncertainty in the double-b tagging efficiency is applied that is 3\% for a CA15 jet with $\pt<350\GeV$, 4\% for the intermediate \pt~regime, and 8\% for $\pt>800$\GeV. These numbers have been derived through a measurement performed in a sample enriched in multijet events with double-muon-tagged $\text{g}\to\text{b}\bar{\text{b}}$ splittings. 
+Scale factors are used to correct for differences in the double-b tagger misidentification efficiencies between data and prediction from simulation for W/Z+jets production and for \ttbar production. These scale factors are measured by simultaneously fitting events that pass or fail the double-b tag requirement. The correlation between the double-b tagger and the \ptmiss (or $U$) is taken into account in the scale factor measurement by allowing recoil bins to fluctuate independently from each other within a constrain that depends on the recoil value. Such dependence is estimated from the profile of the two-dimensional distribution double-b-vs-\ptmiss/$U$. This shape uncertainty in the double-b scale factors measurement is the one with the largest impact on the limits on the signal cross section.
 
-An uncertainty of $21\%$ in the heavy flavor fraction of
-W+jets is reported in previous CMS measurements~\cite{Khachatryan:2014uva,Chatrchyan:2013uza}. Similarly, the uncertainty on the Z+heavy flavor fraction is measured to be $22\%$~\cite{Khachatryan:2014zya,Chatrchyan:2014dha}. Depending on the b tagging requirement, the uncertainty on the heavy flavor fraction on such processes determines an uncertainty on the overall rate (the sum of heavy and light flavor components) for both W and Z+jets. To account for this effect, a flat $4\%$ is assigned to the W+jets process, while a flat $5\%$ is assigned to the Z+jets process. They are included as rate uncertainties, correlated across all regions defined by the same b tagging requirement and anti-correleted across all regions defined by inverting it.
+For the signal and the SM h processes, an uncertainty in the double-b tagging efficiency is applied that is 3\% for a CA15 jet with $\pt<350\GeV$, 4\% for the intermediate \pt~regime, and 8\% for $\pt>800$\GeV. These numbers have been derived through a measurement performed in a sample enriched in multijet events with double-muon-tagged $\text{g}\to\text{b}\bar{\text{b}}$ splittings. A 7\% rate uncertainty in the efficiency of the substructure variable $N_2^\text{DDT}$ to identify two-prong CA15 jets is assigned to all processes where the decay of a resonance inside the CA15 jet cone is expected. Such processes include signal production together with SM h and diboson production. The uncertainty has been derived from the efficiency measurement obtained by performing a fit in a control sample enriched in semi-leptonic \ttbar events, where the CA15 jet originates from the W boson that comes from the hadronically decaying top quark. 
 
-The \ptmiss trigger efficiency is parametrized as a function of $p_\text{T,trig}^\text{miss}$. The uncertainty in its measurement is a flat 1\% and is included in the fit as a rate uncertainty.
-The efficiencies of the single-electron triggers are parametrized as a
-function of the electron \pt and an associated flat 1\% systematic uncertainty is added into the fit.
+%affect only the overall rates of the respective processes, and they.  The correlation between the double-b tagger and the \ptmiss (or $U$) introduces a shape uncertainty in the transfer factors from the CRs with events that satisfy the inverted double-b tag criterion. This shape uncertainty is anchored at the first bin where the magnitude of the uncertainty is 0\%, and increases to 8\% in the last hadronic recoil bin. These numbers are extrapolated reflecting the level of correlation between the tagger and the \ptmiss/$U$, estimated by fitting the profile of the two-dimensional distribution double-b-vs-\ptmiss/$U$. The uncertainties on the scale factor measurements are the one with the largest impact on the overall uncertainty in the limits on the signal cross section.
 
-Uncertainties in the selection efficiencies per selected muon or electron amount to $1\%$, correlated across all $U$ bins.
+A shape uncertainty is considered for all the processes predicted with data in CRs obtained by introducing nuisance parameters corresponding to bin-by-bin statistical uncertainties on the transfer factors.
 
-Correlated across all $U$ bins is also the uncertainty in the $\tau$ lepton veto, that amounts to a flat $3\%$.
+A 4\% rate uncertainty due to the imperfect knowledge of the CA15 jet energy scale~\cite{jec} is assiged to the backgrounds obtained from simulation.
 
-The transfer factors are affected by uncertainties in the efficiencies
-of lepton identification.  For example, differences on the order of
-2\% in \MET trigger efficiencies are observed between single-muon and
-dimuon events at lower $U$ values and represent an additional
-systematic uncertainty in the transfer factors for those processes whose prediction relies on data events in the single-muon and
-dimuon CRs (\ttbar, W+jets, and Z+jets production). As these uncertainties depend on the momentum of the identified lepton they can change the shape of the $U$ distribution and are thus treated as shape uncertainties.
-
-A systematic uncertainty of $20\%$ is assigned to the single top quark background yields~\cite{Chatrchyan:1642680} and is correlated between the SR and the CRs. An uncertainty of $20\%$ is also assigned to the diboson production cross section~\cite{Khachatryan:2016txa,Khachatryan:2016tgp} and correlated across the SR and CRs.
-%
-
-Being a negligible background source, a conservative uncertainty of $100\%$ is assigned to the QCD multijet yield. This uncertainty is estimated using a sample enriched in multijet events. The sample is obtained by vetoing leptons and photons, by requiring $\ptmiss>250$\GeV, and that the minimum azimuthal angle between $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ and the jet directions to be less than $0.1$\,rad. One nuisance parameter represents the uncertainty in QCD multijet yields in the signal region, while separate nuisance parameters are introduced for the muon CRs and for electron CRs.
-
-A flat 5\% rate uncertainty in \ptmiss is obtained following the standard CMS method~\cite{Khachatryan:2014gga} and is assigned to each processes estimated from simulation.
-
-Similarly, a flat 4\% rate uncertainty due to the imperfect knowledge of the CA15 jet energy scale~\cite{jec} is assiged to the backgrounds obtained from simulation.
-
-A 7\% rate uncertainty in the efficiency of the the substructure variable
-$N_2^\text{DDT}$ to identify two-prong CA15 jets is assigned to all processes where the decay of a resonance inside the CA15 jet cone is expected. Such processes include signal production together with SM h and diboson production.  
-The uncertainty has been derived from the efficiency measurement obtained by performing a fit in a control sample
-enriched in semi-leptonic \ttbar events, where the CA15 jet originates
-from the W boson that comes from the hadronically decaying top quark. 
-%
+Similarly, a 5\% rate uncertainty in \ptmiss magnitude, as measured by CMS in~\cite{Khachatryan:2014gga}, is assigned to each processes estimated from simulation.
 
 A rate uncertainty of 2.5\% in the luminosity measurement~\cite{CMS-PAS-LUM-17-001} is included and assigned to processes determined from simulation. In these cases, appropriate QCD scale and PDF uncertainties are also applied.
-%
 
-A shape uncertainty is considered for all the processes predicted with data in CRs obtained by introducing nuisance parameters corresponding to bin-by-bin statistical uncertainties on the transfer factors. 
-%
+The $p_\text{T,trig}^\text{miss}$ trigger efficiencies are affected by uncertainties in the muon multiplicity.  Differences on the order of 2\% are observed between single-muon and dimuon events at lower $U$ values and they are source of an additional systematic uncertainty in the transfer factors for those processes whose prediction relies on data events in the single-muon and
+dimuon CRs (\ttbar, W+jets, and Z+jets production). As these uncertainties depend on the momentum of the identified muon they can change the shape of the $U$ distribution and are thus treated as shape uncertainties. The $p_\text{T,trig}^\text{miss}$ trigger efficiency is parametrized as a function of \ptmiss. The uncertainty in its measurement is 1\% and is included in the fit as a rate uncertainty.
+The efficiencies of the single-electron triggers are parametrized as a function of the electron \pt and $\eta$ and an associated 1\% systematic uncertainty is added into the fit.
 
-Due to the similarity of selection requirements between the SR and CRs, uncertainties in the higher order NLO or EW corrections, or in the PDF, cancel out when building the ratio of yields predicted in the SR and the corresponding CR.
+An uncertainty on the efficiency of the CSV b-tagging algorithm applied to isolated AK4 jets is applied to the tranfer factors used to predict the \ttbar background. The scale factors that correct such efficiency are measured with standard CMS methods~\cite{Sirunyan:2017ezt}. They depend on the \pt and $\eta$ of the b-tagged (or mis-tagged) jet and therefore their uncertainties are included in the fit as shape uncertainties.
+
+The uncertainty in the $\tau$ lepton veto amounts to $3\%$, correlated across all $U$ bins. Correlated across all $U$ bins are also the uncertainties in the selection efficiencies per selected muon or electron, that amount to $1\%$.
+
+An uncertainty of $21\%$ in the heavy flavor fraction of W+jets is reported in previous CMS measurements~\cite{Khachatryan:2014uva,Chatrchyan:2013uza}. The uncertainty in the heavy flavor fraction of the Z+jets process is measured to be $22\%$~\cite{Khachatryan:2014zya,Chatrchyan:2014dha}. To take into account the variation of the double-b tagging efficiency introduced by such uncertainties, the efficiencies for the W+jets and Z+jets processes are reevaluated after varying the heavy flavor component in the simulation. The difference in the efficiency with respect to the nominal efficiency value is taken as a systematic uncertainty of $4\%$ in the rate of the W+jets process and of $5\%$ in the rate of the Z+jets process. 
+
+Uncertainties in the QCD scale and PDF variations for the SM h production are included as shape variations. Being a negligible background source, a conservative uncertainty of $100\%$ is assigned to the QCD multijet yield. This uncertainty is estimated using a sample enriched in multijet events. The sample is obtained by vetoing leptons and photons, by requiring $\ptmiss>250$\GeV, and that the minimum azimuthal angle between $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ and the jet directions to be less than $0.1$\,rad. One nuisance parameter represents the uncertainty in QCD multijet yields in the signal region, while separate nuisance parameters are introduced for the muon CRs and for electron CRs. A systematic uncertainty of $20\%$ is assigned to the single top quark background yields as reported by CMS in~\cite{Chatrchyan:1642680} and is correlated between the SR and the CRs. An uncertainty of $20\%$ is also assigned to the diboson production cross section as measured by CMS in~\cite{Khachatryan:2016txa,Khachatryan:2016tgp} and correlated across the SR and CRs.
+
+%Due to the similarity of selection requirements between the SR and CRs, uncertainties in the higher order NLO or EW corrections, or in the PDF, cancel out when building the ratio of yields predicted in the SR and the corresponding CR.
 
 %Unlike the uncertainties described above, uncertainties on the signal predictions from QCD scale and PDF variations are not propagated as nuisance parameters. Instead, they are treated as uncertainties in the inclusive signal cross section. Due to the imperfect knowledge of PDFs at higher $x$, where $x$ is the momentum fraction carried by the partons participating in the hard interaction, the uncertainties increase with the mass of the final state and range from 4\% to 20\%.
 
