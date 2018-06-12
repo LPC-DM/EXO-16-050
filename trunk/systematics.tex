@@ -15,30 +15,41 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
       \hline\hline
       Systematic uncertainty & Type & Processes & Impact on sensitivity\\
 %      \hline
+      \smallskip
       double-b mistagging & shape & Z+jets, W+jets, \ttbar & 4.8\%\\
 %      \hline
-      double-b tagging & shape & SM h, signal & \multirow{ 2}{*}{1.9\%}\\
+      \smallskip
+      statistical uncertainty & shape & Z+jets, W+jets, \ttbar & 1.9\% \\
+%      \hline
+      \smallskip
+      double-b tagging & shape & SM h, signal & \multirow{ 2}{*}{1.2\%}\\
       $N_2^\text{DDT}$ efficiency & 7\% & diboson, SM h, signal \\
 %      \hline
-      statistical uncertainty & shape & Z+jets, W+jets, \ttbar & 1.2\% \\
-%      \hline
+      \smallskip
       CA15 jet energy & 4\% & t, diboson, multijet, SM h, signal  & 0.8\%\\
 %      \hline
+      \smallskip
       \ptmiss magnitude & 5\% & all & 0.7\%\\
 %      \hline
+      \smallskip
       luminosity & 2.5\% & t, diboson, multijet, SM h, signal &$<0.5\%$\\
 %      \hline
+      \smallskip
       \ptmiss~trigger muon multiplicity & shape & Z+jets, W+jets&\multirow{3}{*}{$<0.5\%$}\\
       \ptmiss~trigger efficiency & 1\% & all \\
       single-electron trigger & 1\% & all \\
 %      \hline
+      \smallskip
       AK4 b tagging & shape & all & $<0.5\%$\\
 %      \hline
+      \smallskip
       $\tau$ lepton veto & 3\% & all &\multirow{2}{*}{$<0.5\%$}\\
       lepton efficiency & 1\% per leg & all \\
 %      \hline
+      \smallskip
       heavy flavor fraction & 4-5\% & Z+jets, W+jets & $<0.5\%$\\
 %      \hline
+      \smallskip
       QCD scales & shape & SM h &\multirow{4}{*}{$<0.5\%$}\\
       PDF & shape & SM h \\
       multijet normalization & 100\% & multijet \\
@@ -51,11 +62,11 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
 
 Scale factors are used to correct for differences in the double-b tagger misidentification efficiencies between data and prediction from simulation for W/Z+jets production and for \ttbar production. These scale factors are measured by simultaneously fitting events that pass or fail the double-b tag requirement. The correlation between the double-b tagger and the \ptmiss (or $U$) is taken into account in the scale factor measurement by allowing recoil bins to fluctuate independently from each other within a constrain that depends on the recoil value. Such dependence is estimated from the profile of the two-dimensional distribution double-b-vs-\ptmiss/$U$. This shape uncertainty in the double-b scale factors measurement is the one with the largest impact on the limits on the signal cross section.
 
+A shape uncertainty due to bin-by-bin statistical uncertainties on the transfer factors is considered for all the processes predicted with data in CRs.
+
 For the signal and the SM h processes, an uncertainty in the double-b tagging efficiency is applied that depends on the \pt of the CA15 jet. This shape uncertainty has been derived through a measurement performed in a sample enriched in multijet events with double-muon-tagged $\text{g}\to\text{b}\bar{\text{b}}$ splittings. A 7\% rate uncertainty in the efficiency of the substructure variable $N_2^\text{DDT}$ to identify two-prong CA15 jets is assigned to all processes where the decay of a resonance inside the CA15 jet cone is expected. Such processes include signal production together with SM h and diboson production. The uncertainty has been derived from the efficiency measurement obtained by performing a fit in a control sample enriched in semi-leptonic \ttbar events, where the CA15 jet originates from the W boson that comes from the hadronically decaying top quark. 
 
 %affect only the overall rates of the respective processes, and they.  The correlation between the double-b tagger and the \ptmiss (or $U$) introduces a shape uncertainty in the transfer factors from the CRs with events that satisfy the inverted double-b tag criterion. This shape uncertainty is anchored at the first bin where the magnitude of the uncertainty is 0\%, and increases to 8\% in the last hadronic recoil bin. These numbers are extrapolated reflecting the level of correlation between the tagger and the \ptmiss/$U$, estimated by fitting the profile of the two-dimensional distribution double-b-vs-\ptmiss/$U$. The uncertainties on the scale factor measurements are the one with the largest impact on the overall uncertainty in the limits on the signal cross section.
-
-A shape uncertainty due to bin-by-bin statistical uncertainties on the transfer factors is considered for all the processes predicted with data in CRs.
 
 A 4\% rate uncertainty due to the imperfect knowledge of the CA15 jet energy scale~\cite{jec} is assiged to the backgrounds obtained from simulation.
 
