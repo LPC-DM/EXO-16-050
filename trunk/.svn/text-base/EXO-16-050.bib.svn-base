@@ -2473,10 +2473,12 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
       title          = "{Identification of heavy-flavour jets with the CMS
                         detector in pp collisions at 13 TeV}",
       collaboration  = "CMS",
-      journal        = "Submitted to JINST",
-      year           = "2017",
-      eprint         = "1712.07158",
-      archivePrefix  = "arXiv",
+      journal        = "JINST",
+      volume         = "13",
+      year           = "2018",
+      pages          = "05011",
+%      eprint         = "1712.07158",
+%      archivePrefix  = "arXiv",
       primaryClass   = "physics.ins-det",
       reportNumber   = "CMS-BTV-16-002, CERN-EP-2017-326",
       SLACcitation   = "%%CITATION = ARXIV:1712.07158;%%"

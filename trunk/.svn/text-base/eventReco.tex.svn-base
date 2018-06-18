@@ -11,20 +11,29 @@
 
 \section{Event reconstruction}
 
-At large Lorentz boosts, the two daughter b quarks of the Higgs boson may produce jets that overlap and make their individual reconstruction difficult. In this search, large-cone-radius jets clustered from particle-flow (PF) \cite{Sirunyan:2017ulk} candidates using the Cambridge-Aachen algorithm~\cite{cajets} with a distance parameter of $1.5$ (CA15 jets) are utilized to identify the Higgs boson candidate.  The large cone size is chosen in order to be more sensitive to regimes characterized by a medium boost.
+The particle-flow (PF) \cite{Sirunyan:2017ulk} algorithm is used to reconstruct all the physics objects described in this Section. At large Lorentz boosts, the two b quarks from the Higgs boson decay may produce jets that overlap and make their individual reconstruction difficult. In this search, large-cone-radius jets clustered from PF candidates using the Cambridge-Aachen algorithm~\cite{cajets} with a distance parameter of $1.5$ (CA15 jets) are utilized to identify the Higgs boson candidate.  The large cone size is chosen in order to include events characterized by the presence of Higgs bosons with medium boost ($p_T$ of the order of 200 GeV).
 To reduce the impact of particles arising from pileup interactions,  the four-vector of each PF candidate is scaled with a weight calculated with the PileUp Per Particle Identification algorithm~\cite{puppi} prior to the clustering.
 The absolute jet energy scale is corrected using calibrations derived from data~\cite{jec}.
-The ``soft drop'' jet-grooming algorithm~\cite{msd} is applied to the jets to remove the wide-angle initial state radiation and soft radiation emerging from the underlying event. We refer to the mass of the groomed CA15 jet as $m_\text{SD}$ in the following. 
+The ``soft drop'' jet-grooming algorithm~\cite{msd} is applied to the jets to remove the wide-angle initial state radiation and soft radiation emerging from the underlying event. We refer to the mass of the groomed CA15 jet as $m_\text{SD}$. 
 
-The ability to identify two b quarks inside the same CA15 jet is crucial for this search. A likelihood for the CA15 jet to contain two b quarks is derived combining the information from primary and secondary vertices and tracks in a multivariate discriminant optimized to distinguish the Higgs to \bb decays from CA15 jets originating from energetic quarks or gluons~\cite{doubleb}.
+The ability to identify two b quarks inside a single CA15 jet is
+crucial for this search. A likelihood for the CA15 jet to contain two
+b quarks is derived by combining the information from primary and secondary vertices and tracks in a multivariate discriminant optimized to distinguish the Higgs to \bb decays from CA15 jets originating from energetic quarks or gluons~\cite{doubleb}.
 %The chosen working point of double b-tagger ($>$ 0.75) corresponds to the same background efficiency of the medium 
 %working point of minimum of the CSV score of subjets. 
-The working point chosen for this algorithm (the ``double-b tagger'') corresponds to a \bb identification efficiency of 50-65\%, depending on the \pt of the \bb system, and a probability of about 10-13\% for misidentifying CA15 jets originating from other combinations of quarks or gluons. These numbers have been determined in simulation samples with at least one reconstructed CA15 jet with $\pt>200$\GeV and an otherwise inclusive selection. 
+The working point chosen for this algorithm (the ``double-b tagger’’)
+corresponds to an identification efficiency of 50\% for a \bb system
+with a \pt of 200 GeV, and a probability of about 10-13\% for
+misidentifying CA15 jets originating from other combinations of quarks
+or gluons. The efficiency of the algorithm increases with \bb \pt.
+
+%These numbers have been determined in simulation samples with at least one reconstructed CA15 jet with $\pt>200$\GeV and an otherwise inclusive selection. 
 
 Energy correlation functions are used to identify the two-prong
 structure in the CA15 jet expected from a Higgs boson decay to two b
 quarks. The energy correlation functions are sensitive to correlations among the constituents
-of CA15 jets (the PF candidates)~\cite{ecf}. They are defined as $N$-point correlation functions ($e_N$) of the constituents' momenta, weighted by the angular separation of the constituents. Discriminating variables are constructed by using ratios of these functions.
+of CA15 jets (the PF candidates)~\cite{ecf}. They are defined as $N$-point correlation functions ($e_N$) of the constituents' momenta, weighted by the angular separation of the constituents.
+%Discriminating variables are constructed by using ratios of these functions.
 %\begin{linenomath}
 %\begin{equation}
 %  \frac{_ae_N^\alpha}{(_be_M^\beta)^x}, \text{ where $M\leq N$ and $x= \frac{a\alpha}{b\beta}$}.
@@ -39,8 +48,7 @@ of CA15 jets (the PF candidates)~\cite{ecf}. They are defined as $N$-point corre
 As motivated in Ref.~\cite{ecf}, the ratio $N_2 =
 e_3^{(\beta)}/(e_2^{(\beta)})^2$ is proposed as a two-prong tagger for
 the identification of the CA15 jet containing the Higgs boson decay
-products; the parameter $\beta$, which controls the weighting of the
-pairwise angles between two constituents in the computation of
+products; the parameter $\beta$, which controls the weighting of the angles between constituent pairs in the computation of
 the $N_2$ variable, is chosen to be 1.0. 
 
 %\begin{equation}
@@ -51,10 +59,10 @@ the $N_2$ variable, is chosen to be 1.0.
 
 It is noted that requiring a jet to be two-pronged by using a variable
 such as $N_2$ will affect the shape of the distribution of $m_\text{SD}$ for the
-background processes. To improve the rejection of QCD-like jets (i.e., jets that
-do not originate from a heavy resonance decay) via a requirement on
-$m_\text{SD}$, it is desirable to preserve a smoothly falling jet mass
-distribution  as a function of \pt. It is therefore natural to test
+background processes. In this search the value of $m_\text{SD}$ is required to be consistent with the Higgs boson mass.
+To improve the rejection of QCD-like jets (i.e., jets that
+do not originate from a heavy resonance decay), it is therefore desirable to preserve a smoothly falling jet mass
+distribution  as a function of \pt. It is natural to test
 the stability of $N_2$ against the variable
 $\rho=\log(m_{\text{SD}}^2/\pt^2)$, as explained in
 Ref.~\cite{ddt}. Since the jet mass distribution for QCD multijet
@@ -68,22 +76,25 @@ variable, which we denote as $N_2^\text{DDT}$.
 
 This search also utilizes narrow jets clustered
 with the anti-$\kt$ algorithm~\cite{Cacciari:2008gp}, with a distance
-parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are identified using the combined secondary vertex (CSV) algorithm \cite{Sirunyan:2017ezt, BTV-paper-2012-001}. The working point used in this search has a b jet identification efficiency of 81\%, a charm jet selection efficiency of 37\%, and a 9\% probability of misidentifying light-flavor jets~\cite{Sirunyan:2017ezt}. Jets that are b-tagged are required to be central ($|\eta|<2.5$).
+parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are identified using the combined secondary vertex (CSV) algorithm \cite{Sirunyan:2017ezt, BTV-paper-2012-001}. The working point used in this search has a b jet identification efficiency of 81\%, a charm jet selection efficiency of 37\%, and a 9\% probability of misidentifying light-flavor jets~\cite{Sirunyan:2017ezt}. Jets that are b-tagged are required to be central ($|\eta|<2.4$).
 %%An event with any additional narrow jet passing the loose b tagging requirement is vetoed to reduce the number of events containing top quarks. 
 
 Electron reconstruction requires the matching of a supercluster in the ECAL with a track in the silicon tracker.
-Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape, matching between the track and the ECAL cluster, and consistency with the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the region $1.4442<|\eta|<1.5660$ without detector instrumentation. Muons are reconstructed by combining two complementary algorithms \cite{CMSMuonJINST}:
- one in which tracks in the silicon tracker are matched to a track segment in the muon detector, and another in which a global track fit is performed, seeded by the muon track segment.  
+Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape, the matching between the track and the ECAL cluster, and the consistency with originating from the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the uninstrumented region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons are reconstructed by combining two complementary algorithms \cite{CMSMuonJINST}:
+ one in which tracks in the silicon tracker are matched to a track
+ segment in the muon detector, and another in which a track
+ fit spanning the silicon tracker and muon detector is performed
+ starting with track segments in the muon detector.  
 Further identification criteria are imposed on muon candidates to reduce the number of misidentified hadrons and poorly measured mesons tagged as muons. 
 These additional criteria include requirements on the number of hits in the tracker and in the muon systems, the fit quality of the global muon track, and its consistency with the primary vertex.
 Muon candidates with $|\eta|< 2.4$ are considered in this analysis. 
-For both muon and electron candidates, the minimum \pt is required to be 10\GeV.
+For both muon and electron candidates, the minimum \pt is required to be 10\GeV. Isolation is required for both the objects.
 Hadronically decaying $\tau$ leptons, $\tau_\mathrm{h}$, are reconstructed using the hadron-plus-strips
-  algorithm~\cite{CMSTauJINST}, which uses the charged-hadron and neutral-electromagnetic objects 
+  algorithm~\cite{CMSTauJINST}, which uses the charged hadron and neutral electromagnetic objects 
 to reconstruct intermediate resonances into which the $\tau$ lepton decays. The $\tau_\mathrm{h}$
-candidates with $\pt>18\GeV$ and $|\eta|< 2.3$ are considered~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}. Photon candidates, which are identified by means of requirements on the ECAL energy distribution and its distance to the closest track,  must have $\pt>15\GeV$. %We veto both $\tau_\mathrm{h}$ candidates and photon candidates in the search presented. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
+candidates with $\pt>18\GeV$ and $|\eta|< 2.3$ are considered~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}. Photon candidates, identified by means of requirements on the ECAL energy distribution and its distance to the closest track, must have $\pt>15\GeV$ and $|\eta|< 2.5$. %We veto both $\tau_\mathrm{h}$ candidates and photon candidates in the search presented. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
 
-The missing transverse momentum $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ is defined as the negative vectorial sum of the \pt of all the reconstructed particles. Its magnitude is denoted \MET. Corrections to jet momenta are further propagated to the \MET calculation~\cite{CMS-PAS-JME-16-004}. Event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by the instrumental noise in the calorimeters or beam halo muons. The filter efficiency on signal events is close to 99\%.
+The missing transverse momentum $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ is defined as the negative vectorial sum of the \pt of all the reconstructed particles. Its magnitude is denoted \MET. Corrections to jet momenta are propagated to the \MET calculation~\cite{CMS-PAS-JME-16-004}. Event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by instrumental noise in the calorimeters or beam halo muons. The filter removes about 1\% of signal events.
 
 %For the control regions involving lepton(s) in the final state, the hadronic recoil against the boson is computed by removing the \pt of the lepton(s) from the \MET computation. The recoil is given by: 
 %\begin{equation} 

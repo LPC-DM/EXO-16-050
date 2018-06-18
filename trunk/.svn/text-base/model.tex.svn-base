@@ -1,10 +1,11 @@
-Results are interpreted in terms of simplified models predicting mono-h signatures. The first is a Type-2 Two Higgs Doublet Model (2HDM) extended by an additional light pseudoscalar boson a (2HDM+a)~\cite{Bauer2017}, which mixes with the scalar and pseudoscalar partners of the SM Higgs boson and decays into two DM particles, $\chi$, $\bar{\chi}$. The second is a baryonic $\cPZpr$ model (Baryonic Z')~\cite{PhysRevD.89.075017} where a vector mediator $\cPZpr$ is exchanged in the s-channel, radiates a Higgs boson, and subsequently decays into two DM 
+Results are interpreted in terms two of simplified models predicting
+this signature. The first is a Type-2 Two Higgs Doublet Model (2HDM) extended by an additional light pseudoscalar boson a (2HDM+a)~\cite{Bauer2017}, which mixes with the scalar and pseudoscalar partners of the SM Higgs boson and decays into two DM particles, $\chi$, $\bar{\chi}$. The second is a baryonic $\cPZpr$ model (Baryonic Z')~\cite{PhysRevD.89.075017} where a vector mediator $\cPZpr$ is exchanged in the s-channel, radiates a Higgs boson, and subsequently decays into two DM 
 particles. Representative Feynman diagrams for the two models are presented in Fig.~\ref{feyns}.
 
 
-In the 2HDM+a model, the DM particle candidate $\chi$ is an SM singlet
+In the 2HDM+a model, the DM particle candidate $\chi$ is a SM singlet
 fermion and thus can only couple to SM particles through a
-pseudoscalar, spin-0 mediator. Since the couplings of the new spin-0
+pseudoscalar, spin-0, mediator. Since the couplings of the new spin-0
 mediator to SM gauge bosons are strongly suppressed, the 2HDM+a model
 is consistent with  measurements of the SM Higgs boson production and
 decay modes, which so far show no significant deviation from SM predictions~\cite{Khachatryan:2016vau}. In contrast to previously explored 2HDM models~\cite{2HDM,Aaboud:2017yqz,Sirunyan:2017hnk}, the 2HDM+a framework ensures gauge invariance and renormalizability. In this model, there are six physical Higgs bosons:
@@ -27,9 +28,14 @@ a heavy neutral CP-odd pseudoscalar \Az; a light neutral CP-odd pseudoscalar a; 
 %of the top quark as the decay $\Az\to$ $\cPqt\cPaqt$ becomes kinematically
 %accessible. 
 
-Several parameters need to be defined in this model. The following parameters are varied in the search: the masses of the
+The following parameters are varied in this search: the masses of the
 two CP-odd Higgs bosons, the angle $\theta$ associated with the mixing
-between the two CP-odd Higgs bosons, and the ratio of vacuum expectation values of the two CP-even Higgs bosons $\beta$.  The three quartic couplings $\lambda_3,~\lambda_{P1},~\lambda_{P2}$ are set to the same value $\lambda_3=\lambda_{P1}=\lambda_{P2}=3$~\cite{Bauer2017}. Masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\Az}$. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
+between the two CP-odd Higgs bosons, and the ratio of vacuum
+expectation values of the two CP-even Higgs bosons $\beta$.
+Perturbativity and unitarity put restrictions on the magnitude and the
+signs of the three quartic couplings
+$\lambda_3,~\lambda_{P1},~\lambda_{P2}$ to be of the order of unity,
+and we therefore set their values as $\lambda_3=\lambda_{P1}=\lambda_{P2}=3$~\cite{Bauer2017}. Masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\Az}$. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
 
 
 The Baryonic Z' model~\cite{PhysRevD.89.075017} is an extension of the SM and 
@@ -42,7 +48,7 @@ and vacuum expectation value of $v_{B}$.
 The \cPZpr\ and SM Higgs boson, h, interact with a coupling strength of 
 $g_{\text{h}\cPZpr\cPZpr} = m_{\cPZpr}^{2} \sin \theta/v_{B}$, where $\theta$ is the h-h$_{B}$ 
 mixing angle. The chosen value for the \cPZpr\ coupling to quarks,
-$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. The mixing angle $\sin\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds. The free parameters in the model are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in the search.
+$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. The mixing angle $\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds. The free parameters in the model under these assumptions are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in this search.
 
 \begin{figure}
 \centering
@@ -70,10 +76,13 @@ $g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. Thi
 %\label{fig:met_signals}
 %\end{figure}
 
-The Higgs boson recoils against DM particles and is expected to be
-have a large Lorentz boost. It decays into a pair of b quarks, which
-subsequently form collimated sprays of hadrons that can be
-reconstructed as jets. The DM particles escape from the detector and
-lead to a measurable imbalance in transverse momentum in the
-reconstructed event. Given these signatures, the main backgrounds in
-this search are top quark pair production and the production of a vector boson (V) in association with multiple jets. %Data in control regions (CRs) enriched in the respective background processes are used to derive predictions for the SM background.
+Signal events are characterized by a large imbalance in the transverse
+momentum(or hadronic recoil), that indicates the presence of invisible
+DM particles, and by hadronic activity consistent with the production
+of a SM Higgs boson that decays into a b quark pair. Thus, our search
+strategy is to impose requirements on the mass of the reconstructed
+Higgs boson candidate, together with the identification of the
+products of hadronization of the two b quarks produced in the Higgs
+boson decay, to define a data sample that is expected to be enriched
+in signal events. Several different SM processes can mimic such a topology, like top quark pair production and the production of a vector boson (V) in association with multiple jets. Data in statistically independent control samples are used to predict the hadronic recoil distribution for these SM processes that constitute the largest source of background.
+Both signal and background contributions to the data are extracted with a likelihood fit to the hadronic recoil distribution, performed simultaneously in all the different analysis subsamples.
