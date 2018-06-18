@@ -291,7 +291,7 @@
 @article{ATLAS-2015-PAS,
       author         = "Aaboud, Morad and others",
       title          = "{Search for dark matter in association with a Higgs boson
-                        decaying to $b$-quarks in $pp$ collisions at $\sqrt
+                        decaying to $b$-quarks in pp collisions at $\sqrt
                         s=13$ TeV with the ATLAS detector}",
       collaboration  = "ATLAS",
       journal        = "Phys. Lett. B",
@@ -1362,7 +1362,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
 }
 @Article{HiggsObs_CMS,
      AUTHOR        = "{CMS Collaboration}",
-     TITLE         = "Observation of a new boson at a mass of 125 GeV with the {CMS} experiment at the {LHC}",
+     TITLE         = "Observation of a new boson at a mass of 125 {GeV} with the {CMS} experiment at the {LHC}",
      JOURNAL       = "Phys. Lett. B",
      VOLUME        = "716",
      YEAR          = "2012",
@@ -1948,7 +1948,7 @@ the {Standard Model}",
 @article{Chatrchyan:2014dha,                                                                                 
       author         = "Chatrchyan, Serguei and others",                                                     
       title          = "{Measurement of the production cross sections for a Z                                
-                        boson and one or more b jets in pp collisions at $\sqrt(s) =                           
+                        boson and one or more b jets in pp collisions at $\sqrt{s} =                           
                         7\TeV$}",                                                                             
       collaboration  = "CMS",                                                                                
       journal        = "JHEP",                                                                               
@@ -1981,7 +1981,7 @@ the {Standard Model}",
                                                                    }
 @article{Chatrchyan:1642680,                                                                                 
       title          = "{Observation of the associated production of a single top                            
-                        quark and a $W$ boson in $pp$ collisions at $\sqrt s = 8                            
+                        quark and a $W$ boson in pp collisions at $\sqrt s = 8                            
                         \TeV$}",                                                                               
       collaboration  = "CMS",                                                                                
       journal        = "Phys. Rev. Lett.",                                                                   
@@ -2412,7 +2412,7 @@ url="https://doi.org/10.1140/epjc/s10052-014-3024-y"
 @article{atlashbb,
       title          = "{Search for Dark Matter Produced in Association with a
                         Higgs Boson Decaying to $b\bar b$ using 36 fb$^{-1}$ of
-                        $pp$ collisions at $\sqrt s=13$ TeV with the ATLAS
+                        pp collisions at $\sqrt s=13$ TeV with the ATLAS
                         Detector}",
       collaboration  = "ATLAS",
       year           = "2017",
@@ -2489,7 +2489,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
       author         = "Aaboud, Morad and others",
       title          = "{Search for Dark Matter Produced in Association with a
                         Higgs Boson Decaying to $b\bar b$ using 36 fb$^{-1}$ of
-                        $pp$ collisions at $\sqrt s=13$ TeV with the ATLAS
+                        pp collisions at $\sqrt s=13$ TeV with the ATLAS
                         Detector}",
       collaboration  = "ATLAS",
       journal        = "Phys. Rev. Lett.",
@@ -2524,12 +2524,11 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
 
 
 @article{Khachatryan:2016vau,
-      author         = "Aad, Georges and others",
+      author         = "{ATLAS and CMS collaborations}",
       title          = "{Measurements of the Higgs boson production and decay
                         rates and constraints on its couplings from a combined
                         ATLAS and CMS analysis of the LHC pp collision data at $
                         \sqrt{s}=7 $ and 8 TeV}",
-      collaboration  = "ATLAS, CMS",
       journal        = "JHEP",
       volume         = "08",
       year           = "2016",

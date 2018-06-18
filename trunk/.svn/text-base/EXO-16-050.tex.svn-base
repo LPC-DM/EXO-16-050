@@ -105,7 +105,7 @@ pdfkeywords={Dark matter, LHC, CMS, boosted Higgs boson tagging, physics, softwa
 %% The latter works for you, but our parser looks for the braces and will break when uploading the document.
 %%%%%%%%%%%%%%%
 
-\input{introduction.tex}
+%\input{introduction.tex}
 \input {model.tex}
 %\input{detector.tex}
 \input{datasets.tex}

@@ -1,14 +1,14 @@
 10
 
 dir
-464324
+464955
 svn+ssh://svn.cern.ch/reps/tdr2/papers/EXO-16-050/trunk
 svn+ssh://svn.cern.ch/reps/tdr2
 
 
 
-2018-05-29T17:11:41.306264Z
-462219
+2018-06-18T09:36:03.787286Z
+464955
 bmaier
 
 
@@ -26,16 +26,50 @@ bmaier
 
 4525493e-7705-40b1-a816-d608a930855b
 
+introduction.tex
+file
+
+
+
+
+2018-06-18T09:45:37.000000Z
+24f68c7a524890baf88fc2652e631c2c
+2018-06-18T09:24:35.180986Z
+464952
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2250
+
 EXO-16-050.tex
 file
 
 
 
 
-2018-06-12T21:58:14.000000Z
-56ed938d6171bfc279b82e74ffc62f77
-2018-05-24T08:42:13.173547Z
-461510
+2018-06-18T09:45:37.000000Z
+cd5dafc8b0e87575b7927ebb0ed06a24
+2018-06-18T09:24:35.180986Z
+464952
 bmaier
 has-props
 
@@ -58,41 +92,7 @@ has-props
 
 
 
-11405
-
-introduction.tex
-file
-464325
-
-
-
-2018-06-11T15:44:47.000000Z
-da2a805668892f9a36ad52ae720fc088
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2251
+11406
 
 CMScol.pdf
 file
@@ -130,19 +130,15 @@ has-props
 
 eventReco.tex
 file
-464325
-
-
-
-2018-06-11T15:44:47.000000Z
-6b389de2ddfcde944d0e1e05ab481b9a
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
 
 
 
 
+2018-06-18T09:45:37.000000Z
+e18dc1ef3e963eabb6a9510c94e9f368
+2018-06-18T09:24:35.180986Z
+464952
+bmaier
 
 
 
@@ -160,7 +156,11 @@ mcremone
 
 
 
-9873
+
+
+
+
+9887
 
 summary.tex
 file
@@ -196,6 +196,40 @@ khurana
 
 2708
 
+model.tex
+file
+
+
+
+
+2018-06-18T09:45:37.000000Z
+6425566758db8689acb0bbdfaa0da7be
+2018-06-18T09:24:35.180986Z
+464952
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9632
+
 compile.sh~
 file
 
@@ -230,51 +264,17 @@ has-props
 
 149
 
-model.tex
+results.tex
 file
-464325
-
-
-
-2018-06-11T15:44:47.000000Z
-6b662d663562c4696da16eaa7615352b
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7406
-
-eventselectionAndanalysisStrategy.tex
-file
-464325
-
-
-
-2018-06-11T15:44:47.000000Z
-ad86f06d0b02d95a47d0c45b1f8811f4
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
+2018-06-18T09:45:37.000000Z
+bf203a0c1722f0830d1fb37c4b97cb03
+2018-06-18T09:24:35.180986Z
+464952
+bmaier
 
 
 
@@ -296,7 +296,7 @@ mcremone
 
 
 
-9077
+13319
 
 pdefs.tex
 file
@@ -332,21 +332,17 @@ has-props
 
 8280
 
-results.tex
+eventselectionAndanalysisStrategy.tex
 file
-464325
-
-
-
-2018-06-12T21:58:14.000000Z
-8ff07b7cebe306b3cc49cad122177aa4
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
 
 
 
 
+2018-06-18T09:45:37.000000Z
+1088d74705f40be11edd8217e6bcab1d
+2018-06-18T09:36:03.787286Z
+464955
+bmaier
 
 
 
@@ -364,7 +360,11 @@ mcremone
 
 
 
-13297
+
+
+
+
+9072
 
 compile.sh
 file
@@ -402,7 +402,7 @@ has-props
 
 MAKENOTE
 file
-464325
+
 
 
 
@@ -439,7 +439,7 @@ dir
 
 files.tgz
 file
-464325
+
 
 
 
@@ -473,7 +473,7 @@ has-props
 
 datasets.tex
 file
-464325
+
 
 
 
@@ -507,19 +507,15 @@ mcremone
 
 systematics.tex
 file
-464329
-
-
-
-2018-06-12T22:40:15.000000Z
-1ab29095436c2956dda7b8baa9342778
-2018-06-12T22:40:20.692387Z
-464329
-mcremone
 
 
 
 
+2018-06-18T09:45:37.000000Z
+a8c38bf88e9c2c484f7645b5577949ca
+2018-06-18T09:24:35.180986Z
+464952
+bmaier
 
 
 
@@ -537,7 +533,11 @@ mcremone
 
 
 
-10327
+
+
+
+
+10440
 
 detector.tex
 file
@@ -609,7 +609,7 @@ has-props
 
 Makefile~
 file
-464325
+
 
 
 
@@ -643,15 +643,15 @@ mcremone
 
 EXO-16-050.bib
 file
-464325
 
 
 
-2018-06-11T15:44:47.000000Z
-167df3560647034eed19acfa1a54acdc
-2018-06-12T22:04:35.233389Z
-464325
-mcremone
+
+2018-06-18T09:45:37.000000Z
+7af12275d567a059dde1a99bad7259f8
+2018-06-18T09:33:54.084880Z
+464953
+bmaier
 has-props
 
 
@@ -673,11 +673,11 @@ has-props
 
 
 
-117114
+117078
 
 Makefile
 file
-464325
+
 
 
 

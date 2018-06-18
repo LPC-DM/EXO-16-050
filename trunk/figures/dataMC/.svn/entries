@@ -1,7 +1,7 @@
 10
 
 dir
-464324
+464955
 svn+ssh://svn.cern.ch/reps/tdr2/papers/EXO-16-050/trunk/figures/dataMC
 svn+ssh://svn.cern.ch/reps/tdr2
 
@@ -706,14 +706,14 @@ khurana
 
 19447
 
-cr_ttbar_mu_fj1MaxCSV.pdf
+cr_w_mu_fail_var5.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-577964aef0f1206c89d84c719d75859c
+b29e71c436b29c4c3f67b8fa2b9bb57a
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -738,7 +738,7 @@ khurana
 
 
 
-16308
+18268
 
 cr_dimuon_fj1MSD.pdf
 file
@@ -774,14 +774,14 @@ khurana
 
 17467
 
-cr_w_mu_fail_var5.pdf
+cr_ttbar_mu_fj1MaxCSV.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-b29e71c436b29c4c3f67b8fa2b9bb57a
+577964aef0f1206c89d84c719d75859c
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -806,7 +806,7 @@ khurana
 
 
 
-18268
+16308
 
 cr_w_mu_var3.pdf
 file
@@ -842,40 +842,6 @@ khurana
 
 19407
 
-cr_w_mu_fail_fj1DoubleCSV.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-397d63142e44104b594d5f86208b0f41
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18090
-
 cr_dimuon_fail_puppimet.pdf
 file
 
@@ -909,6 +875,40 @@ khurana
 
 
 18201
+
+cr_w_mu_fail_fj1DoubleCSV.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+397d63142e44104b594d5f86208b0f41
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18090
 
 cr_dielectron_fj1MaxCSV.pdf
 file
@@ -978,40 +978,6 @@ khurana
 
 18272
 
-cr_ttbar_mu_fj1Phi.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-1d4753a8cf14fce5ef8e3dddaa1c7481
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17559
-
 cr_dimuon_npv.pdf
 file
 
@@ -1045,6 +1011,40 @@ khurana
 
 
 21277
+
+cr_ttbar_mu_fj1Phi.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+1d4753a8cf14fce5ef8e3dddaa1c7481
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17559
 
 cr_ttbar_el_fail_jetEta.pdf
 file
@@ -2542,40 +2542,6 @@ khurana
 
 17624
 
-cr_ttbar_el_fail_recoil.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-6612873edb2f59a641fb703f07a114a4
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18546
-
 MSDcorr_stackedPostfit_prelim_singleelectrontop.pdf
 file
 
@@ -2609,6 +2575,40 @@ bmaier
 
 
 18647
+
+cr_ttbar_el_fail_recoil.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+6612873edb2f59a641fb703f07a114a4
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18546
 
 cr_ttbar_el_fail_fjsj1Pt.pdf
 file
@@ -2712,40 +2712,6 @@ khurana
 
 17421
 
-cr_w_el_fail_N2_20_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-22f57194edc1903675629bf1498a0124
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19862
-
 cr_ttbar_mu_fail_puppimetphi.pdf
 file
 
@@ -2779,6 +2745,40 @@ khurana
 
 
 17494
+
+cr_w_el_fail_N2_20_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+22f57194edc1903675629bf1498a0124
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19862
 
 cr_w_el_RecoilUW.pdf
 file
@@ -2814,40 +2814,6 @@ khurana
 
 17465
 
-MSDcorr_stackedPostfit_singleelectrontop_masked.pdf
-file
-
-
-
-
-2017-11-02T22:57:43.000000Z
-42cd1086b95daa809efec4f088bce435
-2017-11-02T20:59:53.944695Z
-432377
-bmaier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18575
-
 cr_w_mu_fail_var6.pdf
 file
 
@@ -2881,6 +2847,40 @@ khurana
 
 
 20078
+
+MSDcorr_stackedPostfit_singleelectrontop_masked.pdf
+file
+
+
+
+
+2017-11-02T22:57:43.000000Z
+42cd1086b95daa809efec4f088bce435
+2017-11-02T20:59:53.944695Z
+432377
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18575
 
 cr_w_mu_var4.pdf
 file
@@ -2950,14 +2950,14 @@ khurana
 
 17306
 
-cr_w_mu_fail_N2DDT_NM1.pdf
+cr_ttbar_el_N2DDT_NM1_lumi0.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-9255ed6d34959bd5b904d4b66ebcc8b7
+54657e5d1e81fb16fc00237d7d93b0fd
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -2982,7 +2982,7 @@ khurana
 
 
 
-19926
+19903
 
 cr_dielectron_fail_lep1Pt.pdf
 file
@@ -3018,14 +3018,14 @@ khurana
 
 18379
 
-cr_ttbar_el_N2DDT_NM1_lumi0.pdf
+cr_w_mu_fail_N2DDT_NM1.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-54657e5d1e81fb16fc00237d7d93b0fd
+9255ed6d34959bd5b904d4b66ebcc8b7
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -3050,7 +3050,7 @@ khurana
 
 
 
-19903
+19926
 
 cr_w_mu_fjsj2Pt.pdf
 file
@@ -3086,40 +3086,6 @@ khurana
 
 17517
 
-cr_ttbar_mu_fjsj1Phi.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-8940c41d7bd2854f2d32720499b1942a
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18462
-
 cr_dimuon_fail_lep1Pt.pdf
 file
 
@@ -3153,6 +3119,40 @@ khurana
 
 
 18478
+
+cr_ttbar_mu_fjsj1Phi.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+8940c41d7bd2854f2d32720499b1942a
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18462
 
 cr_ttbar_mu_fail_fj1DoubleCSV.pdf
 file
@@ -3222,40 +3222,6 @@ khurana
 
 17565
 
-MSDcorr_stackedPostfit_singlemuonw.pdf
-file
-
-
-
-
-2018-06-12T21:58:13.000000Z
-cdd2715818a389dcc407099ecc3d054a
-2018-05-29T14:47:43.442142Z
-462167
-bmaier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18530
-
 cr_gamma_0p4_fj1t21SD.pdf
 file
 
@@ -3289,6 +3255,40 @@ khurana
 
 
 16447
+
+MSDcorr_stackedPostfit_singlemuonw.pdf
+file
+
+
+
+
+2018-06-12T21:58:13.000000Z
+cdd2715818a389dcc407099ecc3d054a
+2018-05-29T14:47:43.442142Z
+462167
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18530
 
 MSDcorr_stackedPostfit_prelim_singlemuontop.pdf
 file
@@ -3392,40 +3392,6 @@ bmaier
 
 18550
 
-cr_w_el_fail_lep1Eta.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-d47ff36afb046fee1612e7aa5feefb40
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18732
-
 cr_dimuon_fjsj1Pt.pdf
 file
 
@@ -3459,6 +3425,40 @@ khurana
 
 
 17755
+
+cr_w_el_fail_lep1Eta.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+d47ff36afb046fee1612e7aa5feefb40
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18732
 
 cr_w_lep_fail_fj1MSD_corr_lumi0.pdf
 file
@@ -3562,40 +3562,6 @@ khurana
 
 18600
 
-cr_gamma_0p4_fjsj1Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-42b8ed7c25ea213e436b5da9e7fb945b
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17869
-
 cr_ttbar_el_N2_10_NM1.pdf
 file
 
@@ -3629,6 +3595,40 @@ khurana
 
 
 17055
+
+cr_gamma_0p4_fjsj1Pt.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+42b8ed7c25ea213e436b5da9e7fb945b
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17869
 
 cr_w_mu_N2_20.pdf
 file
@@ -3664,40 +3664,6 @@ khurana
 
 18431
 
-cr_w_mu_N2DDT_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-1c1ebb0ff41f8bdf02db56a0e0da3bf1
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20469
-
 cr_w_el_fail_var4.pdf
 file
 
@@ -3732,14 +3698,14 @@ khurana
 
 19599
 
-cr_w_mu_lep1Eta.pdf
+cr_w_mu_N2DDT_NM1.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-6d9e2f2938e7925181c1b5e8a7f2412a
+1c1ebb0ff41f8bdf02db56a0e0da3bf1
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -3764,7 +3730,7 @@ khurana
 
 
 
-18831
+20469
 
 MSDcorr_stackedPostfit_prelim_singlemuontop_fail.pdf
 file
@@ -3800,14 +3766,14 @@ bmaier
 
 18327
 
-cr_ttbar_el_fail_N2_10.pdf
+cr_w_mu_lep1Eta.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-50b0d8d1c6e1ac0e036f1b753ed2806b
+6d9e2f2938e7925181c1b5e8a7f2412a
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -3832,7 +3798,7 @@ khurana
 
 
 
-16506
+18831
 
 cr_w_mu_fail_puppimetphi.pdf
 file
@@ -3868,14 +3834,14 @@ khurana
 
 18649
 
-cr_ttbar_el_RecoilUW2.pdf
+cr_ttbar_el_fail_N2_10.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-ff03fc1846209cb6125a9a79ffb803df
+50b0d8d1c6e1ac0e036f1b753ed2806b
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -3900,7 +3866,7 @@ khurana
 
 
 
-16737
+16506
 
 cr_w_mu_fj1MinCSV.pdf
 file
@@ -3935,6 +3901,40 @@ khurana
 
 
 18287
+
+cr_ttbar_el_RecoilUW2.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+ff03fc1846209cb6125a9a79ffb803df
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16737
 
 cr_dimuon_RecoilUZ2.pdf
 file
@@ -4174,40 +4174,6 @@ khurana
 
 20093
 
-cr_ttbar_mu_fjsj1Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:27.000000Z
-2244302e3ce34ab81cf4877cd47d9fb4
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17728
-
 cr_dielectron_fail_N2DDT.pdf
 file
 
@@ -4242,14 +4208,14 @@ khurana
 
 17891
 
-cr_ttbar_el_puppimet.pdf
+cr_ttbar_mu_fjsj1Pt.pdf
 file
 
 
 
 
 2017-10-27T19:23:27.000000Z
-472bf7996a80d00ef5e1d1cd914e5e09
+2244302e3ce34ab81cf4877cd47d9fb4
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -4274,7 +4240,7 @@ khurana
 
 
 
-17459
+17728
 
 cr_dimuon_fail_fj1MSD_corr.pdf
 file
@@ -4309,6 +4275,40 @@ khurana
 
 
 18692
+
+cr_ttbar_el_puppimet.pdf
+file
+
+
+
+
+2017-10-27T19:23:27.000000Z
+472bf7996a80d00ef5e1d1cd914e5e09
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17459
 
 cr_w_el_var5.pdf
 file
@@ -8662,14 +8662,14 @@ khurana
 
 16778
 
-cr_dielectron_fail_diLepMass.pdf
+cr_dimuon_fj1t21SD_NM1.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-81ace976049896897def6fe7a5f744f1
+6170cb5a7014b9efded0dd257c0dd8aa
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -8694,7 +8694,7 @@ khurana
 
 
 
-16659
+19868
 
 cr_dimuon_fj1MSD_corr.pdf
 file
@@ -8730,14 +8730,14 @@ khurana
 
 16203
 
-cr_dimuon_fj1t21SD_NM1.pdf
+cr_dielectron_fail_diLepMass.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-6170cb5a7014b9efded0dd257c0dd8aa
+81ace976049896897def6fe7a5f744f1
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -8762,41 +8762,7 @@ khurana
 
 
 
-19868
-
-cr_w_mu_dphiUW.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-8529edd2bf30208cfb57b75ace250a42
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18411
+16659
 
 cr_w_mu_fail_lep1Pt.pdf
 file
@@ -8831,6 +8797,40 @@ khurana
 
 
 18598
+
+cr_w_mu_dphiUW.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+8529edd2bf30208cfb57b75ace250a42
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18411
 
 cr_ttbar_mu_lep1Eta.pdf
 file
@@ -8900,40 +8900,6 @@ khurana
 
 19871
 
-cr_ttbar_mu_fj1t21SD.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-590122aae36e9a18e9f124522ea07d29
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16433
-
 cr_ttbar_mu_fail_puppimet.pdf
 file
 
@@ -8967,6 +8933,40 @@ khurana
 
 
 17512
+
+cr_ttbar_mu_fj1t21SD.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+590122aae36e9a18e9f124522ea07d29
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16433
 
 cr_gamma_N2_10_NM1.pdf
 file
@@ -9002,40 +9002,6 @@ khurana
 
 18497
 
-cr_ttbar_mu_fail_lep1Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-d84629a555e69e67c16c9bc3fce10844
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19247
-
 cr_gamma_0p4_photonPhi.pdf
 file
 
@@ -9069,6 +9035,40 @@ khurana
 
 
 18446
+
+cr_ttbar_mu_fail_lep1Pt.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+d84629a555e69e67c16c9bc3fce10844
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19247
 
 cr_gamma_0p4_isojetCSV.pdf
 file
@@ -9478,40 +9478,6 @@ khurana
 
 18762
 
-cr_w_el_var7.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-9830211972e0c3d8e6f202b76db90ae3
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19761
-
 cr_w_el_fail_fj1Pt.pdf
 file
 
@@ -9545,6 +9511,40 @@ khurana
 
 
 19253
+
+cr_w_el_var7.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+9830211972e0c3d8e6f202b76db90ae3
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19761
 
 cr_gamma_0p4_fj1MaxCSV.pdf
 file
@@ -9580,14 +9580,14 @@ khurana
 
 16475
 
-cr_w_el_N2DDT_NM1.pdf
+cr_ttbar_el_N2_20.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-c3406bc62561af48f7fa33de50c03c7c
+7b76d76af6fcc1e17e595d1908624bd0
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -9612,7 +9612,7 @@ khurana
 
 
 
-20288
+16917
 
 cr_dielectron_fj1MSD.pdf
 file
@@ -9648,14 +9648,14 @@ khurana
 
 18643
 
-cr_ttbar_el_N2_20.pdf
+cr_w_el_N2DDT_NM1.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-7b76d76af6fcc1e17e595d1908624bd0
+c3406bc62561af48f7fa33de50c03c7c
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -9680,7 +9680,7 @@ khurana
 
 
 
-16917
+20288
 
 cr_dimuon_fail_fj1DoubleCSV.pdf
 file
@@ -9784,40 +9784,6 @@ khurana
 
 17070
 
-cr_w_el_fj1MinCSV.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-397595dac2d50d5b5cd7e98c175c5c04
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18229
-
 cr_dimuon_dummy.pdf
 file
 
@@ -9851,6 +9817,40 @@ khurana
 
 
 15516
+
+cr_w_el_fj1MinCSV.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+397595dac2d50d5b5cd7e98c175c5c04
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18229
 
 cr_dimuon_N2DDT_NM1_lumi0.pdf
 file
@@ -10226,48 +10226,14 @@ khurana
 
 17506
 
-MSDcorr_stackedPostfit_signal.pdf
-file
-
-
-
-
-2018-06-12T21:58:14.000000Z
-bc189e38bc0c58537b000802e3528610
-2018-05-29T14:47:43.442142Z
-462167
-bmaier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18619
-
-cr_gamma_0p4_puppimetphi.pdf
+cr_gamma_isojetEta.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-cfd8b2eef146271f79ab92bb769fd9b1
+f5a72636a2e46ee84c6f6920a5c8c06f
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -10292,7 +10258,7 @@ khurana
 
 
 
-17475
+17691
 
 cr_gamma_N2DDT_NM2.pdf
 file
@@ -10328,14 +10294,14 @@ khurana
 
 21460
 
-cr_gamma_isojetEta.pdf
+cr_gamma_0p4_puppimetphi.pdf
 file
 
 
 
 
 2017-10-27T19:23:28.000000Z
-f5a72636a2e46ee84c6f6920a5c8c06f
+cfd8b2eef146271f79ab92bb769fd9b1
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -10360,7 +10326,41 @@ khurana
 
 
 
-17691
+17475
+
+MSDcorr_stackedPostfit_signal.pdf
+file
+
+
+
+
+2018-06-12T21:58:14.000000Z
+bc189e38bc0c58537b000802e3528610
+2018-05-29T14:47:43.442142Z
+462167
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18619
 
 cr_ttbar_mu_fail_fj1DoubleCSV_NM1.pdf
 file
@@ -10464,40 +10464,6 @@ khurana
 
 17026
 
-MSDcorr_stackedPostfit_singlemuontop_fail_masked.pdf
-file
-
-
-
-
-2017-11-02T22:57:43.000000Z
-c5e72bd1f774b11179aac4d7c54c272f
-2017-11-02T20:59:53.944695Z
-432377
-bmaier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18290
-
 cr_w_mu_fjsj1Eta.pdf
 file
 
@@ -10531,6 +10497,40 @@ khurana
 
 
 18831
+
+MSDcorr_stackedPostfit_singlemuontop_fail_masked.pdf
+file
+
+
+
+
+2017-11-02T22:57:43.000000Z
+c5e72bd1f774b11179aac4d7c54c272f
+2017-11-02T20:59:53.944695Z
+432377
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18290
 
 MSDcorr_stackedPostfit_singlemuonw_fail_masked.pdf
 file
@@ -10838,40 +10838,6 @@ khurana
 
 17837
 
-cr_gamma_jetEta.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-664f9b7c4452f1335c4bf0e9a60ca4fe
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17341
-
 cr_w_mu_fj1DoubleCSV.pdf
 file
 
@@ -10905,6 +10871,40 @@ khurana
 
 
 15877
+
+cr_gamma_jetEta.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+664f9b7c4452f1335c4bf0e9a60ca4fe
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17341
 
 cr_ttbar_el_fail_isojetCSV.pdf
 file
@@ -10974,40 +10974,6 @@ khurana
 
 18343
 
-cr_w_mu_dummy.pdf
-file
-
-
-
-
-2017-10-27T19:23:28.000000Z
-4a731a8508c68f57f7b4df869f970e42
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15453
-
 cr_w_mu_N2_20_NM1.pdf
 file
 
@@ -11041,6 +11007,40 @@ khurana
 
 
 20587
+
+cr_w_mu_dummy.pdf
+file
+
+
+
+
+2017-10-27T19:23:28.000000Z
+4a731a8508c68f57f7b4df869f970e42
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15453
 
 cr_w_el_fjsj1Phi.pdf
 file
@@ -11246,40 +11246,6 @@ bmaier
 
 17863
 
-cr_w_el_N2_10_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-7b17c8ce2d044bd6c87de8b8f513a7d9
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20228
-
 cr_dimuon_fj1MSD_corr_NM2.pdf
 file
 
@@ -11314,14 +11280,14 @@ khurana
 
 16539
 
-cr_w_el_lep1Eta.pdf
+cr_w_el_N2_10_NM1.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-a6bf86c271dba48de18cb13fdbde6fb9
+7b17c8ce2d044bd6c87de8b8f513a7d9
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -11346,7 +11312,7 @@ khurana
 
 
 
-18644
+20228
 
 cr_ttbar_mu_puppimetphi.pdf
 file
@@ -11381,6 +11347,40 @@ khurana
 
 
 17554
+
+cr_w_el_lep1Eta.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+a6bf86c271dba48de18cb13fdbde6fb9
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18644
 
 cr_w_el_fail_isojetPt.pdf
 file
@@ -11518,40 +11518,6 @@ khurana
 
 18550
 
-cr_gamma_isojetCSV.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-2dd908c5878c8511484611e88996fff4
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16110
-
 cr_w_mu_fail_var10.pdf
 file
 
@@ -11586,14 +11552,14 @@ khurana
 
 20659
 
-cr_w_el_fjsj2Eta.pdf
+cr_gamma_isojetCSV.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-61ae402daa29142ae8b27e4c3ae643c4
+2dd908c5878c8511484611e88996fff4
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -11618,7 +11584,7 @@ khurana
 
 
 
-17976
+16110
 
 MSDcorr_stackedPostfit_singlemuonw_fail.pdf
 file
@@ -11654,14 +11620,14 @@ bmaier
 
 17871
 
-cr_w_el_fail_var7.pdf
+cr_w_el_fjsj2Eta.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-a3f928228c0a2cdffd6ec6e811f0242a
+61ae402daa29142ae8b27e4c3ae643c4
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -11686,7 +11652,7 @@ khurana
 
 
 
-20548
+17976
 
 cr_gamma_fjsj1Phi.pdf
 file
@@ -11722,6 +11688,40 @@ khurana
 
 16961
 
+cr_w_el_fail_var7.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+a3f928228c0a2cdffd6ec6e811f0242a
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20548
+
 cr_w_el_RecoilUW2.pdf
 file
 
@@ -11755,40 +11755,6 @@ khurana
 
 
 16699
-
-cr_dimuon_fail_fjsj1Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-1ea37f5c510b78802b0d9b3b16b6b66d
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18709
 
 cr_dielectron_fail_fj1MSD.pdf
 file
@@ -11824,14 +11790,14 @@ khurana
 
 20626
 
-cr_dimuon_fail_fj1MSD.pdf
+cr_dimuon_fail_fjsj1Pt.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-7985b2a0feec5024323b93428834f2a0
+1ea37f5c510b78802b0d9b3b16b6b66d
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -11856,7 +11822,7 @@ khurana
 
 
 
-17590
+18709
 
 cr_dielectron_fail_isojetEta.pdf
 file
@@ -11891,6 +11857,40 @@ khurana
 
 
 18369
+
+cr_dimuon_fail_fj1MSD.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+7985b2a0feec5024323b93428834f2a0
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17590
 
 cr_ttbar_el_fjsj1Pt.pdf
 file
@@ -12062,40 +12062,6 @@ khurana
 
 17681
 
-cr_ttbar_mu_fail_N2_20.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-e4b2ee06e9a4f07ea76a0b8d99b8c1e1
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16405
-
 cr_dimuon_fail_fj1DoubleCSV_NM1.pdf
 file
 
@@ -12129,6 +12095,40 @@ khurana
 
 
 19364
+
+cr_ttbar_mu_fail_N2_20.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+e4b2ee06e9a4f07ea76a0b8d99b8c1e1
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16405
 
 cr_gamma_fjsj2Eta.pdf
 file
@@ -12198,40 +12198,6 @@ khurana
 
 19742
 
-cr_dielectron_fail_recoil.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-9e2d473759ea7c031ecfff50d46ff168
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18264
-
 cr_dimuon_lep1Pt.pdf
 file
 
@@ -12265,6 +12231,40 @@ khurana
 
 
 18456
+
+cr_dielectron_fail_recoil.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+9e2d473759ea7c031ecfff50d46ff168
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18264
 
 cr_dimuon_fail_recoil.pdf
 file
@@ -12300,14 +12300,14 @@ khurana
 
 18235
 
-cr_w_el_var8.pdf
+cr_gamma_fj1MSD.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-ac746e9807898797c4f6b7e232cb7515
+46dfe0390e2bc5987796050fad4e355a
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -12332,7 +12332,7 @@ khurana
 
 
 
-21089
+17442
 
 cr_w_el_N2_20.pdf
 file
@@ -12368,14 +12368,14 @@ khurana
 
 18109
 
-cr_gamma_fj1MSD.pdf
+cr_w_el_var8.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-46dfe0390e2bc5987796050fad4e355a
+ac746e9807898797c4f6b7e232cb7515
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -12400,7 +12400,7 @@ khurana
 
 
 
-17442
+21089
 
 cr_w_el_fail_RecoilUW.pdf
 file
@@ -12504,40 +12504,6 @@ khurana
 
 18604
 
-cr_ttbar_mu_fail_fjsj2Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-0e306daadf69c10f47a1ca3aa14399d9
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17507
-
 cr_ttbar_el_fail_puppimet.pdf
 file
 
@@ -12571,6 +12537,40 @@ khurana
 
 
 17886
+
+cr_ttbar_mu_fail_fjsj2Pt.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+0e306daadf69c10f47a1ca3aa14399d9
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17507
 
 cr_gamma_fj1MSD_corr.pdf
 file
@@ -12606,40 +12606,6 @@ khurana
 
 17358
 
-MSDcorr_stackedPostfit_singleelectrontop.pdf
-file
-
-
-
-
-2018-06-12T21:58:14.000000Z
-445b37f68d3df8b473ba76ad61511b04
-2018-05-29T14:47:43.442142Z
-462167
-bmaier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18612
-
 cr_dielectron_fail_isojetCSV.pdf
 file
 
@@ -12673,6 +12639,40 @@ khurana
 
 
 16760
+
+MSDcorr_stackedPostfit_singleelectrontop.pdf
+file
+
+
+
+
+2018-06-12T21:58:14.000000Z
+445b37f68d3df8b473ba76ad61511b04
+2018-05-29T14:47:43.442142Z
+462167
+bmaier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18612
 
 cr_gamma_recoil.pdf
 file
@@ -12878,40 +12878,6 @@ khurana
 
 18508
 
-cr_w_lep_fail_fj1MSD_corr.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-7b2cd49df509f8d9cb20b09c63abfbef
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27293
-
 cr_ttbar_el_fail_njets.pdf
 file
 
@@ -12945,6 +12911,40 @@ khurana
 
 
 16268
+
+cr_w_lep_fail_fj1MSD_corr.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+7b2cd49df509f8d9cb20b09c63abfbef
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27293
 
 cr_ttbar_mu_fail_fj1DoubleCSV_NM2.pdf
 file
@@ -12980,14 +12980,14 @@ khurana
 
 17021
 
-cr_dimuon_diLepMass.pdf
+cr_w_mu_fail_var2.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-fcdf47d2ce91b5884359328352e4692d
+7833d77dd513629a9b200f7a14ba57be
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -13012,7 +13012,7 @@ khurana
 
 
 
-17521
+20383
 
 cr_dielectron_fj1Pt.pdf
 file
@@ -13048,14 +13048,14 @@ khurana
 
 16866
 
-cr_w_mu_fail_var2.pdf
+cr_dimuon_diLepMass.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-7833d77dd513629a9b200f7a14ba57be
+fcdf47d2ce91b5884359328352e4692d
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -13080,7 +13080,7 @@ khurana
 
 
 
-20383
+17521
 
 cr_ttbar_el_higgs_ecf_v1_erotic_bdt.pdf
 file
@@ -13150,40 +13150,6 @@ khurana
 
 13884
 
-cr_dimuon_N2DDT_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-867f7167ad0387c18114267d2d36776e
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19579
-
 cr_gamma_0p4_jetEta.pdf
 file
 
@@ -13217,6 +13183,40 @@ khurana
 
 
 17104
+
+cr_dimuon_N2DDT_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+867f7167ad0387c18114267d2d36776e
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19579
 
 cr_dielectron_fail_fj1MaxCSV.pdf
 file
@@ -13388,40 +13388,6 @@ khurana
 
 16567
 
-cr_w_el_isojetCSV.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-7f56ec5f4abd73c0c9c7c96cf98970af
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17206
-
 MSDcorr_stackedPostfit_singlemuontop.pdf
 file
 
@@ -13455,6 +13421,40 @@ bmaier
 
 
 18526
+
+cr_w_el_isojetCSV.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+7f56ec5f4abd73c0c9c7c96cf98970af
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17206
 
 cr_w_el_fj1Eta.pdf
 file
@@ -13524,40 +13524,6 @@ khurana
 
 17712
 
-cr_ttbar_el_higgs_ecfbdt.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-ff8cf09fc4f31584babfbc32932eb797
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17357
-
 cr_gamma_fjsj2Pt.pdf
 file
 
@@ -13591,6 +13557,40 @@ khurana
 
 
 16879
+
+cr_ttbar_el_higgs_ecfbdt.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+ff8cf09fc4f31584babfbc32932eb797
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17357
 
 cr_dielectron_fail_fjsj2Pt.pdf
 file
@@ -13966,40 +13966,6 @@ khurana
 
 13900
 
-cr_dielectron_N2_20.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-51c00d26702a4e3a2ef241ff7144a38c
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17344
-
 cr_gamma_0p4_RecoilUA.pdf
 file
 
@@ -14033,6 +13999,40 @@ khurana
 
 
 16794
+
+cr_dielectron_N2_20.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+51c00d26702a4e3a2ef241ff7144a38c
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17344
 
 cr_dimuon_fail_fj1MSD_corr_NM2.pdf
 file
@@ -14068,14 +14068,14 @@ khurana
 
 16538
 
-cr_ttbar_mu_isojetPt.pdf
+cr_gamma_0p4_fj1MSD_corr.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-ffff2556456e43531d2259d9690acdd1
+a9639c6f5c90684d65da5cdf8a880563
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -14100,7 +14100,7 @@ khurana
 
 
 
-17609
+17774
 
 cr_dielectron_fail_lep1Eta.pdf
 file
@@ -14136,14 +14136,14 @@ khurana
 
 18545
 
-cr_gamma_0p4_fj1MSD_corr.pdf
+cr_ttbar_mu_isojetPt.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-a9639c6f5c90684d65da5cdf8a880563
+ffff2556456e43531d2259d9690acdd1
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -14168,7 +14168,7 @@ khurana
 
 
 
-17774
+17609
 
 cr_ttbar_mu_fj1DoubleCSV_NM1.pdf
 file
@@ -14204,40 +14204,6 @@ khurana
 
 17649
 
-cr_ttbar_el_fail_dummy.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-976eb8855970ff80857874db77682696
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15201
-
 cr_ttbar_el_fail_N2_20_NM1.pdf
 file
 
@@ -14271,6 +14237,40 @@ khurana
 
 
 18064
+
+cr_ttbar_el_fail_dummy.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+976eb8855970ff80857874db77682696
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15201
 
 MSDcorr_stackedPostfit_singleelectronw_masked.pdf
 file
@@ -14306,40 +14306,6 @@ bmaier
 
 18149
 
-cr_dimuon_N2_10_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-a57a5fec438cc82adb39cb9f29dff670
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18422
-
 cr_w_mu_fjsj1Phi.pdf
 file
 
@@ -14373,6 +14339,40 @@ khurana
 
 
 17955
+
+cr_dimuon_N2_10_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+a57a5fec438cc82adb39cb9f29dff670
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18422
 
 cr_w_mu_fail_fj1Pt.pdf
 file
@@ -14408,40 +14408,6 @@ khurana
 
 19251
 
-cr_dimuon_fail_fj1DoubleCSV_NM2.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-0c5b00ba6504d19ce8a849147f981c08
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19071
-
 cr_gamma_0p4_fj1MSD.pdf
 file
 
@@ -14475,6 +14441,40 @@ khurana
 
 
 17431
+
+cr_dimuon_fail_fj1DoubleCSV_NM2.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+0c5b00ba6504d19ce8a849147f981c08
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19071
 
 cr_ttbar_el_fail_puppimetphi.pdf
 file
@@ -14510,40 +14510,6 @@ khurana
 
 18461
 
-cr_ttbar_mu_fail_N2DDT_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-0d1e9c652fea42c2a89119cadd1ab890
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17038
-
 cr_dimuon_fj1DoubleCSV_NM2.pdf
 file
 
@@ -14577,6 +14543,40 @@ khurana
 
 
 19409
+
+cr_ttbar_mu_fail_N2DDT_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+0d1e9c652fea42c2a89119cadd1ab890
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17038
 
 cr_w_el_var1.pdf
 file
@@ -14714,40 +14714,6 @@ khurana
 
 18700
 
-cr_w_el_var9.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-6b7bd60efdd7ab8ba501ba47ab72a023
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20175
-
 cr_dimuon_fail_diLepMass.pdf
 file
 
@@ -14781,6 +14747,40 @@ khurana
 
 
 18249
+
+cr_w_el_var9.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+6b7bd60efdd7ab8ba501ba47ab72a023
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20175
 
 cr_ttbar_mu_fail_fj1MinCSV.pdf
 file
@@ -15088,40 +15088,6 @@ khurana
 
 16303
 
-cr_ttbar_mu_fj1MSD_corr.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-f72719df4348ccb6d2c034e1dfda1476
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18853
-
 cr_dimuon_fail_fj1MinCSV.pdf
 file
 
@@ -15156,14 +15122,14 @@ khurana
 
 17203
 
-cr_dielectron_fail_fj1MSD_corr.pdf
+cr_ttbar_mu_fj1MSD_corr.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-5c93ff0f73634e912d9c302a18dba270
+f72719df4348ccb6d2c034e1dfda1476
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -15188,7 +15154,7 @@ khurana
 
 
 
-18550
+18853
 
 MSDcorr_stackedPostfit_prelim_dielectron.pdf
 file
@@ -15223,6 +15189,40 @@ bmaier
 
 
 18105
+
+cr_dielectron_fail_fj1MSD_corr.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+5c93ff0f73634e912d9c302a18dba270
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18550
 
 cr_w_mu_fail_fj1DoubleCSV_NM2.pdf
 file
@@ -15326,40 +15326,6 @@ khurana
 
 16778
 
-cr_dimuon_fail_fjsj2Pt.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-73540875ff91c05610f3a7d1e41a85c7
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17825
-
 MSDcorr_stackedPostfit_dielectron_masked.pdf
 file
 
@@ -15394,14 +15360,14 @@ bmaier
 
 18032
 
-cr_ttbar_mu_fail_isojetPt.pdf
+cr_dimuon_fail_fjsj2Pt.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-c84572d8fb331190bd8ae8a69b6000d2
+73540875ff91c05610f3a7d1e41a85c7
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -15426,7 +15392,41 @@ khurana
 
 
 
-18002
+17825
+
+cr_w_mu_fj1DoubleCSV_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+855a78b7a69d566b58a12ff6a9c90bf6
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18283
 
 cr_gamma_fj1DoubleCSV.pdf
 file
@@ -15462,14 +15462,14 @@ khurana
 
 15433
 
-cr_w_mu_fj1DoubleCSV_NM1.pdf
+cr_ttbar_mu_fail_isojetPt.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-855a78b7a69d566b58a12ff6a9c90bf6
+c84572d8fb331190bd8ae8a69b6000d2
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -15494,7 +15494,7 @@ khurana
 
 
 
-18283
+18002
 
 cr_w_mu_fail_var3.pdf
 file
@@ -15564,40 +15564,6 @@ khurana
 
 17766
 
-cr_ttbar_el_njets.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-083cec37673a476071d99b7f57e8be05
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16144
-
 cr_w_mu_higgs_ecfbdt.pdf
 file
 
@@ -15631,6 +15597,40 @@ khurana
 
 
 17053
+
+cr_ttbar_el_njets.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+083cec37673a476071d99b7f57e8be05
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16144
 
 cr_w_mu_var1.pdf
 file
@@ -15700,14 +15700,14 @@ khurana
 
 18874
 
-cr_w_mu_fail_N2_20.pdf
+cr_dimuon_isojetEta.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-a4b8e51767d6d6bf21dab9367abcf53d
+d3244dfb3eeceba8f58f4220a1842e9d
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -15732,41 +15732,7 @@ khurana
 
 
 
-18392
-
-cr_dimuon_fail_RecoilUZ.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-93dcab1df7aff9d722afbec600565752
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17557
+17143
 
 cr_dimuon_N2DDT_NM2.pdf
 file
@@ -15802,14 +15768,14 @@ khurana
 
 20525
 
-cr_dimuon_isojetEta.pdf
+cr_dimuon_fail_RecoilUZ.pdf
 file
 
 
 
 
 2017-10-27T19:23:29.000000Z
-d3244dfb3eeceba8f58f4220a1842e9d
+93dcab1df7aff9d722afbec600565752
 2017-08-07T12:35:47.696703Z
 419965
 khurana
@@ -15834,7 +15800,41 @@ khurana
 
 
 
-17143
+17557
+
+cr_w_mu_fail_N2_20.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+a4b8e51767d6d6bf21dab9367abcf53d
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18392
 
 cr_dielectron_lep1Eta.pdf
 file
@@ -16346,40 +16346,6 @@ bmaier
 
 18105
 
-cr_dielectron_fail_N2_20_NM1.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-0a2f7dbc331f8a8dee9aa9401f8215a9
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20038
-
 cr_w_mu_fail_jetEta.pdf
 file
 
@@ -16413,6 +16379,40 @@ khurana
 
 
 17997
+
+cr_dielectron_fail_N2_20_NM1.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+0a2f7dbc331f8a8dee9aa9401f8215a9
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20038
 
 cr_gamma_0p4_N2DDT.pdf
 file
@@ -16448,40 +16448,6 @@ khurana
 
 17161
 
-cr_w_el_fail_fj1MinCSV.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-c6ab6783cd081827989d9a9e05d1dbdb
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17748
-
 cr_dimuon_fail_lep1Eta.pdf
 file
 
@@ -16515,6 +16481,40 @@ khurana
 
 
 18672
+
+cr_w_el_fail_fj1MinCSV.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+c6ab6783cd081827989d9a9e05d1dbdb
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17748
 
 cr_ttbar_mu_fail_RecoilUW2.pdf
 file
@@ -16550,40 +16550,6 @@ khurana
 
 16946
 
-cr_ttbar_mu_fail_jetEta.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-a8e2fedf6076d72aa667af3b43fdda06
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17265
-
 cr_dielectron_RecoilUZ.pdf
 file
 
@@ -16617,6 +16583,40 @@ khurana
 
 
 16910
+
+cr_ttbar_mu_fail_jetEta.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+a8e2fedf6076d72aa667af3b43fdda06
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17265
 
 cr_gamma_puppimet.pdf
 file
@@ -16856,40 +16856,6 @@ khurana
 
 17964
 
-cr_w_el_fail_var9.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-31a90360919f9dbf9af04669a6b4e125
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20887
-
 cr_dielectron_fj1Eta.pdf
 file
 
@@ -16923,6 +16889,40 @@ khurana
 
 
 17786
+
+cr_w_el_fail_var9.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+31a90360919f9dbf9af04669a6b4e125
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20887
 
 cr_ttbar_mu_N2DDT_NM1.pdf
 file
@@ -16958,40 +16958,6 @@ khurana
 
 17193
 
-cr_w_el_fail_njets.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-727454cb4b9fd65de05f92776295c50f
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16557
-
 cr_dimuon_isojetCSV.pdf
 file
 
@@ -17025,6 +16991,40 @@ khurana
 
 
 16346
+
+cr_w_el_fail_njets.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+727454cb4b9fd65de05f92776295c50f
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16557
 
 MSDcorr_stackedPostfit_prelim_singlemuonw_fail.pdf
 file
@@ -17162,40 +17162,6 @@ khurana
 
 18954
 
-cr_ttbar_mu_npv.pdf
-file
-
-
-
-
-2017-10-27T19:23:29.000000Z
-061f53d6b6dcef0c9fda58a865d57056
-2017-08-07T12:35:47.696703Z
-419965
-khurana
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23501
-
 cr_ttbar_mu_fj1DoubleCSV_NM2.pdf
 file
 
@@ -17229,6 +17195,40 @@ khurana
 
 
 17196
+
+cr_ttbar_mu_npv.pdf
+file
+
+
+
+
+2017-10-27T19:23:29.000000Z
+061f53d6b6dcef0c9fda58a865d57056
+2017-08-07T12:35:47.696703Z
+419965
+khurana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23501
 
 cr_w_el_N2_20_NM1.pdf
 file
