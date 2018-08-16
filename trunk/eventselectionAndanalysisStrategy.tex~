@@ -20,9 +20,9 @@ as described in the text. } \label{tab:event_selection}
     \begin{tabular}{  l | c | c | c | c }
       \hline \hline
         Region   & Main background process & Additional AK4 b tag   & Leptons & Double-b tag \\ \hline
-        Signal   & Z+jets, \ttbar, W+jets & 0                & 0       & pass \\ \hline
-        Single-lepton, b-tagged   &  \ttbar, W+jets & 1                & 1       & pass/fail\\ \hline
-        Single-lepton, anti-b-tagged        & W+jets, \ttbar & 0                & 1       & pass/fail\\ \hline
+        Signal   & Z+jets, \ttbar, W+jets & 0                & 0       & pass \\ %\hline
+        Single-lepton, b-tagged   &  \ttbar, W+jets & 1                & 1       & pass/fail\\ %\hline
+        Single-lepton, anti-b-tagged        & W+jets, \ttbar & 0                & 1       & pass/fail\\ %\hline
         Dilepton & Z+jets & 0                & 2       & pass/fail\\
       \hline \hline
     \end{tabular}

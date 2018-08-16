@@ -68,7 +68,7 @@ Bar. Z', $m_{\text{Z}'}=0.2\TeV$, $m_\chi=50$\GeV & $184.2 \pm 20.0$ & $118.1 \p
 \label{Fig_cr_1}
 \end{figure}
 
-Since no significant excess over the SM background expectation is observed in the SR, the results of this search are interpreted in terms of upper limits on the signal strength modifier $\mu=\sigma/\sigma_\text{theory}$, where $\sigma_\text{theory}$ is the predicted production cross 
+No significant excess over the SM background expectation is observed in the SR. The results of this search are interpreted in terms of upper limits on the signal strength modifier $\mu=\sigma/\sigma_\text{theory}$, where $\sigma_\text{theory}$ is the predicted production cross 
 section of DM candidates in association with a Higgs boson and $\sigma$ is the upper limit on the observed cross section. 
 The upper limits are calculated at 95\% confidence level (CL) using a modified frequentist method (CL$_s$) \cite{yellowReport, bib:CLS1, bib:CLS2} computed with an asymptotic approximation \cite{bib:CLS3}. 
 
@@ -98,7 +98,7 @@ The upper limits are calculated at 95\% confidence level (CL) using a modified f
 
 
 Figure~\ref{fig:limits_2hdma} shows the upper limits on $\mu$ for the three scans ($m_A$, $\sin\theta$, and $\tan\beta$) performed.
-For the 2HDM+a model, $m_\text{A}$ masses are excluded between 500 and 900\GeV for $m_\text{a}=150\GeV$, $\sin\theta=0.35$ and $\tan\beta=1$. Mixing angles with $0.35<\sin\theta<0.75$ are excluded for $m_\text{A}=600\GeV$ and $m_\text{a}=200\GeV$, assuming $\tan\beta=1$. Also excluded are $\tan\beta$ values between 0.5 and 2.0 (1.6) for $m_\text{a}=100$ (150)\GeV and $m_\text{A}=600\GeV$, given $\sin\theta=0.35$. 
+For the 2HDM+a model, $m_\text{A}$ masses are excluded between 500 and 900\GeV for $m_\text{a}=150\GeV$, $\sin\theta=0.35$ and $\tan\beta=1$. Mixing angles with $0.35<\sin\theta<0.75$ are excluded for $m_\text{A}=600\GeV$ and $m_\text{a}=200\GeV$, assuming $\tan\beta=1$. Also excluded are $\tan\beta$ values between 0.5 and 2.0 (1.6) for $m_\text{a}=100$ (150)\GeV and $m_\text{A}=600\GeV$, given $\sin\theta=0.35$. These are the first experimental limits on the 2HDM+a model.
 
 \begin{figure}[htbp]
   \centering

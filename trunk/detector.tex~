@@ -2,18 +2,19 @@
 \section{The CMS detector, particle reconstruction, and event simulation}
 \label{sec:cms}
 
-The CMS detector, described in detail in Ref.~\cite{CMSdetector}, is a multipurpose apparatus designed to study high-transverse momentum ($\pt$) processes in proton-proton ($pp$) and heavy ion collisions.  
+The CMS detector, described in detail in Ref.~\cite{CMSdetector}, is a multipurpose apparatus designed to study high-transverse momentum ($\pt$) processes in proton-proton and heavy ion collisions.  
 %
 A superconducting solenoid occupies its central region, providing a magnetic field of 3.8\unit{T} parallel to the beam direction. 
 %
 Charged-particle trajectories are measured using the silicon pixel and strip trackers, which cover a pseudorapidity region of $\abs{\eta} < 2.5$. 
 %
-A lead tungstate (PbWO$_4$) crystal electromagnetic calorimeter (ECAL), and a brass/scintillator hadron calorimeter (HCAL) surround the tracking volume and cover $\abs{\eta} < 3$. 
+A lead tungstate (PbWO$_4$) crystal electromagnetic calorimeter (ECAL) and a brass/scintillator hadron calorimeter (HCAL) surround the tracking volume and cover $\abs{\eta} < 3$. 
 %
 The steel and quartz-fiber forward Cherenkov hadron calorimeter extends the coverage to $\abs{\eta} < 5$.  
 %
 The muon system consists of gas-ionization detectors embedded in the steel flux-return yoke outside the solenoid and covers $\abs{\eta} < 2.4$. 
-%The return yoke carries a 2\unit{T} return field from the solenoid.
+%
+The return yoke carries a 2\unit{T} return field from the solenoid.
 %
 %The first level of the CMS trigger system is designed to select events in less than 4\mus, using information from the calorimeters and muon detectors. 
 Online event selection is accomplished via the two-tiered CMS trigger
