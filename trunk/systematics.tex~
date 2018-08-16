@@ -35,7 +35,7 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
       AK4 b tagging & shape & all & $<0.5\%$\\
       \hline
       $\tau$ lepton veto & 3\% & all &\multirow{2}{*}{$<0.5\%$}\\
-      lepton efficiency & 1\% per leg & all \\
+      lepton efficiency & 1\% per lepton & all \\
       \hline
       heavy flavor fraction & 4-5\% & Z+jets, W+jets & $<0.5\%$\\
       \hline
@@ -61,7 +61,7 @@ A 4\% rate uncertainty due to the imperfect knowledge of the CA15 jet energy sca
 
 Similarly, a 5\% rate uncertainty in \ptmiss magnitude, as measured by CMS in Ref.~\cite{Khachatryan:2014gga}, is assigned to each processes estimated from simulation.
 
-A rate uncertainty of 2.5\% in the luminosity measurement~\cite{CMS-PAS-LUM-17-001} is included and assigned to processes determined from simulation. In these cases, QCD scale and PDF uncertainties are included as shape uncertainties, obtained by varying those parameters in simulation event-by-event
+A rate uncertainty of 2.5\% in the luminosity measurement~\cite{CMS-PAS-LUM-17-001} is included and assigned to processes determined from simulation. In these cases, QCD renormalisation and factorization scales scale and PDF uncertainties are included as shape uncertainties, obtained by varying those parameters in simulation event-by-event
 
 The $p_\text{T,trig}^\text{miss}$ trigger efficiencies are affected by uncertainties in the muon multiplicity in the event.  Differences on the order of 2\% are observed between single-muon and dimuon events at lower $U$ values and they are sources of an additional systematic uncertainty in the transfer factors for those processes whose prediction relies on data events in the single-muon and
 dimuon CRs (\ttbar, W+jets, and Z+jets production). As these uncertainties depend on the momentum of the identified muon they can change the shape of the $U$ distribution and are thus treated as shape uncertainties. The $p_\text{T,trig}^\text{miss}$ trigger efficiency is parametrized as a function of \ptmiss. The uncertainty in its measurement is 1\% and is included in the fit as a rate uncertainty.

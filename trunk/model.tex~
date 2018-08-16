@@ -22,7 +22,7 @@ the associated production of a Higgs boson and DM particles
 %,referred to as ``mono-h'' final state, 
 can occur if the
 Higgs boson takes part in the interaction producing the DM particles~\cite{monoHiggs3,2HDM,PhysRevD.89.075017}.
-Such a production mechanism allows one to directly probe the structure of the effective DM-SM coupling.
+Such a production mechanism would allow to directly probe the structure of the effective DM-SM coupling.
 
 In this article, we  present a search for DM production in association
 with a SM Higgs boson that decays into a pair of bottom quarks. As the 
@@ -30,8 +30,7 @@ $\Ph\rightarrow \bb$ decay mode has the largest branching ratio of all Higgs bos
 particles. Representative Feynman diagrams for the two models are presented in Fig.~\ref{feyns}.
 
 
-In the 2HDM+a model, the DM particle candidate $\chi$ is a SM singlet
-fermion and thus can only couple to SM particles through a
+In the 2HDM+a model, the DM particle candidate $\chi$ is a Dirac fermion that can couple to SM particles only through a
 pseudoscalar, spin-0, mediator. Since the couplings of the new spin-0
 mediator to SM gauge bosons are strongly suppressed, the 2HDM+a model
 is consistent with  measurements of the SM Higgs boson production and
