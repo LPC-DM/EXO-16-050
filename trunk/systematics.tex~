@@ -35,7 +35,7 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
       AK4 b tagging & shape & all & $<0.5\%$\\
       \hline
       $\tau$ lepton veto & 3\% & all &\multirow{2}{*}{$<0.5\%$}\\
-      lepton efficiency & 1\% per lepton & all \\
+      lepton efficiency & 1\% per leg & all \\
       \hline
       heavy flavor fraction & 4-5\% & Z+jets, W+jets & $<0.5\%$\\
       \hline

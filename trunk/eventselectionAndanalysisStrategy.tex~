@@ -11,7 +11,7 @@ Thresholds on $p_\text{T,trig}^\text{miss}$ and $H_{\text{T}}^{\text{miss}}$ are
 For CRs that require the presence of electrons, at least one electron is required by the online selections. These set of requirements are referred to as single-electron triggers.
 
 A common set of preselection criteria is used for all regions. The presence of exactly one CA15 jet with $\pt>200\GeV$ and $|\eta|<2.4$ is required. It is also required that $100<m_{\text{SD}}<150\GeV$ and $N_2^{\text{DDT}}<0$. 
- In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum azimuthal angle $\phi$ between any AK4 jet and the direction of $\vec{\ptmiss}$ ($\vec{U}$) must be larger than 0.4 to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied, and the number of AK4 jets that do not overlap with the CA15 jet must be smaller than two. This significantly reduces the contribution from \ttbar events.
+ In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum distance in the azimuthal angle $\phi$ between any AK4 jet and the direction of $\vec{\ptmiss}$ ($\vec{U}$) must be larger than 0.4 to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied, and the number of AK4 jets that do not overlap with the CA15 jet must be smaller than two. This significantly reduces the contribution from \ttbar events.
 
 \begin{table}\footnotesize
   \begin{center}

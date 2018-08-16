@@ -34,8 +34,9 @@ Subsequently, the high-level trigger processor farm reduces the event rate to 1~
 The signal processes are simulated at leading order (LO) accuracy in quantum chromodynamics (QCD) perturbation theory using the \MADGRAPH{\textsc 5\_aMC@NLO} v2.4.2~\cite{amcatnlo} program.
 %
 To model the contributions from SM Higgs boson processes as well as
-from the \ttbar and single top quark backgrounds, we use the {\sc Powheg~v2}~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd} generator. These processes are generated at the next-to-leading order (NLO) in QCD. The \ttbar production 
-cross section is further corrected using calculations at the next-to-next-to-leading (NNLO) order in QCD including corrections for soft-gluon resummation estimated with next-to-next-to-leading logarithmic accuracy~\cite{ttbarNNLO}. 
+from the \ttbar and single top quark backgrounds, we use the {\sc Powheg~v2}~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd} generator. These processes are generated at next-to-leading order (NLO) in QCD. The \ttbar production 
+cross section is further corrected using calculations at 
+next-to-next-to-leading (NNLO) order in QCD including corrections for soft-gluon resummation estimated with next-to-next-to-leading logarithmic accuracy~\cite{ttbarNNLO}. 
 % 
 Events with multiple jets produced through the strong interaction (referred to as QCD multijet events) are generated at LO using \MADGRAPH{\textsc 5\_aMC@NLO} v2.2.2 with up to four partons. The MLM prescription~\cite{mlm} is used for matching these partons to parton shower jets.
 %
