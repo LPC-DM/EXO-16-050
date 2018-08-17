@@ -1299,29 +1299,29 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       title         = "{Search for dark matter in association with a Higgs boson
                        decaying into a pair of bottom quarks at $\sqrt{s}$ = 13 TeV
                        with the CMS detector}",
-		             institution   = "CERN",
-			           collaboration = "CMS",
-				         address       = "Geneva",
-					       number        = "CMS-PAS-EXO-16-012",
-					             year          = "2016",
-						     TYPE     = "CMS Physics Analysis Summary",
-						           reportNumber  = "CMS-PAS-EXO-16-012",
-							         url           = "http://cds.cern.ch/record/2202804",
-								 }
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "Geneva",
+      number        = "CMS-PAS-EXO-16-012",
+      year          = "2016",
+      TYPE          = "CMS Physics Analysis Summary",
+      reportNumber  = "CMS-PAS-EXO-16-012",
+      url           = "http://cds.cern.ch/record/2202804",
+}
 
 @techreport{CMS-PAS-PFT-09-001,
       title         = "{Particle-Flow Event Reconstruction in CMS and Performance
                        for Jets, Taus, and MET}",
-		             institution   = "CERN",
-			           collaboration = "CMS",
-				         address       = "2009. Geneva",
-					       number        = "CMS-PAS-PFT-09-001",
-					             month         = "Apr",
-						           year          = "2009",
-							   TYPE     = "CMS Physics Analysis Summary",
-							         reportNumber  = "CMS-PAS-PFT-09-001",
-								       url           = "https://cds.cern.ch/record/1194487",
-								       }
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "2009. Geneva",
+      number        = "CMS-PAS-PFT-09-001",
+      month         = "Apr",
+      year          = "2009",
+      TYPE     = "CMS Physics Analysis Summary",
+      reportNumber  = "CMS-PAS-PFT-09-001",
+      url           = "https://cds.cern.ch/record/1194487",
+}
 @article{Khachatryan:2015iwa,
       author         = "Khachatryan, Vardan and others",
             title          = "{Performance of Photon Reconstruction and Identification
