@@ -17,26 +17,26 @@ Figure \ref{Fig_sr} shows the pre-fit and post-fit \MET distribution in the SR f
 
 \begin{table}\footnotesize
 \begin{center}
-  \caption{Post-fit event yield expectations per \ptmiss bin for the SM backgrounds in the signal region when including the signal region data in the likelihood fit, under the background-only assumption. Quoted are also the expected yields for two signal models. For the 2HDM+$a$ model, we choose $\sin\theta=0.35$ and $\tan\beta=1$. Uncertainties quoted in the predictions include both the systematic and statistical components.}
+  \caption{Post-fit event yield expectations per \ptmiss bin for the SM backgrounds in the signal region when including the signal region data in the likelihood fit, under the background-only assumption. Quoted are also the expected yields for two signal models. Uncertainties quoted in the predictions include both the systematic and statistical components.}
 \\  
 \begin{tabular}{l r r r r}
   \hline\hline
 \ptmiss-bin         & 200-270\,GeV          & 270-350\,GeV          & 350-475\,GeV          & $>475$\,GeV         \\
 \hline
-Z+jets          &$ 248.9\pm22.2 $       & $97.2\pm8.5$         & $32.6\pm3.6$          & $11.1\pm1.9$       \\
-\ttbar          &$ 199.2\pm13.5 $       & $52.1\pm5.2$          & $11.1\pm2.0$          & $0.7\pm0.4$        \\
-W+jets          &$ 121.6\pm21.6 $       & $45.0\pm8.7$          & $8.4\pm1.9$           & $2.9\pm0.9$            \\
+Z+jets          &$ 249\pm22 $       & $97.2\pm8.5$         & $32.6\pm3.6$          & $11.1\pm1.9$       \\
+\ttbar          &$ 199\pm14 $       & $52.1\pm5.2$          & $11.1\pm2.0$          & $0.7\pm0.4$        \\
+W+jets          &$ 122\pm22 $       & $45.0\pm8.7$          & $8.4\pm1.9$           & $2.9\pm0.9$            \\
 Single top quark      &$21.0\pm4.2 $          & $6.1\pm1.2$           & $0.9\pm0.2$           & $0.2\pm0.1$         \\
 Diboson         &$ 16.0\pm3.1  $        & $7.6\pm1.5$           & $2.4\pm0.5$           & $1.0\pm0.2$ \\
 SM h             &$ 12.6\pm1.4 $      & $ 6.6\pm0.7$           & $ 3.3 \pm 0.3$        & $ 1.3\pm 0.1$      \\
 \hline
-$\Sigma~(\text{SM})$ & $619.3\pm20.1$ & $214.6 \pm 8.1$       & $58.7\pm3.7$          & $17.2 \pm 2.0$ \\
+$\Sigma~(\text{SM})$ & $619\pm20$ & $214.6 \pm 8.1$       & $58.7\pm3.7$          & $17.2 \pm 2.0$ \\
 
 \hline
 Data            & $619$       & $ 214$        & $59$          & $ 21$ \\
 \hline
 2HDM+$a$, $m_\text{A}=1\TeV$, $m_\text{a}=150$\GeV & $5.7 \pm 0.6$ & $9.8 \pm 1.1$ & $18.5 \pm 2.1$ & $5.2 \pm 0.6$\\
-Bar. Z', $m_{\text{Z}'}=0.2\TeV$, $m_\chi=50$\GeV & $184.2 \pm 20.0$ & $118.1 \pm 12.8$ & $69.5 \pm 7.7$ & $28.9 \pm 3.3$\\
+Bar. Z', $m_{\text{Z}'}=0.2\TeV$, $m_\chi=50$\GeV & $184 \pm 20$ & $118 \pm 13$ & $69.5 \pm 7.7$ & $28.9 \pm 3.3$\\
 \hline\hline
   \end{tabular}
 \label{tab:eventYieldTable}
