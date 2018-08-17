@@ -25,42 +25,27 @@ Such a production mechanism would allow to directly probe the structure of the e
 
 In this paper, we  present a search for DM production in association
 with an SM Higgs boson that decays into a bottom quark-antiquark pair ($b\bar{b}$). As the 
-$\Ph\rightarrow \bb$ decay mode has the largest branching fraction of all Higgs boson decay modes allowed in the SM, it provides the largest signal yield. The search is performed using the data set collected by the CMS experiment~\cite{CMSdetector} at the CERN LHC at a center-of-mass energy of 13\TeV~in 2016, corresponding to an integrated luminosity of approximately 35.9\fbinv. Results are interpreted in terms of two simplified models predicting this signature. The first one is type-2 two Higgs doublet model (2HDM) extended by an additional light pseudoscalar boson $a$ (2HDM+$a$)~\cite{Bauer2017}. The a boson mixes with the scalar and pseudoscalar partners of the SM Higgs boson, and decays into a pair of DM particles,  $\chi\bar{\chi}$. The second model is a baryonic $\cPZpr$ model (baryonic Z')~\cite{PhysRevD.89.075017} where a vector mediator $\cPZpr$ is exchanged in the $s$-channel, radiates a Higgs boson, and subsequently decays into two DM 
+$\Ph\rightarrow \bb$ decay mode has the largest branching fraction of all Higgs boson decay modes allowed in the SM, it provides the largest signal yield. The search is performed using the data set collected by the CMS experiment~\cite{CMSdetector} at the CERN LHC at a center-of-mass energy of 13\TeV~in 2016, corresponding to an integrated luminosity of approximately 35.9\fbinv. 
+Similar searches have been conducted at the LHC by both the ATLAS and the CMS Collaboration, analyzing data collected at 8~\cite{PhysRevLett.115.131801} and 13 TeV~\cite{PhysRevLett.119.181804,1807.02826}.
+Results are interpreted in terms of two simplified models predicting this signature. The first one is type-2 two Higgs doublet model extended by an additional light pseudoscalar boson $a$ (2HDM+$a$)~\cite{Bauer2017}. The $a$ boson mixes with the scalar and pseudoscalar partners of the SM Higgs boson, and decays into a pair of DM particles,  $\chi\bar{\chi}$. The second model is a baryonic $\cPZpr$ model (baryonic Z')~\cite{PhysRevD.89.075017} where a vector mediator $\cPZpr$ is exchanged in the $s$-channel, radiates a Higgs boson, and subsequently decays into two DM 
 particles. Representative Feynman diagrams for the two models are presented in Fig.~\ref{feyns}.
 
 
 In the 2HDM+$a$ model, the DM particle candidate $\chi$ is a Dirac fermion that can couple to SM particles only through a spin-0, pseudoscalar mediator. Since the couplings of the new spin-0
 mediator to SM gauge bosons are strongly suppressed, the 2HDM+$a$ model
 is consistent with the measurements of the SM Higgs boson production and
-decay modes, which so far show no significant deviation from SM predictions~\cite{Khachatryan:2016vau}. In contrast to previously explored 2HDM models~\cite{2HDM,Aaboud:2017yqz,Sirunyan:2017hnk}, the 2HDM+$a$ framework ensures gauge invariance and renormalizability. In this model, there are six physical Higgs bosons:
+decay modes, which so far show no significant deviation from SM predictions~\cite{Khachatryan:2016vau}. In contrast to previously explored 2HDM models~\cite{2HDM,Aaboud:2017yqz,Sirunyan:2017hnk}, the 2HDM+$a$ framework ensures gauge invariance and renormalizability. In this model, there are six mass eigenstates:
 a light neutral charge-parity (CP)-even scalar \Ph, assumed to be the
-observed 125\GeV Higgs boson; a heavy neutral CP-even scalar \PH;
-a heavy neutral CP-odd pseudoscalar $A$%\Az
-; a light neutral CP-odd pseudoscalar $a$; and two heavy charged scalars \Hpm. 
+observed 125\GeV Higgs boson, and a heavy neutral CP-even scalar \PH, that are the result of the mixing of the neutral CP-even weak eigenstates with the corresponding mixing angle $\alpha$;
+a heavy neutral CP-odd pseudoscalar $A$%\Az 
+and a light neutral CP-odd pseudoscalar $a$, that are the result of the mixing of the CP-odd mediator $P$ with the CP-odd Higgs, with $\theta$ representing the associated mixing angle; and two heavy charged scalars \Hpm with identical mass. 
 
-%Mass hypotheses for the \cPZpr\ resonance and for the \Az particle are
-%considered between 600 and 4000\GeV and between 300 and 800\GeV, respectively. The mass of the DM particles $m_{\chi}$
-%is assumed to be less than or equal to 100\GeV. The 
-%ratio of the vacuum expectation values of the two Higgs fields coupling to the up-type and down-type
-%quarks, $\tan\beta$, and the coupling of the \Az particle to DM
-%particles, $g_{\chi}$, are both fixed at unity. 
-%Hypotheses for the mass of the \Az particle to be less than 300\GeV are excluded by constraints on flavor changing
-%neutral currents from measurements of $\cPqb\rightarrow \cPqs\gamma$ \cite{Branco:2011iw},
-%and therefore are not considered. 
-%With the assumed dark matter particle mass, the value of $\mathcal{B}(\Az\to\chi\overline{\chi})$ is $\approx$ 100\% 
-%for $\maz = 300\GeV$. 
-%The branching fraction starts to decrease for $\maz$ greater than twice the mass
-%of the top quark as the decay $\Az\to$ $\cPqt\cPaqt$ becomes kinematically
-%accessible. 
-
-The following parameters are varied in this search: the masses of the
-two CP-odd Higgs bosons, the angle $\theta$ associated to the mixing
-between the two CP-odd Higgs bosons, and the ratio of vacuum
-expectation values of the two CP-even Higgs bosons $\tan\beta$.
+The masses of the two CP-odd Higgs bosons, the angle $\theta$ , and the ratio of vacuum
+expectation values of the two CP-even Higgs bosons $\tan\beta$ are varied in this search. 
 Perturbativity and unitarity put restrictions on the magnitudes and the
 signs of the three quartic couplings
 $\lambda_3,~\lambda_{\mathrm{P}1},~\lambda_{\mathrm{P}2}$,
-and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. Masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\Az}$. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
+and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. Masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\mathrm{A}}$. When an $m_{\mathrm{A}}$ scan is perfomed, assumptions on $\tan\beta$ to be 1 and $\sin\theta$ to be 0.35 are made. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
 
 
 The baryonic Z' model~\cite{PhysRevD.89.075017} is an extension of the SM with an additional U(1)$_{B}$ Z' gauge 
@@ -72,7 +57,7 @@ and vacuum expectation value of $v_{B}$.
 The \cPZpr\ and SM Higgs boson, h, interact with a coupling strength of 
 $g_{\text{h}\cPZpr\cPZpr} = m_{\cPZpr}^{2} \sin \theta/v_{B}$, where $\theta$ is the h-h$_{B}$ 
 mixing angle. The chosen value for the \cPZpr\ coupling to quarks,
-$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. The mixing angle $\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds. The free parameters in the model under these assumptions are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in this search.
+$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. Constraints on the SM Higgs boson properties make the mixing angle $\theta$ consistent with $\cos\theta$ = 1 within O(10\%) uncertainties, thereby requiring  $\sin\theta$ to be less then 0.4~\cite{PhysRevD.89.075017}. In this search, $\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds. The free parameters in the model under these assumptions are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in this search.
 
 \begin{figure}
 \centering

@@ -8,7 +8,7 @@
 
 \section{The CMS detector}
 
-The CMS detector, described in detail in Ref.~\cite{CMSdetector}, is a multipurpose apparatus designed to study high-transverse momentum ($p_T$) processes in proton-proton (pp) and heavy ion collisions.
+The CMS detector, described in detail in Ref.~\cite{CMSdetector}, is a multipurpose apparatus designed to study high-transverse momentum ($p_\mathrm{T}$) processes in proton-proton (pp) and heavy ion collisions.
 %                                                                                                                                                                                                    
 A superconducting solenoid occupies its central region, providing a magnetic field of 3.8\unit{T} parallel to the beam direction.
 %                                                                                                                                                                                                    
@@ -45,7 +45,7 @@ The V+jets samples are corrected by weighting the \pt of the respective boson wi
 %
 These samples are further corrected by applying NLO electroweak corrections~\cite{Kuhn:2005gv,Kallweit:2015fta,Kallweit:2015dum} that depend on the boson \pt.
 %
-Predictions for the SM diboson production modes WW, WZ, and ZZ are obtained at LO with the {\sc \PYTHIA 8.205}~\cite{Sjostrand:2014zea} generator and normalized to NLO accuracy using {\sc mcfm}~\cite{MCFM}. 
+Predictions for the SM diboson production modes WW, WZ, and ZZ are obtained at LO with the {\sc \PYTHIA 8.205}~\cite{Sjostrand:2014zea} generator and normalized to NLO accuracy using {\sc mcfm v6.0}~\cite{MCFM}. 
 %
 
 

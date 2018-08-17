@@ -105,7 +105,7 @@ For the 2HDM+$a$ model, $m_\text{A}$ masses are excluded between 500 and 900\GeV
   \includegraphics[width=0.475\textwidth]{figures/limits/limits_2hdma_mass.pdf}
   \includegraphics[width=0.475\textwidth]{figures/limits/limits_2hdma_sinp.pdf}\\
   \includegraphics[width=0.475\textwidth]{figures/limits/limits_2hdma_tanb.pdf}\\
-  \caption{Upper limits on the signal strength modifier for the 2HDM+$a$ model when scanning $m_\text{A}$ and $m_\text{a}$ (upper left), the mixing angle $\theta$ (upper right), or $\tan\beta$ (bottom).}
+  \caption{Upper limits on the signal strength modifier for the 2HDM+$a$ model when scanning $m_\text{A}$ and $m_\text{a}$ (upper left), the mixing angle $\theta$ (upper right), or $\tan\beta$ (lower).}
   \label{fig:limits_2hdma}
 \end{figure}
 
@@ -132,7 +132,7 @@ Following the recommendation of Ref.~\cite{presentDM}, the value of $\sigma_\tex
 \end{equation}
 
 where $\mu_{\mathrm{n}\chi}$ is the reduced mass of the DM-nucleon system, $f(g_{\cPq})$ is the mediator-nucleon coupling, which is dependent on the mediator coupling to SM quarks $g_{\cPq}$, $g_{DM}$ is the mediator coupling to SM particles, and $m_{\text{med}}$ is the mass of the mediator.
-The resulting \SigSI limits as a function of DM the mass are shown in Figure~\ref{fig:limitsdd}.
+The resulting \SigSI limits as a function of DM the mass are shown in Fig.~\ref{fig:limitsdd}.
 %Exclusions from several direct detection experiments are compared to our result.
 Under the assumptions made for the baryonic Z' model, these limits are the most stringent to date for $m_\chi < 5\GeV$.
 
@@ -142,7 +142,7 @@ Under the assumptions made for the baryonic Z' model, these limits are the most 
 %  \includegraphics[width=0.475\textwidth]{figures/limits/limits_2hdm2d.png}
 %  \includegraphics[width=0.475\textwidth]{figures/limits/limits_barzp2d.png}
   \includegraphics[width=0.775\textwidth]{figures/limits/SpinIndepend_XsecDM_MonoHbb_bb_obs_Summary.pdf}
-  \caption{The 90\% \CL exclusion limits on the DM-nucleon SI scattering cross section as a function of $m_{DM}$. 
+  \caption{The 90\% \CL exclusion limits on the DM-nucleon SI scattering cross section as a function of $m_{\chi}$. 
 Results on the baryonic Z' model obtained in this analysis are compared with those from a selection of direct detection (DD) experiments. 
 The latter exclude the regions above the curves. 
 Limits from CDMSLite~\cite{CDMSLite}, LUX~\cite{LUX}, XENON-1T~\cite{XENON1T}, PandaX-II~\cite{PandaxII}, and CRESST-II~\cite{CresstII} are shown.}
@@ -152,14 +152,15 @@ Limits from CDMSLite~\cite{CDMSLite}, LUX~\cite{LUX}, XENON-1T~\cite{XENON1T}, P
 
 \section{Summary}
 
-A search for the associated production of DM particles with a Higgs
+A search for the associated production of dark matter (DM) particles with a Higgs
 boson decaying into a pair of bottom quarks is presented. No significant
-deviation from the predictions of the SM is observed, and upper limits on
-the production cross section predicted by the 2HDM+$a$ model and the
+deviation from the predictions of the standard model (SM) is observed, and upper limits on
+the production cross section predicted by a type-2 two higgs doublet model
+extended by an additional light pseudoscalar boson $a$ (2HDM+$a$) and the
 baryonic Z' model are established. They constitute the most stringent collider exclusions placed on the parameters in these
 models so far. For the nominal choice of the mixing angle $\sin\theta$
 and $\tan\beta$ in the 2HDM+$a$ model, the search excludes masses
-$500<m_\text{A}<900\GeV$ assuming $m_\text{a}=150\GeV$. Scanning over
+$500<m_A<900\GeV$ (where $A$ is the heavy pseudoscalar boson) assuming $m_a=150\GeV$. Scanning over
 $\sin\theta$ with $\tan\beta$ = 1, we exclude
 $0.35<\sin\theta<0.75$ for $m_\text{A}=600\GeV$ and
 $m_\text{a}=200\GeV$.  Finally, $\tan\beta$ values between 0.5 and 2.0
