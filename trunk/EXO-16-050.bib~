@@ -1,4 +1,4 @@
-S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stuctures
+                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stuctures
 ---- CSS guidelines
 
 ---- Every journal article citation should include the DOI, assuming one exists.
@@ -154,20 +154,20 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
 
 @article{Chatrchyan:2013sba,
       author         = "Chatrchyan, Serguei and others",
-      title          = "{The performance of the CMS muon detector in
+            title          = "{The performance of the CMS muon detector in
                         proton-proton collisions at $\sqrt{s}$ = 7 TeV at the LHC}",
-      collaboration  = "CMS",
-      journal        = "JINST",
-      volume         = "8",
-      year           = "2013",
-      pages          = "11002",
-      doi            = "10.1088/1748-0221/8/11/P11002",
-      eprint         = "1306.6905",
-      archivePrefix  = "arXiv",
-      primaryClass   = "physics.ins-det",
-      reportNumber   = "CMS-MUO-11-001, CERN-PH-EP-2013-072",
-      SLACcitation   = "%%CITATION = ARXIV:1306.6905;%%"
-}
+			      collaboration  = "CMS",
+			            journal        = "JINST",
+				          volume         = "8",
+					        year           = "2013",
+						      pages          = "11002",
+						            doi            = "10.1088/1748-0221/8/11/P11002",
+							          eprint         = "1306.6905",
+								        archivePrefix  = "arXiv",
+									      primaryClass   = "physics.ins-det",
+									            reportNumber   = "CMS-MUO-11-001, CERN-PH-EP-2013-072",
+										          SLACcitation   = "%%CITATION = ARXIV:1306.6905;%%"
+											  }
 											  
 @article{Khachatryan:2015hwa,
       author         = "Khachatryan, Vardan and others",
@@ -490,6 +490,18 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
       primaryClass   = "hep-ph",
       SLACcitation   = "%%CITATION = ARXIV:1402.7074;%%"
 }
+@techreport{cajets,
+      title         = "{A Cambridge-Aachen (C-A) based jet algorithm for boosted
+                       top-jet tagging}",
+      institution   = "CERN",
+      collaboration = "CMS",
+      address       = "2009. Geneva",
+      number        = "CMS-PAS-JME-09-001",
+      month         = "Jul",
+      year          = "2009",
+      reportNumber  = "CMS-PAS-JME-09-001",
+      url           = "http://cds.cern.ch/record/1194489",
+}
 @Article{puppi,
      AUTHOR    = "Berteloni, D. and Harris, P. and Low, M. and Tran, N.",
      TITLE     = "Pileup per particle identification",
@@ -635,28 +647,6 @@ archivePrefix = "arXiv",
      SLACcitation  = "%%CITATION = JPHGB,G34,995;%%"
 }
 % PAS are now TECHREPORTS. Same for Notes. A formatted list of PASs is located in [svn]/utils/branches/dev/general/pasBib-tech.bib
-@TECHREPORT{CMS-PAS-LUM-17-001,                                                                              
-      AUTHOR      = "{CMS Collaboration}",
-      COLLABORATION = {CMS},
-      TITLE         = "{CMS Luminosity Measurements for the 2016 Data Taking                                 
-                       Period}",                                                                             
-      NUMBER        = "CMS-PAS-LUM-17-001",                                                                  
-      YEAR          = "2017",                                                                                
-      URL           = "https://cds.cern.ch/record/2257069",                                                  
-      TYPE     = "CMS Physics Analysis Summary"
-}                                                                                                            
-
-@TECHREPORT{cajets,
-      AUTHOR      = "{CMS Collaboration}",
-      COLLABORATION = {CMS},
-      TITLE         = "{A Cambridge-Aachen (C-A) based jet algorithm for boosted
-                       top-jet tagging}",
-      NUMBER        = "CMS-PAS-JME-09-001",
-      YEAR          = "2009",
-      URL           = "http://cds.cern.ch/record/1194489",
-      TYPE     = "CMS Physics Analysis Summary"
-}
-
 @TECHREPORT{CMS-PAS-JME-10-003,
       AUTHOR      = "{CMS Collaboration}",
       COLLABORATION = {CMS},
@@ -770,7 +760,7 @@ archivePrefix = "arXiv",
       volume         = "71",
       year           = "2011",
       pages          = "1554",
-      eprint         = "1007.1727v3",
+      eprint         = "1007.1727",
       archivePrefix  = "arXiv",
       doi            = "10.1140/epjc/s10052-011-1554-0",
       SLACcitation   = "%%CITATION = HEP-EX/9902006;%%"
@@ -885,6 +875,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
   BOOKTITLE = "13$^\text{th}$ International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT2010)",
   YEAR         = "2010",
   PUBLISHER = "SISSA",
+  NOTE = "{PoS(ACAT2010)057}",
   URL          = "http://pos.sissa.it/archive/conferences/093/057/ACAT2010_057.pdf",
   eprint = "1009.1003",
   primaryClass = "physics.data-an"
@@ -1646,8 +1637,8 @@ doi = "10.1140/epjc/s10052-012-1896-2",
 }
 
 @Article{geant4,
-      AUTHOR = "Geant4 Collaboration",
-     TITLE         = "Geant4 -- a simulation toolkit",
+      AUTHOR = "S. Agostinelli and J. Allison and K. Amako and J. Apostolakis and H. Araujo and P. Arce and M. Asai and D. Axen and S. Banerjee and G. Barrand and F. Behner and L. Bellagamba and J. Boudreau and L. Broglia and A. Brunengo and H. Burkhardt and S. Chauvie and J. Chuma and R. Chytracek and G. Cooperman and G. Cosmo and P. Degtyarenko and A. Dell'Acqua and G. Depaola and D. Dietrich and R. Enami and A. Feliciello and C. Ferguson and H. Fesefeldt and G. Folger and F. Foppiano and A. Forti and S. Garelli and S. Giani and R. Giannitrapani and D. Gibin and J.J. GÃ³mez Cadenas and I. GonzÃ¡lez and G. Gracia Abril and G. Greeniaus and W. Greiner and V. Grichine and A. Grossheim and S. Guatelli and P. Gumplinger and R. Hamatsu and K. Hashimoto and H. Hasui and A. Heikkinen and A. Howard and V. Ivanchenko and A. Johnson and F.W. Jones and J. Kallenbach and N. Kanaya and M. Kawabata and Y. Kawabata and M. Kawaguti and S. Kelner and P. Kent and A. Kimura and T. Kodama and R. Kokoulin and M. Kossov and H. Kurashige and E. Lamanna and T. LampÃ©n and V. Lara and V. Lefebure and F. Lei and M. Liendl and W. Lockman and F. Longo and S. Magni and M. Maire and E. Medernach and K. Minamimoto and P. Mora de Freitas and Y. Morita and K. Murakami and M. Nagamatu and R. Nartallo and P. Nieminen and T. Nishimura and K. Ohtsubo and M. Okamura and S. O'Neale and Y. Oohata and K. Paech and J. Perl and A. Pfeiffer and M.G. Pia and F. Ranjard and A. Rybin and S. Sadilov and E. Di Salvo and G. Santin and T. Sasaki and N. Savvas and Y. Sawada and S. Scherer and S. Sei and V. Sirotenko and D. Smith and N. Starkov and H. Stoecker and J. Sulkimo and M. Takahata and S. Tanaka and E. Tcherniaev and E. Safai Tehrani and M. Tropeano and P. Truscott and H. Uno and L. Urban and P. Urban and M. Verderi and A. Walkden and W. Wander and H. Weber and J.P. Wellisch and T. Wenaus and D.C. Williams and D. Wright and T. Yamada and H. Yoshida and D. Zschiesche",
+     TITLE         = "Geant4 - a simulation toolkit",
      JOURNAL       = "Nucl. Instrum. Meth. A",
      VOLUME        = "506",
      YEAR          = "2003",
@@ -1974,7 +1965,7 @@ the {Standard Model}",
 @article{Khachatryan:2014zya,                                                                                
       author         = "Khachatryan, Vardan and others",                                                     
       title          = "{Measurements of jet multiplicity and differential                                   
-                        production cross sections of Z+jets events in                                    
+                        production cross sections of $Z +$ jets events in                                    
                         proton-proton collisions at $\sqrt{s} =$ 7 TeV}",                                    
       collaboration  = "CMS",                                                                                
       journal        = "Phys. Rev. D",                                                                         
@@ -2089,6 +2080,19 @@ the {Standard Model}",
       reportNumber   = "CMS-JME-13-003, CERN-PH-EP-2014-246",                                                
       SLACcitation   = "%%CITATION = ARXIV:1411.0511;%%"                                                     
 }      
+@techreport{CMS-PAS-LUM-17-001,                                                                              
+      title         = "{CMS Luminosity Measurements for the 2016 Data Taking                                 
+                       Period}",                                                                             
+      institution   = "CERN",                                                                                
+      collaboration = "CMS",                                                                                 
+      address       = "Geneva",                                                                              
+      number        = "CMS-PAS-LUM-17-001",                                                                  
+      year          = "2017",                                                                                
+      reportNumber  = "CMS-PAS-LUM-17-001",                                                                  
+      url           = "https://cds.cern.ch/record/2257069",                                                  
+}                                                                                                            
+   
+
 @article{amcatnlo,
       author         = "Alwall, J. and Frederix, R. and Frixione, S. and Hirschi,
                         V. and Maltoni, F. and Mattelaer, O. and Shao, H. -S. and
@@ -2310,7 +2314,7 @@ url="https://doi.org/10.1140/epjc/s10052-016-3988-x"
 }
 @article{ue2,
 author="Skands, P. and Carrazza, S. and Rojo, J.",
-title="{Tuning PYTHIA 8.1: the Monash 2013 tune}",
+title="Tuning PYTHIA 8.1: the Monash 2013 tune",
 journal="Eur. Phys. J. C",
 year="2014",
 volume="74",
@@ -2550,7 +2554,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
 
 
 @article{CDMSLite,
-  title = "New Results from the Search for Low-Mass Weakly Interacting Massive Particles with the {CDMS} Low Ionization Threshold Experiment",
+  title = "New Results from the Search for Low-Mass Weakly Interacting Massive Particles with the {CDMS} {L}ow {I}onization {T}hreshold {E}xperiment",
   author = {Agnese, R. and others},
   collaboration = {SuperCDMS},
   journal = {Phys. Rev. Lett.},
