@@ -13,7 +13,7 @@ associated with the vertex, is selected as the primary event vertex. The offline
 The particle-flow (PF) \cite{Sirunyan:2017ulk} algorithm aims to reconstruct all the physics objects described in this section. At large Lorentz boosts, the two b quarks from the Higgs boson decay may produce jets that overlap and make their individual reconstruction difficult. In this search, large-area jets clustered from PF candidates using the Cambridge--Aachen algorithm~\cite{cajets} with a distance parameter of $1.5$ (CA15 jets) are utilized to identify the Higgs boson candidate.  The large cone size is chosen in order to include events characterized by the presence of Higgs bosons with medium boost ($p_\mathrm{T}$ of the order of 200 GeV).
 To reduce the impact of particles arising from pileup interactions,  the four-vector of each PF candidate is scaled with a weight calculated with the pileup per particle identification (PUPPI) algorithm ~\cite{puppi} prior to the clustering.
 The absolute jet energy scale is corrected using calibrations derived from data~\cite{jec}. The CA15 jets are also required to be central ($\eta$ $<$ 2.4).
-The ``soft-drop'' jet grooming algorithm~\cite{msd} is applied to the jets to remove the wide-angle ISR and soft radiation emerging from the underlying event. We refer to the groomed mass of the CA15 jet as $m_\text{SD}$. 
+The ``soft-drop'' (SM) jet grooming algorithm~\cite{msd} is applied to the jets to remove the wide-angle ISR and soft radiation emerging from the underlying event. We refer to the groomed mass of the CA15 jet as $m_\text{SD}$. 
 
 The ability to identify two b quarks inside a single CA15 jet is
 crucial for this search. A likelihood for the CA15 jet to contain two
@@ -69,7 +69,7 @@ as a function of $\rho$ and \pt would be the most appropriate procedure. The
 decorrelation strategy described in Ref.~\cite{ddt} is applied,
 choosing a background efficiency of 20\%, which corresponds to a
 signal efficiency of roughly 50\%. This results in a modified tagging
-variable, which we denote as $N_2^\text{DDT}$.
+variable, which we denote as $N_2^\text{DDT}$, where DDT is designing decorrelated taggers~\cite{ddt}.
 %This choice of background (or, equivalently, signal) efficiency has been optimized in order to maximize the $S/B$ ratio while retaining high enough event yield for the data-driven estimation of the background processes.
 
 This search also utilizes narrow jets clustered
@@ -91,7 +91,7 @@ Hadronically decaying $\tau$ leptons, $\tau_\mathrm{h}$, are reconstructed using
 to reconstruct intermediate resonances into which the $\tau$ lepton decays. The $\tau_\mathrm{h}$
 candidates with $\pt>18\GeV$ and $|\eta|< 2.3$ are considered~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}. Photon candidates, identified by means of requirements on the ECAL energy distribution and its distance to the closest track, must have $\pt>15\GeV$ and $|\eta|< 2.5$. %We veto both $\tau_\mathrm{h}$ candidates and photon candidates in the search presented. %Events containing an isolated electron, muon, or an isolated hadronic tau passing these criteria are 
 
-The missing transverse momentum $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ is defined as the negative vectorial sum of the \pt of all the reconstructed PF candidates. Its magnitude is denoted \MET. Corrections to jet momenta are propagated to the \MET calculation~\cite{CMS-PAS-JME-16-004}. Event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by instrumental noise in the calorimeters or beam halo muons. The filter removes about 1\% of signal events.
+The missing transverse momentum $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ is defined as the negative vectorial sum of the \pt of all the reconstructed PF candidates. Its magnitude is denoted as \MET. Corrections to jet momenta are propagated to the \MET calculation as well as event filters \cite{CMS-PAS-JME-16-004} are used to remove spurious high \MET events caused by instrumental noise in the calorimeters or beam halo muons~\cite{CMS-PAS-JME-16-004}. The filters remove about 1\% of signal events.
 
 %For the control regions involving lepton(s) in the final state, the hadronic recoil against the boson is computed by removing the \pt of the lepton(s) from the \MET computation. The recoil is given by: 
 %\begin{equation} 
