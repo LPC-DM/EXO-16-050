@@ -24,7 +24,7 @@ Higgs boson takes part in the interaction producing the DM particles~\cite{monoH
 Such a production mechanism would allow to directly probe the structure of the effective DM-SM coupling.
 
 In this paper, we  present a search for DM production in association
-with an SM Higgs boson that decays into a bottom quark-antiquark pair ($b\bar{b}$). As the 
+with an SM Higgs boson that decays into a bottom quark-antiquark pair ($\mathrm{b\bar{b}}$). As the 
 $\Ph\rightarrow \bb$ decay mode has the largest branching fraction of all Higgs boson decay modes allowed in the SM, it provides the largest signal yield. The search is performed using the data set collected by the CMS experiment~\cite{CMSdetector} at the CERN LHC at a center-of-mass energy of 13\TeV~in 2016, corresponding to an integrated luminosity of approximately 35.9\fbinv. 
 Similar searches have been conducted at the LHC by both the ATLAS and the CMS Collaboration, analyzing data collected at 8~\cite{PhysRevLett.115.131801} and 13 TeV~\cite{PhysRevLett.119.181804,1807.02826}.
 Results are interpreted in terms of two simplified models predicting this signature. The first one is type-2 two Higgs doublet model extended by an additional light pseudoscalar boson $a$ (2HDM+$a$)~\cite{Bauer2017}. The $a$ boson mixes with the scalar and pseudoscalar partners of the SM Higgs boson, and decays into a pair of DM particles,  $\chi\bar{\chi}$. The second model is a baryonic $\cPZpr$ model (baryonic Z')~\cite{PhysRevD.89.075017} where a vector mediator $\cPZpr$ is exchanged in the $s$-channel, radiates a Higgs boson, and subsequently decays into two DM 
@@ -44,7 +44,7 @@ expectation values of the two CP-even Higgs bosons $\tan\beta$ are varied in thi
 Perturbativity and unitarity put restrictions on the magnitudes and the
 signs of the three quartic couplings
 $\lambda_3,~\lambda_{\mathrm{P}1},~\lambda_{\mathrm{P}2}$,
-and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. Masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\mathrm{A}}$. When an $m_{\mathrm{A}}$ scan is perfomed, assumptions on $\tan\beta$ to be 1 and $\sin\theta$ to be 0.35 are made. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
+and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. The masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\mathrm{A}}$. When an $m_{\mathrm{A}}$ scan is performed, assumptions on $\tan\beta$ to be 1 and $\sin\theta$ to be 0.35 are made. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
 
 
 The baryonic Z' model~\cite{PhysRevD.89.075017} is an extension of the SM with an additional U(1)$_{B}$ Z' gauge 

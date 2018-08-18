@@ -8,8 +8,7 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
       of uncertainty and the affected processes. For the rate uncertainties,
       the percentage value of the prior is quoted. The last column denotes the improvement in the expected limit when
       removing the uncertainty group from the list of nuisances included
-      in the likelihood fit. Such improvement is estimated considering as signal process the 2HDM+$a$ model with $m_\text{A}=1.1\TeV$ and $m_\text{a}=150\GeV$ (with
-      $\sin\theta=0.35$ and $\tan\beta=1$).}
+      in the likelihood fit. Such improvement is estimated considering as signal process the 2HDM+$a$ model with $m_\text{A}=1.1\TeV$ and $m_\text{a}=150\GeV$.}
     \begin{tabular}{l r r r}
       \hline\hline
       Systematic uncertainty & Type & Processes & Impact on sensitivity\\

@@ -7,11 +7,11 @@ W+jets, and \ttbar production. To predict the \ptmiss~spectra of these
 processes in the SR, data from different control regions (CRs) are used. Single-lepton CRs are designed to predict the \ttbar and W+jets backgrounds, while dilepton CRs predict the Z+jets background contribution. The hadronic recoil, $U$, defined by removing the \pt of the lepton(s) from the \MET computation in CRs, is used as a proxy for the \MET distribution of the main background processes in the SR. Predictions for other backgrounds are obtained from simulation.
 
 Events are selected online by requiring large values of $p_\text{T,trig}^\text{miss}$ or $H_{\text{T}}^{\text{miss}}$, where $p_\text{T,trig}^\text{miss}$  ($H_{\text{T}}^{\text{miss}}$) is the magnitude of the vectorial (scalar) sum of $\vec{p}_\text{T}$ of all the particles (jets with $\pt>20\GeV$) at the trigger level. Muon candidates are excluded from the online $p_\text{T,trig}^\text{miss}$ calculation.
-Thresholds on $p_\text{T,trig}^\text{miss}$ and $H_{\text{T}}^{\text{miss}}$ are between 90 and 120\GeV, depending on the data-taking period. Collectively, online requirements on $p_\text{T,trig}^\text{miss}$ and $H_{\text{T}}^{\text{miss}}$ are reffered to as \MET triggers.
+Thresholds on $p_\text{T,trig}^\text{miss}$ and $H_{\text{T}}^{\text{miss}}$ are between 90 and 120\GeV, depending on the data-taking period. Collectively, online requirements on $p_\text{T,trig}^\text{miss}$ and $H_{\text{T}}^{\text{miss}}$ are refered to as \MET triggers.
 For CRs that require the presence of electrons, at least one electron is required by the online selections. These set of requirements are referred to as single-electron triggers.
 
 A common set of preselection criteria is used for all regions. The presence of exactly one CA15 jet with $\pt>200\GeV$ and $|\eta|<2.4$ is required. It is also required that $100<m_{\text{SD}}<150\GeV$ and $N_2^{\text{DDT}}<0$. 
- In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum azimuthal angle $\phi$ between any AK4 jet and the direction of $\vec{\ptmiss}$ ($\vec{U}$) must be larger than 0.4 rad to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied, and the number of AK4 jets that do not overlap with the CA15 jet must be smaller than two. This significantly reduces the contribution from \ttbar events.
+ In the SR (CRs), \ptmiss~($U$) has to be larger than 200\GeV, and the minimum azimuthal angle $\phi$ between any AK4 jet and the direction of $\vec{p}_{\mathrm{T}}^{\mathrm{miss}}$ ($\vec{U}$) must be larger than 0.4 rad to reject multijet events that mimic signal events. Vetoes on $\tau_\text{h}$ candidates and photon candidates are applied. The number of AK4 jets that do not overlap with the CA15 jet is requred to be smaller than two. This significantly reduces the contribution from \ttbar events in the SR.
 
 \begin{table}\footnotesize
   \begin{center}
@@ -46,7 +46,7 @@ muon, respectively) with an invariant mass between 60 and 120\GeV.
 The leading muon has to satisfy tight identification and isolation requirements that result in an efficiency of 95\%.
 Dielectron events are selected online using single-electron triggers. %, which have a \pt threshold of $27\GeV$.
 Two oppositely charged electrons with \pt greater than $10\GeV$ are required offline, and they must form an invariant mass between 60\GeV and 120\GeV.
-To be on the plateau of the trigger efficiency, at least one of the two electrons must have $\pt>40\GeV$, and it has to satisfy tight identification and isolation requirements that correspond to an efficiency of 70\%.
+To be on the plateau of the trigger efficiency, at least one of the two electrons must have $\pt>40\GeV$, and it has to satisfy tight identification and isolation requirements that correspond to an efficiency of 70\%~\cite{Khachatryan:2015hwa}.
 
 Events that satisfy the SR selection due to the loss of a single lepton primarily originate from W+jets and semileptonic \ttbar events.
 To predict these backgrounds, four single-lepton samples are used: single-electron and single-muon, with or without a b-tagged AK4 jet outside the CA15 jet.
