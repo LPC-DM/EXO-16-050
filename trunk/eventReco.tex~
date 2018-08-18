@@ -59,17 +59,18 @@ the $N_2$ variable, is chosen to be 1 as the value that gives the best two-prong
 It is noted that requiring a jet to be two-pronged by using a jet substructure variable,
 such as $N_2$, will affect the shape of the distribution of $m_\text{SD}$ for the
 background processes. In this search, the value of $m_\text{SD}$ is required to be consistent with the Higgs boson mass.
-To improve the rejection of QCD-like jets (i.e., jets that
-do not originate from a heavy resonance decay), it is therefore desirable to preserve a smoothly falling jet mass
-distribution  as a function of \pt. As explained in
-Ref.~\cite{ddt}, the stability of $N_2$ is tested against the variable
-$\rho=\ln(m_{\text{SD}}^2/\pt^2)$: since the jet mass distribution for QCD multijet
-events is expected to scale with \pt, decorrelating the $N_2$ variable
-as a function of $\rho$ and \pt would be the most appropriate procedure. The
-decorrelation strategy described in Ref.~\cite{ddt} is applied,
+It is therefore desirable to preserve a smoothly falling jet mass
+distribution as a function of \pt as the one expected for QCD-like jets (i.e., jets that
+do not originate from a heavy resonance decay). 
+As motivated in Ref.~\cite{ddt}, the stability of $N_2$ is tested against the variable
+$\rho=\ln(m_{\text{SD}}^2/\pt^2)$, since the distribution of $\rho$ is expected to be stable in QCD-like jets.
+%: since the jet mass distribution for QCD multijet
+%events is expected to scale with \pt, decorrelating the $N_2$ variable
+%as a function of $\rho$ and \pt would be the most appropriate procedure. 
+The decorrelation strategy described in Ref.~\cite{ddt} is applied,
 choosing a background efficiency of 20\%, which corresponds to a
 signal efficiency of roughly 50\%. This results in a modified tagging
-variable, which we denote as $N_2^\text{DDT}$, where DDT is designing decorrelated taggers~\cite{ddt}. Fig.~\ref{n2ddt} shows the expected distribution of the the $N_2^\text{DDT}$ for CA15 jets matched to a Higgs boson decaying to a $b\bar{b}$ pair, together with the distributions expected for CA15 jets matched to hadronically decaying top quarks and for QCD-like CA15 jets.
+variable, which we denote as $N_2^\text{DDT}$, where the superscrit DDT stands for designing decorrelated taggers~\cite{ddt}. Fig.~\ref{n2ddt} shows the expected distribution of the the $N_2^\text{DDT}$ for CA15 jets matched to a Higgs boson decaying to a $b\bar{b}$ pair, together with the distributions expected for CA15 jets matched to hadronically decaying top quarks and for QCD-like CA15 jets.
 %This choice of background (or, equivalently, signal) efficiency has been optimized in order to maximize the $S/B$ ratio while retaining high enough event yield for the data-driven estimation of the background processes.
 \begin{figure}
 \centering
