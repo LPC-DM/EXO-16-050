@@ -44,19 +44,19 @@ expectation values of the two CP-even Higgs bosons $\tan\beta$ are varied in thi
 Perturbativity and unitarity put restrictions on the magnitudes and the
 signs of the three quartic couplings
 $\lambda_3,~\lambda_{\mathrm{P}1},~\lambda_{\mathrm{P}2}$,
-and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. The masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{\mathrm{A}}$. When an $m_{\mathrm{A}}$ scan is performed, assumptions on $\tan\beta$ to be 1 and $\sin\theta$ to be 0.35 are made. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
+and we therefore set their values to $\lambda_3=\lambda_{\mathrm{P}1}=\lambda_{\mathrm{P}2}=3$~\cite{Bauer2017}. The masses of the charged Higgs bosons and of the heavy CP-even Higgs boson are assumed to be the same as the mass of the heavy pseudoscalar, i.e., $m_{\PH}=m_{\Hpm}=m_{A}$. When an $m_{A}$ scan is performed, assumptions on $\tan\beta$ to be 1 and $\sin\theta$ to be 0.35 are made. The DM particle $\chi$ is assumed to have a mass of $m_\chi=10\GeV$.
 
 
 The baryonic Z' model~\cite{PhysRevD.89.075017} is an extension of the SM with an additional U(1)$_{B}$ Z' gauge 
 boson that couples to the baryon number $B$. The model predicts the existence of a new baryonic fermion (or scalar) that is neutral under SM gauge symmetries and stable due to the corresponding U(1)$_{B}$ symmetry. The state therefore serves as a good DM candidate.
 To generate the  \cPZpr\ mass, a ``baryonic Higgs'' scalar is introduced to 
 spontaneously break the U(1)$_B$ symmetry. Analogous to the SM, there remains 
-a physical baryonic Higgs particle, h$_{B}$, with a coupling of h$_{B}$Z'Z' 
-and vacuum expectation value of $v_{B}$. 
+a physical baryonic Higgs particle, h$_{B}$, with a coupling  $g_{\mathrm{h}_{B}\mathrm{Z'Z'}}$ to the Z' boson
+and vacuum expectation value $v_{B}$. 
 The \cPZpr\ and SM Higgs boson, h, interact with a coupling strength of 
-$g_{\text{h}\cPZpr\cPZpr} = m_{\cPZpr}^{2} \sin \theta/v_{B}$, where $\theta$ is the h-h$_{B}$ 
+$g_{\mathrm{h}_{B}\mathrm{Z'Z'}}$ = $m_{\cPZpr}^{2} \sin \theta/v_{B}$, where $\theta$ is the h-h$_{B}$ 
 mixing angle. The chosen value for the \cPZpr\ coupling to quarks,
-$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. Constraints on the SM Higgs boson properties make the mixing angle $\theta$ consistent with $\cos\theta$ = 1 within O(10\%) uncertainties, thereby requiring  $\sin\theta$ to be less then 0.4~\cite{PhysRevD.89.075017}. In this search, $\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds imposed by SM measurements. The free parameters in the model under these assumptions are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in this search.
+$g_\text{q}$, is 0.25 and the \cPZpr\ coupling to DM, $g_\chi$, is set to 1. This is well below the bounds $g_\text{q},g_\chi\sim4\pi$ where perturbativity and the validity of the effective field theory break down~\cite{PhysRevD.89.075017}. Constraints on the SM Higgs boson properties make the mixing angle $\theta$ consistent with $\cos\theta$ = 1 within order of 10\% uncertainties, thereby requiring  $\sin\theta$ to be less then 0.4~\cite{PhysRevD.89.075017}. In this search, $\theta$ is assumed to have $\sin\theta= 0.3$. It is also assumed that $g_{\text{h}\cPZpr\cPZpr}/m_{\mathrm{Z}'}=1$, which implies $v_B=m_{\cPZpr}\sin\theta$. This choice maximizes the cross section without violating the bounds imposed by SM measurements. The free parameters in the model under these assumptions are thus $m_{\cPZpr}$ and $m_\chi$, which are varied in this search.
 
 \begin{figure}
 \centering
@@ -92,5 +92,5 @@ strategy is to impose requirements on the mass of the reconstructed
 Higgs boson candidate, together with the identification of the
 products of hadronization of the two b quarks produced in the Higgs
 boson decay, to define a data sample that is expected to be enriched
-in signal events. Several different SM processes can mimic this topology, such as top quark pair production and the production of a vector boson (V) in association with multiple jets. Statistically independent data samples are used to predict the hadronic recoil distribution for these SM processes that constitute the largest sources of background.
+in signal events. Several different SM processes can mimic this topology, the most important of which are the top quark pair production and the production of a vector boson (V) in association with multiple jets. Statistically independent data samples are used to predict the hadronic recoil distribution for these SM processes that constitute the largest sources of background.
 Both signal and background contributions to the data are extracted with a likelihood fit to the hadronic recoil distribution, performed simultaneously in all the different analysis subsamples.
