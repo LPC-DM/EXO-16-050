@@ -9,8 +9,8 @@ Figure \ref{Fig_sr} shows the pre-fit and post-fit \MET distribution in the SR f
 
 \begin{figure}
 \centering
- \subfloat{\includegraphics[width=0.45\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_signal.pdf}}
-% \subfloat{\includegraphics[width=0.45\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_signal_masked.pdf}} \\
+ \subfloat{\includegraphics[width=0.45\textwidth]{figures/limits/MSDcorr_stackedPostfit_signal.pdf}}
+% \subfloat{\includegraphics[width=0.45\textwidth]{figures/limits/MSDcorr_stackedPostfit_signal_masked.pdf}} \\
 \caption{The \MET distribution in the signal region before and after a likelihood fit. The data are in agreement with post-fit background predictions for the SM backgrounds, and no significant excess is observed. The dashed red histogram corresponds to the pre-fit estimate for the SM backgrounds.}
 \label{Fig_sr}
 \end{figure}
@@ -45,12 +45,12 @@ Bar. Z', $m_{\text{Z}'}=0.2\TeV$, $m_\chi=50$\GeV & $184 \pm 20$ & $118 \pm 13$ 
 
 \begin{figure}
 \centering
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_dielectron.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_dielectron_fail.pdf}} \\
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singleelectrontop.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singleelectrontop_fail.pdf}} \\
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singleelectronw.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singleelectronw_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_dielectron.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_dielectron_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singleelectrontop.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singleelectrontop_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singleelectronw.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singleelectronw_fail.pdf}} \\
 \caption{The $U$ distribution in the electron control regions before and after a background-only fit to data, including the data in the signal region in the likelihood. For the distributions on the left the CA15 jet passes the double-b tag requirement and for the distributions on the right it fails the double-b tag requirement.}
 \label{Fig_cr_2}
 \end{figure}
@@ -58,12 +58,12 @@ Bar. Z', $m_{\text{Z}'}=0.2\TeV$, $m_\chi=50$\GeV & $184 \pm 20$ & $118 \pm 13$ 
 
 \begin{figure}
 \centering
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_dimuon.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_dimuon_fail.pdf}} \\
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singlemuontop.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singlemuontop_fail.pdf}} \\
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singlemuonw.pdf}}
- \subfloat{\includegraphics[width=0.36\textwidth]{figures/dataMC/MSDcorr_stackedPostfit_singlemuonw_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_dimuon.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_dimuon_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singlemuontop.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singlemuontop_fail.pdf}} \\
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singlemuonw.pdf}}
+ \subfloat{\includegraphics[width=0.36\textwidth]{figures/limits/MSDcorr_stackedPostfit_singlemuonw_fail.pdf}} \\
  \caption{The $U$ distribution in the muon control regions before and after a background-only fit to data, including the data in the signal region in the likelihood. For the distributions on the left the CA15 jet passes the double-b tag requirement and for the distributions on the right it fails the double-b tag requirement.}
 \label{Fig_cr_1}
 \end{figure}
