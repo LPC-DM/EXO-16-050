@@ -13,7 +13,7 @@ associated with the vertex, is selected as the primary event vertex. The offline
 The particle-flow (PF) \cite{Sirunyan:2017ulk} algorithm aims to reconstruct all the physics objects described in this section. At large Lorentz boosts, the two b quarks from the Higgs boson decay may produce jets that overlap and make their individual reconstruction difficult. In this search, large-area jets clustered from PF candidates using the Cambridge--Aachen algorithm~\cite{cajets} with a distance parameter of $1.5$ (CA15 jets) are utilized to identify the Higgs boson candidate.  The large cone size is chosen in order to include events characterized by the presence of Higgs bosons with medium boost ($p_\mathrm{T}$ of the order of 200 GeV).
 To reduce the impact of particles arising from pileup interactions,  the four-vector of each PF candidate is scaled with a weight calculated with the pileup per particle identification (PUPPI) algorithm ~\cite{puppi} prior to the clustering.
 The absolute jet energy scale is corrected using calibrations derived from data~\cite{jec}. The CA15 jets are also required to be central ($\eta$ $<$ 2.4).
-The ``soft-drop'' (SM) jet grooming algorithm~\cite{msd} is applied to remove soft wide-angle radiation from the jets. We refer to the groomed mass of the CA15 jet as $m_\text{SD}$. 
+The ``soft-drop'' (SD) jet grooming algorithm~\cite{msd} is applied to remove soft wide-angle radiation from the jets. We refer to the groomed mass of the CA15 jet as $m_\text{SD}$. 
 
 The ability to identify two b quarks inside a single CA15 jet is
 crucial for this search. A likelihood for the CA15 jet to contain two
@@ -30,7 +30,8 @@ or gluons. The efficiency of the algorithm increases with the \pt~of the \bb sys
 
 Energy correlation functions are used to identify the two-prong
 structure in the CA15 jet expected from a Higgs boson decay to two b
-quarks. The energy correlation functions are sensitive to correlations among the constituents
+quarks, and distinguish it from QCD-like jets (i.e., jets that
+do not originate from a heavy resonance decay) and jets from the hadronic decays of top quarks. The energy correlation functions are sensitive to correlations among the constituents
 of CA15 jets (the PF candidates)~\cite{ecf}. They are $N$-point correlation functions ($e_N$) of the constituents' momenta, weighted by the angular separation of the constituents.
 %Discriminating variables are constructed by using ratios of these functions.
 %\begin{linenomath}
@@ -48,7 +49,7 @@ As motivated in Ref.~\cite{ecf}, the ratio $N_2 =
 e_3^{(\beta)}/(e_2^{(\beta)})^2$ is proposed as a two-prong tagger for
 the identification of the CA15 jet containing the Higgs boson decay
 products; the parameter $\beta$, which controls the weighting of the angles between constituent pairs in the computation of
-the $N_2$ variable, is chosen to be 1 as the value that gives the best two-prong jet reconstruction. 
+the $N_2$ variable, is chosen to be 1 as the value that gives the best two-prong jet identification. 
 
 %\begin{equation}
 %  N_2(\beta) = \frac{e(2,3,\beta)}{e(1,2,\beta)^2}
@@ -60,8 +61,7 @@ It is noted that requiring a jet to be two-pronged by using a jet substructure v
 such as $N_2$, will affect the shape of the distribution of $m_\text{SD}$ for the
 background processes. In this search, the value of $m_\text{SD}$ is required to be consistent with the Higgs boson mass.
 It is therefore desirable to preserve a smoothly falling jet mass
-distribution as a function of \pt as the one expected for QCD-like jets (i.e., jets that
-do not originate from a heavy resonance decay). 
+distribution for QCD-like jets. 
 As motivated in Ref.~\cite{ddt}, the stability of $N_2$ is tested against the variable
 $\rho=\ln(m_{\text{SD}}^2/\pt^2)$, since the distribution of $\rho$ is expected to be stable in QCD-like jets.
 %: since the jet mass distribution for QCD multijet
@@ -70,12 +70,12 @@ $\rho=\ln(m_{\text{SD}}^2/\pt^2)$, since the distribution of $\rho$ is expected 
 The decorrelation strategy described in Ref.~\cite{ddt} is applied,
 choosing a background efficiency of 20\%, which corresponds to a
 signal efficiency of roughly 50\%. This results in a modified tagging
-variable, which we denote as $N_2^\text{DDT}$, where the superscrit DDT stands for designing decorrelated taggers~\cite{ddt}. Fig.~\ref{n2ddt} shows the expected distribution of the the $N_2^\text{DDT}$ for CA15 jets matched to a Higgs boson decaying to a $b\bar{b}$ pair, together with the distributions expected for CA15 jets matched to hadronically decaying top quarks and for QCD-like CA15 jets.
+variable, which we denote as $N_2^\text{DDT}$, where the superscript DDT stands for designing decorrelated taggers~\cite{ddt}. Fig.~\ref{n2ddt} shows the expected distribution of the the $N_2^\text{DDT}$ for CA15 jets matched to a Higgs boson decaying to a $\mathrm{b\bar{b}}$ pair, together with the distributions expected for CA15 jets matched to hadronically decaying top quarks and for QCD-like CA15 jets.
 %This choice of background (or, equivalently, signal) efficiency has been optimized in order to maximize the $S/B$ ratio while retaining high enough event yield for the data-driven estimation of the background processes.
 \begin{figure}
 \centering
   \includegraphics[width=0.65\textwidth]{figures/ddt_N2DDT_ns.pdf} \\
-\caption{The $N_2^\text{DDT}$ distribution as expected for CA15 jets matched to a Higgs boson decaying to a $b\bar{b}$ pair (in red), compared to the expected distribution for CA15 matched to the decay products of top quarks decaying hadronically (in grey). The distribution corresponding to CA15 jets that do not originate from a heavy resonance decay is also shown in blue.}
+\caption{The $N_2^\text{DDT}$ distribution as expected for CA15 jets matched to a Higgs boson decaying to a $\mathrm{b\bar{b}}$ pair (in red), compared to the expected distribution for CA15 matched to the decay products of top quarks decaying hadronically (in grey). The distribution corresponding to CA15 jets that do not originate from a heavy resonance decay is also shown in blue.}
 \label{n2ddt}
 \end{figure}
 
@@ -86,7 +86,7 @@ parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are i
 %%An event with any additional narrow jet passing the loose b tagging requirement is vetoed to reduce the number of events containing top quarks. 
 
 Electron reconstruction requires the matching of a supercluster in the ECAL with a track in the silicon tracker.
-Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape and the consistency with originating from the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the transition region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons candidates are selected by two different reconstruction approaches~\cite{CMSMuonJINST}: the one in which tracks in the silicon tracker are matched to a track
+Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape and the consistency of the track woth the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the transition region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons candidates are selected by two different reconstruction approaches~\cite{CMSMuonJINST}: the one in which tracks in the silicon tracker are matched to a track
  segment in the muon detector, and the other one in which a track
  fit spanning the silicon tracker and muon detector is performed
  starting with track segments in the muon detector. Candidates that are found by both the approaches are considered as single candidates.
