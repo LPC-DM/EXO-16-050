@@ -30,7 +30,7 @@ or gluons. The efficiency of the algorithm increases with the \pt~of the \bb sys
 
 Energy correlation functions are used to identify the two-prong
 structure in the CA15 jet expected from a Higgs boson decay to two b
-quarks, and distinguish it from QCD-like jets (i.e., jets that
+quarks, and to distinguish it from QCD-like jets (i.e., jets that
 do not originate from a heavy resonance decay) and jets from the hadronic decays of top quarks. The energy correlation functions are sensitive to correlations among the constituents
 of CA15 jets (the PF candidates)~\cite{ecf}. They are $N$-point correlation functions ($e_N$) of the constituents' momenta, weighted by the angular separation of the constituents.
 %Discriminating variables are constructed by using ratios of these functions.
