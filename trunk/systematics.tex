@@ -27,8 +27,7 @@ Nuisance parameters are introduced into the likelihood fit to represent the syst
       \hline
       Integrated luminosity & 2.5\% & t, diboson, multijet, SM h, signal &$<0.5\%$\\
       \hline
-      \MET~trigger efficiency & 1\% & all \\
-      \MET~trigger muon multiplicity & shape & Z+jets, W+jets&\multirow{3}{*}{$<0.5\%$}\\
+      $\ptmiss$ trigger efficiency & shape/rate & all & $<0.5\%$\\
       Single-electron trigger & 1\% & all \\
       \hline
       AK4 b tagging & shape & all & $<0.5\%$\\
@@ -62,8 +61,9 @@ Similarly, a 5\% rate uncertainty in \ptmiss magnitude, as measured by CMS in Re
 
 A rate uncertainty of 2.5\% in the integrated luminosity measurement~\cite{CMS-PAS-LUM-17-001} is included and assigned to processes determined from simulation. In these cases, QCD renormalisation and factorization scales scale and PDF uncertainties are included as shape uncertainties, obtained by varying those parameters in the simulation.% event-by-event
 
-The \MET trigger efficiency is parametrized as a function of \ptmiss. The uncertainty in its measurement is 1\% and is included in the fit as a rate uncertainty.
-An additional systematic uncertainty in the the \MET trigger efficiency is applied that is due to the muon multiplicity in the event.  Differences on the order of 2\% are observed between single-muon and dimuon events at lower $U$ values for those processes whose prediction relies on data events in the single-muon and dimuon CRs (\ttbar, W+jets, and Z+jets production). As these uncertainties depend on the momentum of the identified muon, they can change the shape of the $U$ distribution and are thus treated as shape uncertainties. 
+The \MET trigger efficiency is parameterized as a function of $U$ and measured using single-muon events and using dimuon events. 
+The difference between these measurements is used to estimate an uncertainty, which results in a 1\% rate uncertainty for processes estimated using simulation.
+Processes estimated using control regions (\ttbar, W+jets, and Z+jets) are sensitive to the effect of this uncertainty as a function of $U$, so a shape uncertainty (as large as 2\% at low $U$ values) is considered for such processes.
 The efficiencies of the single-electron triggers are parametrized as a function of the electron \pt and $\eta$ and an associated 1\% systematic uncertainty is added into the fit.
 
 An uncertainty on the efficiency of the CSV b-tagging algorithm applied to isolated AK4 jets is assigned to the transfer factors used to predict the \ttbar background. The scale factors that correct this efficiency are measured with standard CMS methods~\cite{Sirunyan:2017ezt}. They depend on the \pt and $\eta$ of the b-tagged (or mistagged) jet and therefore their uncertainties are included in the fit as shape uncertainties.
