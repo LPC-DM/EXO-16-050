@@ -10,4 +10,4 @@ clean:
 final: $(wildcard *.tex) $(wildcard figures/dataMC/*.pdf)
 	@cd ../../; ./tdr --nodraft --style=pas b EXO-16-050
 prl: $(wildcard *.tex) $(wildcard figures/dataMC/*.pdf)
-	@cd ../../; ./tdr --nodraft --style=paper,aps,twocolumn b EXO-16-050/trunk/EXO-16-050
+	@cd ../../; ./tdr --nodraft --style=paper,aps,twocolumn b EXO-16-050
