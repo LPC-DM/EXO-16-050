@@ -1,4 +1,4 @@
-TARGET = EXO-16-017_temp.pdf
+TARGET = EXO-16-050_temp.pdf
 all:	$(TARGET)
 
 $(TARGET): $(wildcard *.tex) $(wildcard *.pdf)
