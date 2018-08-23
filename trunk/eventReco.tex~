@@ -86,7 +86,7 @@ parameter of $0.4$ (“AK4” jets). Narrow jets originating from b quarks are i
 %%An event with any additional narrow jet passing the loose b tagging requirement is vetoed to reduce the number of events containing top quarks. 
 
 Electron reconstruction requires the matching of a supercluster in the ECAL with a track in the silicon tracker.
-Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape and the consistency of the track woth the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the transition region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons candidates are selected by two different reconstruction approaches~\cite{CMSMuonJINST}: the one in which tracks in the silicon tracker are matched to a track
+Identification criteria~\cite{Khachatryan:2015hwa} based on the ECAL shower shape and the consistency of the track with the primary vertex are imposed. The reconstructed electron is required to be within $|\eta|< 2.5$, excluding the transition region $1.44<|\eta|<1.57$ between the ECAL barrel and endcap. Muons candidates are selected by two different reconstruction approaches~\cite{CMSMuonJINST}: the one in which tracks in the silicon tracker are matched to a track
  segment in the muon detector, and the other one in which a track
  fit spanning the silicon tracker and muon detector is performed
  starting with track segments in the muon detector. Candidates that are found by both the approaches are considered as single candidates.
