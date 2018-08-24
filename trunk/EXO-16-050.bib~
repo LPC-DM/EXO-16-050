@@ -34,12 +34,15 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
 %% Herwigpp UE Tune
 
 @article{1748-0221-12-01-P01020,
-  author={CMS Collaboration},
-  title={The CMS trigger system},
-  journal={Journal of Instrumentation},
+  title = {The {CMS} trigger system} ,
+  author= {CMS Collaboration},
+  collaboration = {CMS Collaboration},
+  journal={JINST},
   volume={12},
-  number={01},
   pages={P01020},
+  doi = {10.1088/1748-0221/12/01/P01020},
+  eprint         = "1609.02366",
+  archivePrefix  = "arXiv",
   url={http://stacks.iop.org/1748-0221/12/i=01/a=P01020},
   year={2017}
 }
@@ -2506,8 +2509,9 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
       volume         = "13",
       year           = "2018",
       pages          = "05011",
-%      eprint         = "1712.07158",
-%      archivePrefix  = "arXiv",
+      doi            = "10.1088/1748-0221/13/05/P05011",
+      eprint         = "1712.07158",
+      archivePrefix  = "arXiv",
       primaryClass   = "physics.ins-det",
       reportNumber   = "CMS-BTV-16-002, CERN-EP-2017-326",
       SLACcitation   = "%%CITATION = ARXIV:1712.07158;%%"
