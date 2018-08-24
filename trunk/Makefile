@@ -2,7 +2,7 @@ TARGET = EXO-16-050_temp.pdf
 all:	$(TARGET)
 
 $(TARGET): $(wildcard *.tex) $(wildcard *.pdf)
-	@cd ../../; ./tdr --style=pas b EXO-16-050
+	@cd ../../; ./tdr --style=paper b EXO-16-050
 
 clean:
 	@cd ../../; ./tdr clean
