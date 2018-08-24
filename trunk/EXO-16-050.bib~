@@ -178,7 +178,7 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
     YEAR          = "2015",
     EPRINT        = "1507.00966",
     ARCHIVEPREFIX = "arXiv",
-    PRIMARYCLASS  = "hep-ex",
+    PRIMARYCLASS  = "hep-ex"
 }
 
 @article{CMS-PAS-HIG-14-001,
@@ -372,7 +372,7 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
       number        = "CMS-PAS-TOP-12-028",
       year          = "2013",
       reportNumber  = "CMS-PAS-TOP-12-028",
-      url           = "https://cds.cern.ch/record/1523664",
+      url           = "https://cds.cern.ch/record/1523664"
 }
 
 
@@ -460,8 +460,7 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
       doi            = "10.1016/j.physrep.2004.08.031",
       eprint         = "0404175",
       archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
-      SLACcitation   = ""
+      primaryClass   = "hep-ph"
 }
 
 
@@ -472,7 +471,8 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
      VOLUME       = "03",
      PAGES        = "S08004",
      DOI          = "10.1088/1748-0221/3/08/S08004",
-     YEAR         = "2008",}
+     YEAR         = "2008"
+}
 
 
 @techreport{ATLAS-CONF-2016-019,
@@ -541,7 +541,7 @@ S                  ---- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stu
      doi       = "10.1007/JHEP10(2014)059",
      eprint    = "1407.6013",
      archivePrefix  = "arXiv",
-     primaryClass   = "hep-ph",
+     primaryClass   = "hep-ph"
 }
 @ARTICLE{jec,
    author = {{CMS Collaboration}},
@@ -564,7 +564,7 @@ archivePrefix = "arXiv",
      doi       = "10.1007/JHEP05(2014)146",
      eprint         = "1402. 2657",
      archivePrefix  = "arXiv",
-     primaryClass   = "hep-ph",
+     primaryClass   = "hep-ph"
 }
 @article{msd,
       author         = "Larkoski, Andrew J. and Marzani, Simone and Soyez,
@@ -601,7 +601,7 @@ archivePrefix = "arXiv",
       number        = "CMS-PAS-BTV-15-002",
       year          = "2016",
       reportNumber  = "CMS-PAS-BTV-15-002",
-      url           = "https://cds.cern.ch/record/2195743",
+      url           = "https://cds.cern.ch/record/2195743"
 }
 
 @article{ddt,
@@ -629,7 +629,8 @@ archivePrefix = "arXiv",
      TYPE      = "CMS Note",
      NUMBER       = "2006/076",
      URL          = "http://cdsweb.cern.ch/record/962045",
-     YEAR         = "2006"}
+     YEAR         = "2006"
+}
 
 @TECHREPORT{CMS_NOTE_2006-106,
      AUTHOR       = "Aldaya, M. and Arce, P. and Caballero, J. and de la Cruz, B. and Garcia-Abia, P. and Hernandez, J. M. and Josa, M. I. and Ruiz, E.",
@@ -637,7 +638,8 @@ archivePrefix = "arXiv",
      TYPE      = "CMS Note",
      NUMBER       = "2006/106",
      URL          = "http://cdsweb.cern.ch/record/962058",
-     YEAR         = "2006"}
+     YEAR         = "2006"
+}
 %
 % standard article
 %
@@ -768,7 +770,7 @@ archivePrefix = "arXiv",
       pages          = "010001",
       doi            = "10.1103/PhysRevD.86.010001",
       year           = "2012",
-      SLACcitation   = "%%CITATION = PHRVA,D86,010001;%%",
+      SLACcitation   = "%%CITATION = PHRVA,D86,010001;%%"
 }
 %
 % An example of a document which only appears on arXiv. This one could alternatively be cited as a TECHREPORT using any of the various laboratory report numbers when hosted on a lab server:
@@ -859,7 +861,7 @@ pages = "012",
   year = "2012",
 doi = "10.1140/epjc/s10052-012-1896-2",
   eprint = "1111.6097",
-  archivePrefix  = "arXiv",
+  archivePrefix  = "arXiv"
 
 }
 
@@ -876,7 +878,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       archivePrefix  = "arXiv",
       primaryClass   = "physics.ins-det",
       reportNumber   = "CERN-PH-EP-2011-102, CMS-JME-10-011",
-      SLACcitation   = "%%CITATION = ARXIV:1107.4277;%%",    
+      SLACcitation   = "%%CITATION = ARXIV:1107.4277;%%"
 }
 
 
@@ -888,7 +890,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       volume         = "03",
       year           = "2011",
       pages          = "136",
-      doi            = "10.1007/JHEP03(2011)136",
+      doi            = "10.1007/JHEP03(2011)136"
 }
 
 
@@ -962,7 +964,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      eprint    = "1206.4071",
      archivePrefix = "arXiv",
      primaryClass  =  "physics.ins-det",
-     year = "2012",
+     year = "2012"
 }
 @Unpublished{ATLAS:2011aa,
         Archiveprefix = {arXiv},
@@ -973,7 +975,8 @@ doi = "10.1140/epjc/s10052-012-1896-2",
         Primaryclass = {hep-ex},
         Slaccitation = {%%CITATION = 1112.2577;%%},
         Title = {Search for the {H}iggs boson in the {$H\to$WW(*)$\to \ell^+ \nu \ell^- \bar{\nu}$} decay channel in pp collisions at $\sqrt{s}$ = 7 {TeV} with the {ATLAS} detector},
-        Year = {2011}}
+        Year = {2011}
+}
 % Misc
 @Article{Cacciari:2008gp,
      AUTHOR    = "Cacciari, Matteo and Salam, Gavin P. and Soyez, Gregory",
@@ -985,7 +988,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      doi       = "10.1088/1126-6708/2008/04/063",
      eprint         = "0802.1189",
      archivePrefix  = "arXiv",
-     primaryClass   = "hep-ex",
+     primaryClass   = "hep-ex"
 }
 @Article{Sjostrand:2006za,
       author         = "Sj{\"o}strand, Torbj{\"o}rn and Mrenna, Stephen and Skands, Peter",
@@ -999,7 +1002,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       reportNumber   = "FERMILAB-PUB-06-052-CD-T, LU-TP-06-13",
-      SLACcitation   = "%%CITATION = HEP-PH/0603175;%%",
+      SLACcitation   = "%%CITATION = HEP-PH/0603175;%%"
 }
 @INCOLLECTION{nu2,
     author        = "Giunti, C. and Laveder, M.",
@@ -1306,7 +1309,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       year          = "2016",
       TYPE          = "CMS Physics Analysis Summary",
       reportNumber  = "CMS-PAS-EXO-16-012",
-      url           = "http://cds.cern.ch/record/2202804",
+      url           = "http://cds.cern.ch/record/2202804"
 }
 
 @techreport{CMS-PAS-PFT-09-001,
@@ -1320,7 +1323,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       year          = "2009",
       TYPE     = "CMS Physics Analysis Summary",
       reportNumber  = "CMS-PAS-PFT-09-001",
-      url           = "https://cds.cern.ch/record/1194487",
+      url           = "https://cds.cern.ch/record/1194487"
 }
 @article{Khachatryan:2015iwa,
       author         = "Khachatryan, Vardan and others",
@@ -1352,7 +1355,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
 					       month         = "Mar",
 					             year          = "2016",
 						           reportNumber  = "ATLAS-CONF-2016-011",
-							         url           = "http://cds.cern.ch/record/2139812",
+							         url           = "http://cds.cern.ch/record/2139812"
 								 }
 @techreport{ATLAS-monoHbb,
       author 	    = "{ATLAS Collaboration}",
@@ -1365,14 +1368,14 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       month         = "Mar",
       year          = "2016",
       reportNumber  = "ATLAS-CONF-2016-019",
-      url           = "http://cds.cern.ch/record/2142777",
+      url           = "http://cds.cern.ch/record/2142777"
 }
 @article{0954-3899-28-10-313,
   author="A. L. Read",
   title="{Presentation of search results: the CLs technique}",
   journal={Journal of Physics G: Nuclear and Particle Physics},
   volume={28},
-  year=2002,
+  year=2002
 }
 @article{Punzi:2003,
       author         = "Punzi, Giovanni",
@@ -1428,7 +1431,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      eprint         = "1207.7235",
      archivePrefix  = "arXiv",
      PAGES         = "30",
-     DOI           = "10.1016/j.physletb.2012.08.021",
+     DOI           = "10.1016/j.physletb.2012.08.021"
 }
 
 
@@ -1441,7 +1444,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      eprint         = "1303.4571",
      archivePrefix  = "arXiv",
      PAGES         = "81",
-     DOI           = "10.1007/JHEP06(2013)081",
+     DOI           = "10.1007/JHEP06(2013)081"
 }
 
 @Article{HiggsObs_ATLAS,
@@ -1453,7 +1456,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      eprint         = "1207.7214",
      archivePrefix  = "arXiv",
      PAGES         = "1",
-     DOI           = "10.1016/j.physletb.2012.08.020",
+     DOI           = "10.1016/j.physletb.2012.08.020"
 }
 				   
 @techreport{LUM15,
@@ -1466,7 +1469,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
 					             year          = "2016",
 						     TYPE     = "CMS Physics Analysis Summary",
 						           reportNumber  = "CMS-PAS-LUM-15-001",
-							         url           = "http://cds.cern.ch/record/2138682",
+							         url           = "http://cds.cern.ch/record/2138682"
 								 }
 
 @misc{HigPAGtrig,
@@ -1492,7 +1495,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "10",
      YEAR          = "2015",
      PAGES	   = "02006",
-     DOI           = "10.1108/1748-0221/10/02/P02006",
+     DOI           = "10.1108/1748-0221/10/02/P02006"
 
 }
 //NOTE = "CMS Jet/MET POG:  \scalebox{0.85}{\small \tt https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMetAnalysis\#Type\_1\_Correction}"
@@ -1528,7 +1531,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       eprint  = "1307.1347",
       archivePrefix  = "arXiv",
       
-      url           = "https://cds.cern.ch/record/1559921",
+      url           = "https://cds.cern.ch/record/1559921"
 }
 
 @techreport{gammaF,
@@ -1542,7 +1545,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       year          = "2011",
       type          = " ",
       reportNumber  = "CMS-NOTE-2011-005",
-      url           = "https://cds.cern.ch/record/1379837",
+      url           = "https://cds.cern.ch/record/1379837"
 }
 
 
@@ -1576,7 +1579,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "115",
      YEAR          = "2015",
      PAGES         = "131801",
-     DOI           = "10.1103/PhysRevLett.115.131801",
+     DOI           = "10.1103/PhysRevLett.115.131801"
 }
 
 @Article{tdr_physpreform,
@@ -1586,7 +1589,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "34",
      YEAR          = "2007",
      PAGES         = "995",
-     DOI           = "10.1088/0954-3899/34/6/S01",
+     DOI           = "10.1088/0954-3899/34/6/S01"
 }
 
 @Article{egamma_phoReco8TeV,
@@ -1596,7 +1599,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "10",
      YEAR          = "2015",
      PAGES         = "08010",
-     DOI           = "10.1088/1748-0221/10/08/P08010",
+     DOI           = "10.1088/1748-0221/10/08/P08010"
 }
 @Article{pileupSubtract,
      AUTHOR        = "Cacciari, M. and Salam, G. P.",
@@ -1605,7 +1608,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "659",
      YEAR          = "2008",
      PAGES         = "119",
-     DOI           = "10.1016/j.physletb.2007.09.077",
+     DOI           = "10.1016/j.physletb.2007.09.077"
 }
 
 
@@ -1632,7 +1635,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "06",
      YEAR          = "2014",
      PAGES         = "1",
-     DOI           = "10.1007/JHEP06(2014)078",
+     DOI           = "10.1007/JHEP06(2014)078"
 }
 
 @article{monoHiggs3,
@@ -1658,7 +1661,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      YEAR	   = "2015",
      EPRINT        = "hep-ex/1507.00966",
      ARCHIVEPREFIX = "arXiv",
-     PRIMARYCLASS  = "hep-ex",
+     PRIMARYCLASS  = "hep-ex"
 }
 @TECHREPORT{Hgg13TeV,
      AUTHOR        = "{CMS Collaboration}",
@@ -1692,17 +1695,17 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "191",
      YEAR          = "2015",
      PAGES         = "159",
-     DOI           = "10.1016/j.cpc.2015.01.024",
+     DOI           = "10.1016/j.cpc.2015.01.024"
 }
 
 @Article{geant4,
       AUTHOR = "Geant4 Collaboration",
-     TITLE         = "Geant4 -- a simulation toolkit",
+     TITLE         = "{Geant4 -- a simulation toolkit}",
      JOURNAL       = "Nucl. Instrum. Meth. A",
      VOLUME        = "506",
      YEAR          = "2003",
      PAGES         = "250",
-     DOI           = "10.1016/10.1016/S0168-9002(03)01368-8",
+     DOI           = "10.1016/10.1016/S0168-9002(03)01368-8"
 }
 			      
 
@@ -1713,7 +1716,7 @@ doi = "10.1140/epjc/s10052-012-1896-2",
      VOLUME        = "205-206",
      YEAR          = "2010",
      PAGES         = "36",
-     DOI           = "10.1016/j.nuclphysbps.2010.08.016",
+     DOI           = "10.1016/j.nuclphysbps.2010.08.016"
 }
 
 @article{Luisoni:2013kna,
@@ -1763,27 +1766,6 @@ doi = "10.1140/epjc/s10052-012-1896-2",
       primaryClass   = "hep-ph",
       SLACcitation   = "%%CITATION = ARXIV:1311.1365;%%"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 %%%%%%%%%%%%%%%% EXAMPLES: 
@@ -1932,7 +1914,7 @@ the {Standard Model}",
      eprint    = "1206.4071",
      archivePrefix = "arXiv",
      primaryClass  =  "physics.ins-det",
-     year = "2012",
+     year = "2012"
 }
 @Unpublished{ATLAS:2011aa,
         Archiveprefix = {arXiv},
@@ -1941,7 +1923,8 @@ the {Standard Model}",
         Eprint = {1112.2577},
         Primaryclass = {hep-ex},
         Title = {Search for the {H}iggs boson in the {$H\to$WW(*)$\to \ell^+ \nu \ell^- \bar{\nu}$} decay channel in pp collisions at $\sqrt{s}$ = 7 {TeV} with the {ATLAS} detector},
-        Year = {2011}}
+        Year = {2011}
+}
 
 @Article{Sjostrand:2006za,
       author         = "Sj{\"o}strand, Torbj{\"o}rn and Mrenna, Stephen and Skands, Peter",
@@ -1955,7 +1938,7 @@ the {Standard Model}",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       reportNumber   = "FERMILAB-PUB-06-052-CD-T, LU-TP-06-13",
-      SLACcitation   = "%%CITATION = HEP-PH/0603175;%%",
+      SLACcitation   = "%%CITATION = HEP-PH/0603175;%%"
 }
 @INCOLLECTION{nu2,
     author        = "Giunti, C. and Laveder, M.",
@@ -2188,7 +2171,7 @@ the {Standard Model}",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       reportNumber   = "TTP05-16, SFB-CPP-05-44",
-      SLACcitation   = "%%CITATION = HEP-PH/0508253;%%",                                                                 
+      SLACcitation   = "%%CITATION = HEP-PH/0508253;%%"                                                                 
 }
 
 @article{Kallweit:2014xda,
@@ -2251,7 +2234,7 @@ the {Standard Model}",
       year           = "2004",
       eprint         = "hep-ph/0409146",
       archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
+      primaryClass   = "hep-ph"
 }
 
 @article{Frixione:2007vw,
@@ -2265,7 +2248,7 @@ the {Standard Model}",
       year           = "2007",
       eprint         = "0709.2092",
       archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
+      primaryClass   = "hep-ph"
 }
 @article{Alioli:2010xd,
       author         = "Alioli, Simone and Nason, Paolo and Oleari, Carlo and Re,
@@ -2279,7 +2262,7 @@ the {Standard Model}",
       year           = "2010",
       eprint         = "1002.2581",
       archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
+      primaryClass   = "hep-ph"
 }
 @article{Ball:2014uwa,
       author         = "Ball, Richard D. and others",
@@ -2595,7 +2578,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
     year           = "2016",
     eprint         = "1603.04156",
     archiveprefix  = "arXiv",
-    primaryClass   = "hep-ex",
+    primaryClass   = "hep-ex"
 }
 
 
@@ -2611,7 +2594,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevLett.116.071301},
   archivePrefix = "arXiv",
-  eprint = "1509.02448",
+  eprint = "1509.02448"
 }
 
 @article{LUX,
@@ -2626,7 +2609,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevLett.118.021303},
   archivePrefix = "arXiv",
-  eprint = "1608.07648",
+  eprint = "1608.07648"
 }
 
 @article{XENON1T,
@@ -2641,7 +2624,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevLett.119.181301},
   archivePrefix = "arXiv",
-  eprint = "1705.06655",
+  eprint = "1705.06655"
 }
 
 @article{PandaxII,
@@ -2656,7 +2639,7 @@ url="https://doi.org/10.1007/JHEP05(2017)138"
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevLett.119.181302},
   archivePrefix = "arXiv",
-  eprint = "1708.06917",
+  eprint = "1708.06917"
 }
 
 @Article{CresstII,
@@ -2671,6 +2654,6 @@ pages="25",
 issn="1434-6052",
 doi="10.1140/epjc/s10052-016-3877-3",
 archivePrefix="arXiv",
-eprint="1509.01515",
+eprint="1509.01515"
 }
 
